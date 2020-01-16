@@ -3,9 +3,9 @@ import React from 'react';
 import './App.scss';
 
 import Link from './Link';
-import Q from './Q'
+import Q from './Q';
 
-import genFade from './utilities/shadow'
+import genFade from './utilities/shadow';
 
 class App extends React.Component {
 	constructor(props) {
