@@ -1,38 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Link.scss';
+import { Link } from "react-router-dom";
 
-class Link extends React.Component {
-	constructor(props) {
-		super(props);
-		this.state = { hover: false }
-		this.toggleHover = this.toggleHover.bind(this)
-	}
+export default function LinkWrapper(props) {
 
-	toggleHover() {
-		this.setState({ hover: !this.state.hover })
-	}
+	const [hover, setHover] = useState(false);
 
-	render() {
-		return (
-			<a
-				// className={this.state.hover ? "demotext" : ''}
-				id={this.props.id}
-				onMouseEnter={this.toggleHover}
-				onMouseLeave={this.toggleHover}
-				style={{
-					paddingTop: '40px',
-					textDecoration: 'none',
-					color: '#000000',
-					fontSize: this.props.size,
-					textShadow: this.state.hover ? this.props.textShadow : "",
+	return (
+		<Link
+			// className={hover ? "demotext" : ''}
+			id={props.id}
+			onMouseEnter={() => setHover(!hover)}
+			onMouseLeave={() => setHover(!hover)}
+			style={{
+				paddingTop: '40px',
+				textDecoration: 'none',
+				color: '#000000',
+				fontSize: props.size,
+				textShadow: hover ? props.textShadow : "",
 
-				}}
-				href="#"
+			}}
+			to={props.text}
 
-			>
-				{this.props.text}
-			</a>
-		);
-	}
+		>
+			{props.text}
+		</Link>
+	);
 }
-export default Link;
