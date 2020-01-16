@@ -1,56 +1,49 @@
-import React from 'react';
-
-import './App.scss';
-
+import React, { useState, useEffect } from 'react';
 import Link from './Link';
 import Q from './Q';
-
 import genFade from './utilities/shadow';
+import './App.scss';
 
-class App extends React.Component {
-	constructor(props) {
-		super(props)
-		this.state = { textShadow: '', viewMain: true }
-		this.headers = [
-			"artists",
-			"releases",
-			"store",
-			"services",
-			"index",
-			"contact",
-		];
-		this.handleClick = this.handleClick.bind(this);
-	}
+export default function App() {
+	let headers = [
+		"artists",
+		"releases",
+		"store",
+		"services",
+		"index",
+		"contact",
+	];
 
-	handleClick() {
-		this.setState({ viewMain: !this.state.viewMain })
-	}
-	componentDidMount() {
-		this.setState({ textShadow: genFade() })
-	}
+	const [textShadow, setTextShadow] = useState("");
 
-	render() {
-		const desktopLinks = this.headers.map((item, idx) => {
-			return (
-				<Link size={"50px"} id={idx} text={item} key={idx} textShadow={this.state.textShadow} />
-			)
-		})
+	useEffect(() => {
+		setTextShadow(genFade());
+	});
+
+	const desktopLinks = headers.map((item, idx) => {
 		return (
-			<div className="App">
-				{this.state.viewMain ?
-					<div className="body-grid">
-						{/* <p className='header-text'>WHY<Q /> Record Company</p> */}
-						<div className="main-image" onClick={this.handleClick}>
-							<div className='image-overlay-text'>
-								<div className="background-invert">
-									WHY<Q
-										size={2}
-									/> Record Company
-								</div>
-							</div>
+			<Link size={"50px"} id={idx} text={item} key={idx} textShadow={textShadow} />
+		)
+	})
+
+	const [viewMain, setViewMain] = useState(true);
+
+	return (
+		<div className="App">
+			{viewMain ?
+				<div className="body-grid">
+					<div className="main-image" onClick={() => setViewMain(false)}>
+						<div className='image-overlay-text'>
+							{/* <div className="background-invert"> */}
+							WHY<Q
+								size={2}
+							/> Record Company
+							{/* </div> */}
 						</div>
 					</div>
-					:
+				</div>
+				:
+				<div className="body-main">
 					<div className="navbar">
 						<div className="d-none d-lg-block desktop-links">
 							{desktopLinks}
@@ -59,9 +52,8 @@ class App extends React.Component {
 							this should only appear on mobile
 						</div>
 					</div>
-				}
-			</div>
-		);
-	}
+				</div>
+			}
+		</div>
+	)
 }
-export default App;

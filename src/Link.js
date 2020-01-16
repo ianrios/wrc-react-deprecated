@@ -20,11 +20,12 @@ class Link extends React.Component {
 				onMouseEnter={this.toggleHover}
 				onMouseLeave={this.toggleHover}
 				style={{
-					paddingTop:'40px',
+					paddingTop: '40px',
 					textDecoration: 'none',
 					color: '#000000',
 					fontSize: this.props.size,
-					textShadow: this.state.hover ? this.props.textShadow : ""
+					textShadow: this.state.hover ? this.props.textShadow : "",
+
 				}}
 				href="#"
 
