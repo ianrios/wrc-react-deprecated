@@ -6,6 +6,12 @@ import {
 } from "react-router-dom";
 import Link from './Link';
 import Q from './Q';
+import Artists from './Artists';
+import Releases from './Releases';
+import Services from './Services';
+import Store from './Store';
+import Home from './Home';
+import Contact from './Contact';
 import genFade from './utilities/shadow';
 import './App.scss';
 
@@ -13,8 +19,8 @@ export default function App() {
 	let headers = [
 		"artists",
 		"releases",
-		"store",
 		"services",
+		"store",
 		"index",
 		"contact",
 	];
@@ -40,13 +46,9 @@ export default function App() {
 			<div className="App">
 				{viewMain ?
 					<div className="body-grid">
-						<div className="main-image" onClick={() => setViewMain(false)}>
+						<div className="main-image" onClick={() => setViewMain(!viewMain)}>
 							<div className='image-overlay-text'>
-								{/* <div className="background-invert"> */}
-								WHY<Q
-									size={2}
-								/> Record Company
-							{/* </div> */}
+								WHY<Q size={2} /> Record Company
 							</div>
 						</div>
 					</div>
@@ -61,30 +63,27 @@ export default function App() {
 							</div>
 						</div>
 						<Switch>
-							{/* <Route exact path="/">
+							<Route exact path="/">
 								<Home />
-							</Route> */}
-							{/* <Route path="/artists">
+							</Route>
+							<Route path="/artists">
 								<Artists />
-							</Route> */}
-							{/* <Route path="/releases">
+							</Route>
+							<Route path="/releases">
 								<Releases />
-							</Route> */}
-							{/* <Route path="/store">
-								<Store />
-							</Route> */}
-							{/* <Route path="/services">
+							</Route>
+							<Route path="/services">
 								<Services />
-							</Route> */}
-							{/* <Route path="/index">
-								<Index />
-							</Route> */}
-							{/* <Route path="/contact">
+							</Route>
+							<Route path="/store">
+								<Store />
+							</Route>
+							<Route path="/contact">
 								<Contact />
-							</Route> */}
-							{/* <Route path="*">
+							</Route>
+							<Route path="*">
 								<Home />
-							</Route> */}
+							</Route>
 						</Switch>
 					</div>
 				}
