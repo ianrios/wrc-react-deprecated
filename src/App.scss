@@ -66,7 +66,6 @@ body::-webkit-scrollbar {
   //   grid-template-columns: 1fr 3fr 1fr;
   //   grid-template-rows: 1fr 3fr 1fr;
   margin-top: 225px;
-
 }
 .navbar {
   display: flex;
@@ -77,6 +76,15 @@ body::-webkit-scrollbar {
   //   max-height: 100vh;
   margin-top: -225px;
   padding-top: 200px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-top: 0px !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar {
+    margin-top: -240px;
+  }
 }
 
 .desktop-links {
@@ -86,4 +94,18 @@ body::-webkit-scrollbar {
   flex-wrap: wrap;
 }
 .mobile-links {
+  background-color: white;
+  color: black;
+  width: 100vw;
+  justify-content: space-evenly;
+}
+
+.mobile-links > div {
+  display: inline-block;
+  *display: inline; /* For IE7 */
+  zoom: 1; /* Trigger hasLayout */
+  text-align: left;
+}
+
+.mobile-link-remaining {
 }

@@ -9,7 +9,7 @@ import Q from './Q';
 import Artists from './Artists';
 import Releases from './Releases';
 import Services from './Services';
-import Store from './Store';
+import Merchandise from './Merchandise';
 import Home from './Home';
 import Contact from './Contact';
 import genFade from './utilities/shadow';
@@ -19,10 +19,10 @@ export default function App() {
 	let headers = [
 		"artists",
 		"releases",
+		"merchandise",
 		"services",
-		"store",
-		"index",
 		"contact",
+		"index",
 	];
 
 	const [textShadow, setTextShadow] = useState("");
@@ -33,7 +33,15 @@ export default function App() {
 
 	const desktopLinks = headers.map((item, idx) => {
 		return (
-			<Link size={"50px"} id={idx} text={item} key={idx} textShadow={textShadow} />
+			<Link size={"50px"} to={item} id={idx} text={item} key={idx} textShadow={textShadow} />
+		)
+	})
+	const mobileLinks = headers.map((item, idx) => {
+		return (
+			<div id={idx} key={idx}>
+				<Link size={"50px"} to={item} text={item.slice(0, 1)} className="mobile-link-first-letter" />
+				<Link size={"12px"} to={item} text={item.slice(1)} className="mobile-link-remaining" />
+			</div>
 		)
 	})
 
@@ -41,8 +49,6 @@ export default function App() {
 
 	return (
 		<Router>
-
-
 			<div className="App">
 				{viewMain ?
 					<div className="body-grid">
@@ -58,8 +64,8 @@ export default function App() {
 							<div className="d-none d-lg-block desktop-links">
 								{desktopLinks}
 							</div>
-							<div className="d-block d-lg-none mobile-links">
-								this should only appear on mobile
+							<div className="d-flex d-lg-none mobile-links">
+								{mobileLinks}
 							</div>
 						</div>
 						<Switch>
@@ -75,8 +81,8 @@ export default function App() {
 							<Route path="/services">
 								<Services />
 							</Route>
-							<Route path="/store">
-								<Store />
+							<Route path="/merchandise">
+								<Merchandise />
 							</Route>
 							<Route path="/contact">
 								<Contact />

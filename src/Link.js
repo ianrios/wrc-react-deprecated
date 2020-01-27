@@ -20,7 +20,7 @@ export default function LinkWrapper(props) {
 				textShadow: hover ? props.textShadow : "",
 
 			}}
-			to={props.text}
+			to={props.to}
 
 		>
 			{props.text}
