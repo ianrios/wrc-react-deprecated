@@ -12,6 +12,7 @@ import Services from './Services';
 import Merchandise from './Merchandise';
 import Home from './Home';
 import Contact from './Contact';
+import Footer from './Footer';
 import genFade from './utilities/shadow';
 import './App.scss';
 
@@ -60,7 +61,7 @@ export default function App() {
 					</div>
 					:
 					<div className="body-main">
-						<div className="navbar">
+						<div className="navbar position-fixed">
 							<div className="d-none d-lg-block desktop-links">
 								{desktopLinks}
 							</div>
@@ -91,6 +92,7 @@ export default function App() {
 								<Home />
 							</Route>
 						</Switch>
+						<Footer />
 					</div>
 				}
 			</div>
