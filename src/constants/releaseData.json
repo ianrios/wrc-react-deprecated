@@ -1,51 +1,558 @@
 [
 	{
+		"name": "The Time Has Come",
+		"album_art": "",
+		"release_date": "2020-02-01T18:25:43.511Z",
+		"id":42,
+		"label_number": "Independent",
+		"primary_artist_id": 4,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			"https://soundcloud.com/svnteen-goodie-bag/wttp"
+		]
+	},
+	{
+		"name": "wttp (svnteen deep fried bootleg)",
+		"album_art": "",
+		"release_date": "2020-01-26T18:25:43.511Z",
+		"id":41,
+		"label_number": "Independent",
+		"primary_artist_id": 5,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			"https://soundcloud.com/svnteen-goodie-bag/wttp"
+		]
+	},
+	{
+		"name": "CYCLE003: The Stems",
+		"album_art": "",
+		"release_date": "2019-12-29T18:25:43.511Z",
+		"id":40,
+		"label_number": "WHY032",
+		"primary_artist_id": 8,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			"https://ofoot.bandcamp.com/album/cycles003-stems"
+		]
+	},
+	{
+		"name": "CYCLE003: Because I said so",
+		"album_art": "",
+		"release_date": "2019-12-29T18:25:43.511Z",
+		"id":39,
+		"label_number": "WHY031",
+		"primary_artist_id": 8,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			"https://ofoot.bandcamp.com/album/cycle003-because-i-said-so"
+		]
+	},
+	{
+		"name": "The Last Judgement",
+		"album_art": "",
+		"release_date": "2019-11-15T18:25:43.511Z",
+		"id":38,
+		"label_number": "WHY030",
+		"primary_artist_id": 4,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
+	},
+	{
+		"name": "NITRO EP",
+		"album_art": "",
+		"release_date": "2019-10-29T18:25:43.511Z",
+		"id":37,
+		"label_number": "WHY029",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
+	},
+	{
+		"name": "Free Fall (The Remixes)",
+		"album_art": "",
+		"release_date": "2019-10-28T18:25:43.511Z",
+		"id":36,
+		"label_number": "Independent",
+		"primary_artist_id": 13,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [
+			1
+		],
+		"links": [
+			"https://open.spotify.com/album/4JCowE6aEIQ51N6pAqeJ6d?si=RcK0iFykQ4yulnrTWEhYpw"
+		]
+	},
+	{
+		"name": "About Them",
+		"album_art": "",
+		"release_date": "2019-09-23T18:25:43.511Z",
+		"id":35,
+		"label_number": "WHY028",
+		"primary_artist_id": 5,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			"https://soundcloud.com/svnteen/about-them"
+		]
+	},
+	{
+		"name": "Catapult",
+		"album_art": "",
+		"release_date": "2019-07-12T18:25:43.511Z",
+		"id":34,
+		"label_number": "WHY027",
+		"primary_artist_id": 2,
+		"secondary_artist_ids": [
+			1,
+			14
+		],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
+	},
+	{
+		"name": "CYCLE002: sleep",
+		"album_art": "",
+		"release_date": "2019-06-28T18:25:43.511Z",
+		"id":33,
+		"label_number": "WHY026",
+		"primary_artist_id": 5,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			"https://soundcloud.com/svnteen/sets/cycle002-sleep"
+		]
+	},
+	{
+		"name": "H A D E S",
+		"album_art": "",
+		"release_date": "2019-06-14T18:25:43.511Z",
+		"id":32,
+		"label_number": "WHY025",
+		"primary_artist_id": 5,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			"https://soundcloud.com/svnteen/svnteen-hades"
+		]
+	},
+	{
+		"name": "CYCLE001: GRIEF",
+		"album_art": "",
+		"release_date": "2019-05-17T18:25:43.511Z",
+		"id":31,
+		"label_number": "WHY024",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
+	},
+	{
 		"name": "Daegu Acid",
 		"album_art": "",
-		"release_date": "2012-04-23T18:25:43.511Z",
-		"id": 1,
-		"artist_id": 1
+		"release_date": "2019-04-26T18:25:43.511Z",
+		"id":30,
+		"label_number": "WHY023",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [
+			2
+		],
+		"links": [
+			""
+		]
 	},
 	{
-		"name": "",
+		"name": "EXCO (Remixes)",
 		"album_art": "",
-		"release_date": "2012-04-23T18:25:43.511Z",
-		"id": 2,
-		"artist_id": 1
+		"release_date": "2019-03-08T18:25:43.511Z",
+		"id":29,
+		"label_number": "WHY021",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
 	},
 	{
-		"name": "",
+		"name": "Vega (Remixes)",
 		"album_art": "",
-		"release_date": "2012-04-23T18:25:43.511Z",
-		"id": 3,
-		"artist_id": 1
+		"release_date": "2019-02-22T18:25:43.511Z",
+		"id":28,
+		"label_number": "WHY020",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
 	},
 	{
-		"name": "",
+		"name": "Blurs - Deluxe Edition",
 		"album_art": "",
-		"release_date": "2012-04-23T18:25:43.511Z",
-		"id": 4,
-		"artist_id": 1
+		"release_date": "2018-12-27T18:25:43.511Z",
+		"id":27,
+		"label_number": "WHY022",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [
+			2
+		],
+		"links": [
+			"https://whythough.bandcamp.com/album/blurs-deluxe-edition",
+			"https://open.spotify.com/playlist/2fQ2jqpQTNaZmf9Smt1YNf?si=nAOTYVIzQOStHs6dLimXCQ"
+		]
 	},
 	{
-		"name": "",
+		"name": "Trash Beats For Trash People",
 		"album_art": "",
-		"release_date": "2012-04-23T18:25:43.511Z",
-		"id": 5,
-		"artist_id": 1
+		"release_date": "2018-11-23T18:25:43.511Z",
+		"id":26,
+		"label_number": "WHY019",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
 	},
 	{
-		"name": "",
+		"name": "trial + error",
 		"album_art": "",
-		"release_date": "2012-04-23T18:25:43.511Z",
-		"id": 6,
-		"artist_id": 1
+		"release_date": "2018-11-09T18:25:43.511Z",
+		"id":25,
+		"label_number": "WHY014",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
 	},
 	{
-		"name": "",
+		"name": "Jamie XX Sleep Sound (dyl_pykl x whythough? 2018 \"Up All Night\" Remix)",
 		"album_art": "",
-		"release_date": "2012-04-23T18:25:43.511Z",
-		"id": 7,
-		"artist_id": 1
+		"release_date": "2018-11-04T18:25:43.511Z",
+		"id":24,
+		"label_number": "WHY018",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			"https://soundcloud.com/whythough/jamie-xx-remix"
+		]
+	},
+	{
+		"name": "Gashadokuro (Remixes)",
+		"album_art": "",
+		"release_date": "2018-10-31T18:25:43.511Z",
+		"id":23,
+		"label_number": "WHY017",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
+	},
+	{
+		"name": "Ganymede & The Late Heavy Bombardment",
+		"album_art": "",
+		"release_date": "2018-10-26T18:25:43.511Z",
+		"id":22,
+		"label_number": "WHY016",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
+	},
+	{
+		"name": "Uhhhhhhh",
+		"album_art": "",
+		"release_date": "2018-10-19T18:25:43.511Z",
+		"id":21,
+		"label_number": "WHY015",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
+	},
+	{
+		"name": "Harmonious Interactions of Patterns (Remixes)",
+		"album_art": "",
+		"release_date": "2018-10-19T18:25:43.511Z",
+		"id":20,
+		"label_number": "WHY012",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
+	},
+	{
+		"name": "Gashadokuro",
+		"album_art": "",
+		"release_date": "2018-10-13T18:25:43.511Z",
+		"id":19,
+		"label_number": "WHY013",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
+	},
+	{
+		"name": "EXCO EP",
+		"album_art": "",
+		"release_date": "2018-10-05T18:25:43.511Z",
+		"id":18,
+		"label_number": "WHY011",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
+	},
+	{
+		"name": "Vega",
+		"album_art": "",
+		"release_date": "2018-09-12T18:25:43.511Z",
+		"id":17,
+		"label_number": "WHY010",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
+	},
+	{
+		"name": "HEAVEN",
+		"album_art": "",
+		"release_date": "2018-08-03T18:25:43.511Z",
+		"id":16,
+		"label_number": "WHY009",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
+	},
+	{
+		"name": "Harður ˈTeknō",
+		"album_art": "",
+		"release_date": "2018-07-31T18:25:43.511Z",
+		"id":15,
+		"label_number": "WHY008",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
+	},
+	{
+		"name": "Cigarette Smoke",
+		"album_art": "",
+		"release_date": "2018-06-21T18:25:43.511Z",
+		"id":14,
+		"label_number": "WHY007",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
+	},
+	{
+		"name": "The Lobster EP",
+		"album_art": "",
+		"release_date": "2018-05-30T18:25:43.511Z",
+		"id":13,
+		"label_number": "WHY006",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
+	},
+	{
+		"name": "Blurs (Remixes)",
+		"album_art": "",
+		"release_date": "2018-02-22T18:25:43.511Z",
+		"id":12,
+		"label_number": "WHY005",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
+	},
+	{
+		"name": "Blurs",
+		"album_art": "",
+		"release_date": "2018-01-03T18:25:43.511Z",
+		"id":11,
+		"label_number": "WHY004",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
+	},
+	{
+		"name": "Glancing Memories",
+		"album_art": "",
+		"release_date": "2019-11-18T18:25:43.511Z",
+		"id":10,
+		"label_number": "Independent",
+		"primary_artist_id": 12,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
+	},
+	{
+		"name": "Titles Are Lame",
+		"album_art": "",
+		"release_date": "2019-01-25T18:25:43.511Z",
+		"id":9,
+		"label_number": "Independent",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
+	},
+	{
+		"name": "Harmonious Interactions of Patterns",
+		"album_art": "",
+		"release_date": "2018-07-05T18:25:43.511Z",
+		"id":8,
+		"label_number": "Independent",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
+	},
+	{
+		"name": "Sapphire Sky",
+		"album_art": "",
+		"release_date": "2019-08-29T18:25:43.511Z",
+		"id":7,
+		"label_number": "Independent",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
+	},
+	{
+		"name": "Saturday Morning",
+		"album_art": "",
+		"release_date": "2019-08-21T18:25:43.511Z",
+		"id":6,
+		"label_number": "Independent",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
+	},
+	{
+		"name": "Floating Like a Feather",
+		"album_art": "",
+		"release_date": "2019-02-22T18:25:43.511Z",
+		"id":5,
+		"label_number": "Independent",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
+	},
+	{
+		"name": "paranoimia",
+		"album_art": "",
+		"release_date": "2018-03-15T18:25:43.511Z",
+		"id":4,
+		"label_number": "WHY003",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			"https://soundcloud.com/whythough/paranoimia"
+		]
+	},
+	{
+		"name": "JUST CALL EP",
+		"album_art": "",
+		"release_date": "2018-02-23T18:25:43.511Z",
+		"id":3,
+		"label_number": "WHY002",
+		"primary_artist_id": 5,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
+	},
+	{
+		"name": "The Beginning",
+		"album_art": "",
+		"release_date": "2017-04-21T18:25:43.511Z",
+		"id":2,
+		"label_number": "Independent",
+		"primary_artist_id": 5,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			""
+		]
+	},
+	{
+		"name": "grains of Blurs",
+		"album_art": "",
+		"release_date": "2017-11-03T18:25:43.511Z",
+		"id":1,
+		"label_number": "WHY001",
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": [
+			"https://whythough.bandcamp.com/album/grains-of-blurs"
+		]
 	}
 ]
