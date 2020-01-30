@@ -12,10 +12,10 @@ export default function Releases() {
 				<div className="col" />
 				<div className="col-lg-6 col-md-8 col-sm-10 mx-auto">
 					<div className="text-center">
-						{/* <img className="img-fluid" src={item.album_artwork} alt={item.name} /> */}
-						<h3 className="">{item.name}</h3>
-						<h3 className="">{artistData.filter(c => item.primary_artist_id === c.id)[0].name}</h3>
-						<h6 className="">{item.label_number}</h6>
+						<img className="img-fluid" src={item.album_art} alt={item.name} />
+						<h2 className="release_name">{item.name}</h2>
+						<h3 className="artist_name_release">{artistData.filter(c => item.primary_artist_id === c.id)[0].name}</h3>
+						<h6 className="release_id">{item.label_number}</h6>
 					</div>
 				</div>
 				<div className="col" />
