@@ -13,6 +13,22 @@
   margin-bottom: 20px;
 }
 
-.release_name{
-	margin-top: 25px;
+.release_name {
+  margin-top: 25px;
+}
+.sidebar {
+  margin-top: 140px;
+}
+
+.unlock-scroll {
+  overflow: auto;
+  height: 100vh;
+}
+.lock-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+.filter-sidebar,
+.filtered-artists {
+  margin: 0px;
 }

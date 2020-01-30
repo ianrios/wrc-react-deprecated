@@ -20,10 +20,10 @@ export default function App() {
 	let headers = [
 		"artists",
 		"releases",
-		"merchandise",
-		"services",
-		"contact",
-		"index",
+		// "merchandise",
+		// "services",
+		// "contact",
+		"home",
 	];
 
 	const [textShadow, setTextShadow] = useState("");
