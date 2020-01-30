@@ -9,10 +9,8 @@ export default function Home() {
 		<div className="container">
 			<div className="row main-header">
 				<div className="col">
-
 					<h1 className="header-subpage">WHY? Record Company</h1>
 				</div>
-
 			</div>
 			<div className="row main-body">
 				<div className="col-6">
@@ -27,12 +25,13 @@ export default function Home() {
 						WRC was created for our music to have a home, without the stress or uncertainty of traditional record label methods.
 						We do everything in house, from writing, recording, producing, mixing, mastering, designing artwork, planning promotion, distributing, and more.
 					</p>
-					<img src="WRCLabel.png" className="logo" alt="logo" />
-
 				</div>
 			</div>
-
-
+			<div className="row main-footer">
+				<div className="col">
+					<img src="WRCLabel.png" className="logo float-right" alt="logo" />
+				</div>
+			</div>
 		</div>
 	)
 }
