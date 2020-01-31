@@ -21,7 +21,7 @@
 }
 
 .unlock-scroll {
-  overflow: auto;
+  overflow-y: scroll;
   height: 100vh;
 }
 .lock-scroll {
@@ -31,4 +31,17 @@
 .filter-sidebar,
 .filtered-artists {
   margin: 0px;
+}
+.mobile-button {
+  margin-top: 100px;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 991px) {
+  .header-subpage {
+    margin-top: 0px !important;
+  }
+  .mb-last-child:last-of-type {
+    margin-bottom: 500px;
+  }
 }
