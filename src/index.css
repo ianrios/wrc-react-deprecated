@@ -8,7 +8,7 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Cormorant+SC&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz%3f%43');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+SC&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz%43');
 @font-face {
 	font-family: 'Lovelyn';
 	src: local('Lovelyn'), url(./fonts/Lovelyn.ttf) format('truetype');

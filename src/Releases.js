@@ -83,9 +83,9 @@ export default function Releases() {
 					onClick={() => setShowFilter(!showFilter)}
 				>
 					<Funnel
-						fillColor="white"
-						height="35px"
-						width="35px"
+						fillColor={"white"}
+						height={"35px"}
+						width={"35px"}
 					/>
 				</div>
 			</div>

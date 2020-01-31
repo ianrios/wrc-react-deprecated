@@ -12,14 +12,12 @@
 .release-image-row {
   margin-bottom: 20px;
 }
-
 .release_name {
   margin-top: 25px;
 }
 .sidebar {
   margin-top: 140px;
 }
-
 .unlock-scroll {
   overflow-y: scroll;
   height: 100vh;
@@ -36,10 +34,12 @@
   margin-top: 100px;
   margin-bottom: 15px;
 }
-
 @media only screen and (max-width: 991px) {
   .header-subpage {
     margin-top: 0px !important;
+  }
+  .sidebar {
+	margin-top: 0px !important;
   }
   .mb-last-child:last-of-type {
     margin-bottom: 500px;

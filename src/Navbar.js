@@ -2,50 +2,42 @@ import React, { useState, useEffect } from 'react'
 import Link from './Link';
 import genFade from './utilities/shadow';
 import './Navbar.scss';
-import Dot from './icons/Dot';
-import Cube from './icons/Cube';
-import Blockchain from './icons/Blockchain';
-import Fingerprint from './icons/Fingerprint';
 
 export default function Navbar() {
-	let headers = [
-		"Artists",
-		"releases",
-		"home",
-	];
 	const Links = {
-		"Artists": "Fingerprints",
-		"Releases": "Dot",
-		"Merchandise": "Cube",
-		"Services": "",
-		"Contact": "",
-		"Home": "",
-		"Map": "Blockchain"
+		"Home": ["WRC", false],
+		"Artists": ["Fingerprint", true],
+		"Releases": ["Dot", true],
+		"Services": ["Honeycomb", true],
+		"Store": ["Cube", true],
+		"Map": ["Blockchain", true],
+		"Contact": ["@", false],
 	}
 	const [textShadow, setTextShadow] = useState("");
 	useEffect(() => {
 		setTextShadow(genFade());
 	});
-	const desktopLinks = headers.map((item, idx) => {
+	const mappedLinks = Object.keys(Links).map((item, idx) => {
+		console.log(item)
 		return (
-			<Link size={"50px"} to={item} id={idx} text={item} key={idx} textShadow={textShadow} />
-		)
-	})
-	const mobileLinks = headers.map((item, idx) => {
-		return (
-			<div id={idx} key={idx}>
-				<Link size={"50px"} to={item} text={item.slice(0, 1)} className="mobile-link-first-letter" />
-				<Link size={"12px"} to={item} text={item.slice(1)} className="mobile-link-remaining" />
-			</div>
+			<Link
+				linksObj={Links}
+				iconHover={true}
+				icon={Links[item][1] ? item : false}
+				iconText={!Links[item][1] ? Links[item][0] : null}
+				size={"25px"}
+				to={item}
+				id={idx}
+				text={item}
+				key={idx}
+				textShadow={textShadow}
+			/>
 		)
 	})
 	return (
 		<div className="navbar position-fixed">
-			<div className="d-none d-lg-block desktop-links">
-				{desktopLinks}
-			</div>
-			<div className="d-flex d-lg-none mobile-links">
-				{mobileLinks}
+			<div className="links">
+				{mappedLinks}
 			</div>
 		</div>
 	)

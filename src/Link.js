@@ -1,29 +1,78 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Link.scss';
 import { Link } from "react-router-dom";
 
-export default function LinkWrapper(props) {
+import Dot from './icons/Dot';
+import Cube from './icons/Cube';
+import Honeycomb from './icons/Honeycomb';
+import Blockchain from './icons/Blockchain';
+import Fingerprint from './icons/Fingerprint';
 
-	const [hover, setHover] = useState(false);
+function titleCase(str) {
+	return str.toLowerCase().split(' ').map(function (word) {
+		return (word.charAt(0).toUpperCase() + word.slice(1));
+	}).join(' ');
+}
+
+function chooseIcon(props) {
+	if (props.iconHover &&
+		props.icon) {
+		switch (props.icon) {
+			case "Artists":
+				return <Fingerprint
+					fillColor={"white"}
+					height={"35px"}
+					width={"35px"}
+				/>
+			case "Releases":
+				return <Dot
+					fillColor={"white"}
+					height={"35px"}
+					width={"35px"}
+				/>
+			case "Services":
+				return <Honeycomb
+					fillColor={"white"}
+					height={"35px"}
+					width={"35px"}
+				/>
+			case "Store":
+				return <Cube
+					fillColor={"white"}
+					height={"35px"}
+					width={"35px"}
+				/>
+			case "Map":
+				return <Blockchain
+					fillColor={"white"}
+					height={"35px"}
+					width={"35px"}
+				/>
+			default:
+				return null
+		}
+	}
+	else {
+		return props.iconText
+	}
+}
+
+export default function LinkWrapper(props) {
+	const text = titleCase(props.text);
 
 	return (
 		<Link
-			// className={hover ? "demotext" : ''}
+			className="link-icon-navbar"
 			id={props.id}
-			onMouseEnter={() => setHover(!hover)}
-			onMouseLeave={() => setHover(!hover)}
 			style={{
-				paddingTop: '40px',
+				paddingTop: '20px',
 				textDecoration: 'none',
-				color: '#000000',
 				fontSize: props.size,
-				textShadow: hover ? props.textShadow : "",
-
 			}}
-			to={props.to}
-
+			to={props.to.toLowerCase()}
 		>
-			{props.text}
+			<span className="no-hover-nav-link">{props.iconHover ? chooseIcon(props) : text}</span>
+			<span className="text-shadow hover-nav-link text-navbar-link-color">{props.text}</span>
 		</Link>
 	);
 }

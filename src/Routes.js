@@ -6,7 +6,7 @@ import {
 import Artists from './Artists';
 import Releases from './Releases';
 import Services from './Services';
-import Merchandise from './Merchandise';
+import Store from './Store';
 import Home from './Home';
 import Contact from './Contact';
 
@@ -25,8 +25,8 @@ export default function Routes() {
 			<Route path="/services">
 				<Services />
 			</Route>
-			<Route path="/merchandise">
-				<Merchandise />
+			<Route path="/store">
+				<Store />
 			</Route>
 			<Route path="/contact">
 				<Contact />
