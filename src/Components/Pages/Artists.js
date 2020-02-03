@@ -1,5 +1,5 @@
 import React from 'react'
-import data from "./constants/artistData.json";
+import data from "../../constants/artistData.json";
 import './Artists.scss';
 
 export default function Artists() {

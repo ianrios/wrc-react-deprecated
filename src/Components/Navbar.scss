@@ -8,7 +8,7 @@
   //   margin-top: -225px;
   padding: 0px !important;
   z-index: 10;
-//   background-color: #000000;
+  //   background-color: #000000;
   top: 0;
 }
 .links {
@@ -42,8 +42,21 @@
 .mobile-link-remaining {
 }
 
+.filter-wrap {
+  width: 100vw;
+  display: none;
+}
+
+.filter {
+  width: calc(100vw / 3.75);
+  margin-top: 25px;
+  // margin-right:50px;
+}
 @media only screen and (max-width: 991px) {
   .navbar {
     // margin-top: -240px;
+  }
+  .filter-wrap {
+    display: block;
   }
 }

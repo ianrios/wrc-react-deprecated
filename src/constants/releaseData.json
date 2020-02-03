@@ -1,5 +1,19 @@
 [
 	{
+		"name": "He Called Me Beautiful",
+		"album_art": "images/releases/hcmb.jpg",
+		"release_date": "2020-03-06T18:25:43.511Z",
+		"id": 46,
+		"label_number": "WHY033",
+		"primary_artist_id": 14,
+		"secondary_artist_ids": [
+			2,
+			11
+		],
+		"remix_artist_ids": [],
+		"links": []
+	},
+	{
 		"name": "The Time Has Come",
 		"album_art": "images/releases/the_time_has_come.jpg",
 		"release_date": "2020-02-01T18:25:43.511Z",

@@ -2,11 +2,11 @@ import React from 'react';
 import './Link.scss';
 import { Link } from "react-router-dom";
 
-import Dot from './icons/Dot';
-import Cube from './icons/Cube';
-import Honeycomb from './icons/Honeycomb';
-import Blockchain from './icons/Blockchain';
-import Fingerprint from './icons/Fingerprint';
+import Dot from './Icons/Dot';
+import Cube from './Icons/Cube';
+import Honeycomb from './Icons/Honeycomb';
+import Blockchain from './Icons/Blockchain';
+import Fingerprint from './Icons/Fingerprint';
 
 function titleCase(str) {
 	return str.toLowerCase().split(' ').map(function (word) {
@@ -71,8 +71,8 @@ export default function LinkWrapper(props) {
 			}}
 			to={props.to.toLowerCase()}
 		>
-			<span className="no-hover-nav-link">{props.iconHover ? chooseIcon(props) : text}</span>
-			<span className="text-shadow hover-nav-link text-navbar-link-color">{props.text}</span>
+			<span className={`no-hover-nav-link ${props.isText ? "text-nav-icon" : null}`}>{props.iconHover ? chooseIcon(props) : text}</span>
+			{/* <span className="text-shadow hover-nav-link text-navbar-link-color">{props.text}</span> */}
 		</Link>
 	);
 }

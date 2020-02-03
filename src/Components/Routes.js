@@ -3,12 +3,12 @@ import {
 	Switch,
 	Route,
 } from "react-router-dom";
-import Artists from './Artists';
-import Releases from './Releases';
-import Services from './Services';
-import Store from './Store';
-import Home from './Home';
-import Contact from './Contact';
+import Artists from './Pages/Artists';
+import Releases from './Pages/Releases';
+import Services from './Pages/Services';
+import Store from './Pages/Merchandise';
+import Home from './Pages/Home';
+import Contact from './Pages/Contact';
 
 export default function Routes() {
 	return (

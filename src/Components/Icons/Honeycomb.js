@@ -1,4 +1,4 @@
-import React from 'react';
+import React from '../../../node_modules/react';
 
 export default function Honeycomb(props) {
 	return (
@@ -7,7 +7,7 @@ export default function Honeycomb(props) {
 			width={props.width}
 			style={{ fill: props.fillColor }}
 			id="Outline"
-			enable-background="new 0 0 512 512"
+			enableBackground="new 0 0 512 512"
 			viewBox="0 0 512 512"
 			xmlns="http://www.w3.org/2000/svg"
 

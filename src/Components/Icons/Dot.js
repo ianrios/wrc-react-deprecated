@@ -1,4 +1,4 @@
-import React from 'react'
+import React from '../../../node_modules/react';
 
 export default function Dot(props) {
 	return (
@@ -10,7 +10,7 @@ export default function Dot(props) {
 			id="Capa_1"
 			xmlns="http://www.w3.org/2000/svg"
 			x="0px"
-			enable-background="new 0 0 341.333 341.333"
+			enableBackground="new 0 0 341.333 341.333"
 			y="0px" 
 			viewBox="0 0 341.333 341.333"
 		>
