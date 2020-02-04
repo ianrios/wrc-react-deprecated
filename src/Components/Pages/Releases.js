@@ -56,9 +56,16 @@ export default function Releases() {
 			else {
 				artistsObj[currArtist] = 1;
 			}
+			const color = Math.floor(Math.random() * (Math.floor(12) - Math.ceil(1))) + Math.ceil(1);
 			return (
 				<div key={idx} className="text-center mb-last-child">
-					<img className="img-fluid" src={item.album_art} alt={item.name} />
+					<div className="release-image-centered-hover-text">
+						<h2 className="release_name">{item.name}</h2>
+						<h3 className="artist_name_release">{currArtist}</h3>
+						<p>{item.release_date.split("T")[0]}</p>
+						<h6 className="release_id">{item.label_number}</h6>
+					</div>
+					<img className={`img-fluid release-image release-image-color-${color}`} src={item.album_art} alt={item.name} />
 					<h2 className="release_name">{item.name}</h2>
 					<h3 className="artist_name_release">{currArtist}</h3>
 					<h6 className="release_id">{item.label_number}</h6>

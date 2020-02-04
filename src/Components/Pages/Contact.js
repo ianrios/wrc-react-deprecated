@@ -3,7 +3,7 @@ import "./Contact.scss";
 
 export default function Contact() {
 	return (
-		<div>
+		<div className="center-contact">
 			<h1 className="header-subpage">Contact</h1>
 			<p>
 				you can send us an email at

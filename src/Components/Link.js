@@ -71,7 +71,7 @@ export default function LinkWrapper(props) {
 			}}
 			to={props.to.toLowerCase()}
 		>
-			<span className={`no-hover-nav-link ${props.isText ? "text-nav-icon" : null}`}>{props.iconHover ? chooseIcon(props) : text}</span>
+			<span className={`no-hover-nav-link ${props.lastItem ? "text-nav-icon" : null}`}>{props.iconHover ? chooseIcon(props) : text}</span>
 			{/* <span className="text-shadow hover-nav-link text-navbar-link-color">{props.text}</span> */}
 		</Link>
 	);

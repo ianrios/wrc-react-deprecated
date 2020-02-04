@@ -35,6 +35,7 @@ export default function Navbar(props) {
 				key={idx}
 				textShadow={textShadow}
 				isText={!Links[item][1]}
+				lastItem={idx === (Object.keys(Links).length - 1)}
 			/>
 		)
 	})
