@@ -486,19 +486,6 @@
 		]
 	},
 	{
-		"name": "Titles Are Lame",
-		"album_art": "images/releases/talmb.jpg",
-		"release_date": "2019-01-25T18:25:43.511Z",
-		"id": 13,
-		"label_number": "Independent",
-		"primary_artist_id": 11,
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": [
-			""
-		]
-	},
-	{
 		"name": "Harmonious Interactions of Patterns",
 		"album_art": "images/releases/hiopf.jpeg",
 		"release_date": "2018-07-05T18:25:43.511Z",

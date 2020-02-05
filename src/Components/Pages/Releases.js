@@ -8,6 +8,22 @@ import './Releases.scss';
 export default function Releases() {
 
 	const [filterArtists, setFilterArtists] = useState(0);
+	const typeSwitch = (prop) => {
+		switch (prop) {
+			case "All":
+				return "all-label";
+			case "WRC":
+				return "wrc-label";
+			case "CYCLE":
+				return "cycle-label";
+			case "Blue Label":
+				return "blue-label";
+			case "Other":
+				return "other-label";
+			default:
+				return null;
+		}
+	}
 	const releaseFilter = [
 		"All",
 		"WRC",
@@ -17,7 +33,7 @@ export default function Releases() {
 	].map((item, idx) => {
 		return (
 			<p
-				className="filter-sidebar"
+				className={`filter-sidebar ${typeSwitch(item)}`}
 				key={idx}
 				onClick={() => setFilterArtists(idx)}
 			>
