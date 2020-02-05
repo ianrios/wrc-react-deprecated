@@ -25,8 +25,22 @@ export default function Releases() {
 			</p>
 		)
 	});
-
-
+	const secondaryMap = (props) => {
+		const secondaryArtists = props.filter(c => c === artistData.id);
+		console.log(secondaryArtists)
+		const mappedSecondary = secondaryArtists.map(i => <p>{i}</p>)
+		return (<div className="release-secondary-artists" >{mappedSecondary}</div>);
+	};
+	const remixMap = (props) => {
+		const remixArtists = props.filter(c => c === artistData.id);
+		console.log(remixArtists)
+		const mappedRemix = remixArtists.map(i => <p>{i}</p>)
+		return (<div className="release-remixers">{mappedRemix}</div>);
+	};
+	const linkMap = (props) => {
+		console.log(props)
+		return (<div className="release-links">{props.map(l => <p> {l}</p>)}</div>);
+	};
 	let artistsObj = {};
 	const ReleaseMap = releaseData
 		.sort((a, b) => (a.release_date > b.release_date) ? -1 : ((a.release_date < b.release_date) ? 1 : 0))
@@ -59,16 +73,21 @@ export default function Releases() {
 			const color = Math.floor(Math.random() * (Math.floor(12) - Math.ceil(1))) + Math.ceil(1);
 			return (
 				<div key={idx} className="text-center mb-last-child">
-					<div className="release-image-centered-hover-text">
-						<h2 className="release_name">{item.name}</h2>
-						<h3 className="artist_name_release">{currArtist}</h3>
-						<p>{item.release_date.split("T")[0]}</p>
-						<h6 className="release_id">{item.label_number}</h6>
+					<div className="image-hover-release-info-container" >
+						<img className={`img-fluid release-image release-image-color-${color}`} src={item.album_art} alt={item.name} />
+						<div className="release-image-centered-hover-text">
+							<h2 className="release-name">{item.name}</h2>
+							<h3 className="artist-name-release">{currArtist}</h3>
+							<p>{item.release_date.split("T")[0]}</p>
+							{item.secondary_artist_ids ? secondaryMap(item.secondary_artist_ids) : null}
+							{item.remix_artist_ids ? remixMap(item.remix_artist_ids) : null}
+							{/* {item.links ? linkMap(item.links) : null} */}
+							<h6 className="release_id">{item.label_number}</h6>
+						</div>
 					</div>
-					<img className={`img-fluid release-image release-image-color-${color}`} src={item.album_art} alt={item.name} />
-					<h2 className="release_name">{item.name}</h2>
-					<h3 className="artist_name_release">{currArtist}</h3>
-					<h6 className="release_id">{item.label_number}</h6>
+					<h2 className="release-name">{item.name}</h2>
+					<h3 className="artist-name-release">{currArtist}</h3>
+					<h6 className="release-id">{item.label_number}</h6>
 				</div>
 			)
 		});
