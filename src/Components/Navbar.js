@@ -20,7 +20,7 @@ export default function Navbar(props) {
 	const [textShadow, setTextShadow] = useState("");
 	useEffect(() => {
 		setTextShadow(genFade());
-	});
+	}, []);
 	const mappedLinks = Object.keys(Links).map((item, idx) => {
 		return (
 			<Link
@@ -71,7 +71,7 @@ export default function Navbar(props) {
 		</div>
 	)
 	const location = useLocation();
-	console.log(location);
+	// console.log(location);
 	return (
 		<div className="navbar position-fixed">
 			<div className="links">

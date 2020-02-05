@@ -4,7 +4,7 @@ import {
 } from "react-router-dom";
 import Q from './Q';
 import Navbar from './Navbar';
-import Footer from './Footer';
+// import Footer from './Footer';
 import Route from './Routes';
 import './App.scss';
 

@@ -27,20 +27,20 @@ export default function Releases() {
 	});
 	const secondaryMap = (props) => {
 		const secondaryArtists = props.filter(c => c === artistData.id);
-		console.log(secondaryArtists)
+		// console.log(secondaryArtists)
 		const mappedSecondary = secondaryArtists.map(i => <p>{i}</p>)
 		return (<div className="release-secondary-artists" >{mappedSecondary}</div>);
 	};
 	const remixMap = (props) => {
 		const remixArtists = props.filter(c => c === artistData.id);
-		console.log(remixArtists)
+		// console.log(remixArtists)
 		const mappedRemix = remixArtists.map(i => <p>{i}</p>)
 		return (<div className="release-remixers">{mappedRemix}</div>);
 	};
-	const linkMap = (props) => {
-		console.log(props)
-		return (<div className="release-links">{props.map(l => <p> {l}</p>)}</div>);
-	};
+	// const linkMap = (props) => {
+	// 	// console.log(props)
+	// 	return (<div className="release-links">{props.map(l => <p> {l}</p>)}</div>);
+	// };
 	let artistsObj = {};
 	const ReleaseMap = releaseData
 		.sort((a, b) => (a.release_date > b.release_date) ? -1 : ((a.release_date < b.release_date) ? 1 : 0))
@@ -60,6 +60,7 @@ export default function Releases() {
 			else if (filterArtists === 4) {
 				return i.label_number.slice(0, 3) !== "WHY"
 			}
+			return null;
 		})
 		.map((item, idx) => {
 			const currArtist = artistData.filter(c => item.primary_artist_id === c.id)[0].name;

@@ -14,7 +14,7 @@ export default function Home() {
 			</div>
 			<div className="row main-body">
 				<div className="col-6">
-					<img className="img-fluid" alt="random image" src={source} />
+					<img className="img-fluid" alt="random" src={source} />
 				</div>
 				<div className="col-6">
 					<p className="main-page-p">
