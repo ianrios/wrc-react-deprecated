@@ -3,14 +3,28 @@
 		"name": "He Called Me Beautiful",
 		"album_art": "images/releases/hcmb.jpg",
 		"release_date": "2020-03-06T18:25:43.511Z",
-		"id": 46,
-		"label_number": "WHY033",
+		"id": 48,
+		"label_number": "WHY034",
 		"primary_artist_id": 14,
 		"secondary_artist_ids": [
 			2,
 			11
 		],
 		"remix_artist_ids": [],
+		"links": []
+	},
+	{
+		"name": "A12A2",
+		"album_art": "images/releases/A12A2.jpg",
+		"blue_label_number": 1,
+		"release_date": "2020-02-15T18:25:43.511Z",
+		"id": 47,
+		"label_number": "WHY033",
+		"primary_artist_id": 15,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [
+			1
+		],
 		"links": []
 	},
 	{
