@@ -89,13 +89,29 @@
 .wrc-label {
 }
 .cycle-label {
-//   color: #b7d3f2;
+  //   color: #b7d3f2;
 }
-.blue-label {
-  color: #68a7ff;
+.active-link,
+a {
+  color: #68a7ff !important;
+  text-decoration: none !important;
+}
+.link-filtered-artists {
+  text-decoration: none !important;
+  color: #ffffff !important;
+}
+.filtered-artists:hover,
+.filter-sidebar:hover,
+a:hover {
+  color: #de3c4b !important;
+}
+.filtered-artists:active,
+.filter-sidebar:active,
+a:active {
+  color: #ffbf00 !important;
 }
 .other-label {
-//   color: #bfacaa;
+  //   color: #bfacaa;
 }
 
 .image-hover-release-info-container:hover {
@@ -103,37 +119,37 @@
     filter: blur(4px);
   }
 
-  .release-image-color-1 {
-    border: 5px solid #ea3788;
-  }
-  .release-image-color-2 {
-    border: 5px solid #f5cb5c;
-  }
-  .release-image-color-3 {
-    border: 5px solid #9cf6f6;
-  }
-  .release-image-color-4 {
-    border: 5px solid #f56960;
-  }
-  .release-image-color-5 {
-    border: 5px solid #6f732f;
-  }
-  .release-image-color-6 {
-    border: 5px solid #090446;
-  }
-  .release-image-color-7 {
-    border: 5px solid #c2095a;
-  }
-  .release-image-color-8 {
-    border: 5px solid #69a297;
-  }
-  .release-image-color-9 {
-    border: 5px solid #a663cc;
-  }
-  .release-image-color-10 {
-    border: 5px solid #29e7cd;
-  }
-  .release-image-color-11 {
-    border: 5px solid #6a3e37;
-  }
+  //   .release-image-color-1 {
+  //     border: 5px solid #ea3788;
+  //   }
+  //   .release-image-color-2 {
+  //     border: 5px solid #f5cb5c;
+  //   }
+  //   .release-image-color-3 {
+  //     border: 5px solid #9cf6f6;
+  //   }
+  //   .release-image-color-4 {
+  //     border: 5px solid #f56960;
+  //   }
+  //   .release-image-color-5 {
+  //     border: 5px solid #6f732f;
+  //   }
+  //   .release-image-color-6 {
+  //     border: 5px solid #090446;
+  //   }
+  //   .release-image-color-7 {
+  //     border: 5px solid #c2095a;
+  //   }
+  //   .release-image-color-8 {
+  //     border: 5px solid #69a297;
+  //   }
+  //   .release-image-color-9 {
+  //     border: 5px solid #a663cc;
+  //   }
+  //   .release-image-color-10 {
+  //     border: 5px solid #29e7cd;
+  //   }
+  //   .release-image-color-11 {
+  //     border: 5px solid #6a3e37;
+  //   }
 }

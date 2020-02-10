@@ -4,8 +4,6 @@ import releaseData from "../../constants/releaseData.json";
 import artistData from "../../constants/artistData.json";
 import './Releases.scss';
 
-
-
 export default function Releases() {
 
 	const [filterArtists, setFilterArtists] = useState(0);
@@ -40,7 +38,7 @@ export default function Releases() {
 	].map((item, idx) => {
 		return (
 			<p
-				className={`filter-sidebar ${typeSwitch(item)}`}
+				className={`filter-sidebar ${typeSwitch(item)} ${idx === filterArtists ? "active-link" : null}`}
 				key={idx}
 				onClick={() => setFilterArtists(idx)}
 			>
@@ -95,7 +93,6 @@ export default function Releases() {
 			const currArtist = artistData.filter(c => item.primary_artist_id === c.id)[0];
 			const currArtistName = currArtist.name;
 			if (currArtistName in artistsObj) {
-
 				artistsObj[currArtistName]++;
 			}
 			else {
@@ -133,12 +130,20 @@ export default function Releases() {
 	const filteredArtists = Object.keys(artistsObj)
 		.sort((a, b) => artistsObj[b] - artistsObj[a])
 		.map((item, idx) => {
+			const currArtist = artistData.find(a => a.name === item);
+			console.log(currArtist)
+
 			return (
 				<p
 					className="filtered-artists"
 					key={idx}
 				>
-					{item} - {artistsObj[item]}
+					<Link
+						className="link-filtered-artists"
+						to={`/artist/${currArtist.local_path}`}
+					>
+						{item} - {artistsObj[item]}
+					</Link>
 				</p>
 			)
 		});
