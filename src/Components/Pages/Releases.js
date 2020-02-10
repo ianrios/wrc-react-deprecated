@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 import releaseData from "../../constants/releaseData.json";
 import artistData from "../../constants/artistData.json";
 import './Releases.scss';
@@ -14,10 +15,14 @@ export default function Releases() {
 				return "all-label";
 			case "WRC":
 				return "wrc-label";
-			case "CYCLE":
-				return "cycle-label";
 			case "Blue Label":
 				return "blue-label";
+			case "CYCLE":
+				return "cycle-label";
+			case "MIX":
+				return "mix-label";
+			case "RECORDINGS":
+				return "sample-label";
 			case "Other":
 				return "other-label";
 			default:
@@ -25,11 +30,13 @@ export default function Releases() {
 		}
 	}
 	const releaseFilter = [
-		"All",
 		"WRC",
-		"CYCLE",
 		"Blue Label",
-		"Other"
+		"CYCLE",
+		"MIX",
+		"RECORDINGS",
+		"Independent",
+		"All"
 	].map((item, idx) => {
 		return (
 			<p
@@ -61,31 +68,38 @@ export default function Releases() {
 	const ReleaseMap = releaseData
 		.sort((a, b) => (a.release_date > b.release_date) ? -1 : ((a.release_date < b.release_date) ? 1 : 0))
 		.filter(i => {
-			if (filterArtists === 0) {
+			if (filterArtists === 6) {
 				return i
 			}
-			else if (filterArtists === 1) {
+			else if (filterArtists === 0) {
 				return i.label_number.slice(0, 3) === "WHY"
+			}
+			else if (filterArtists === 1) {
+				return "blue_label_number" in i
 			}
 			else if (filterArtists === 2) {
 				return "cycle_label_number" in i
 			}
 			else if (filterArtists === 3) {
-				return "blue_label_number" in i
+				return "mix_label_number" in i
 			}
 			else if (filterArtists === 4) {
+				return "recordings_label_number" in i
+			}
+			else if (filterArtists === 5) {
 				return i.label_number.slice(0, 3) !== "WHY"
 			}
 			return null;
 		})
 		.map((item, idx) => {
-			const currArtist = artistData.filter(c => item.primary_artist_id === c.id)[0].name;
-			if (currArtist in artistsObj) {
+			const currArtist = artistData.filter(c => item.primary_artist_id === c.id)[0];
+			const currArtistName = currArtist.name;
+			if (currArtistName in artistsObj) {
 
-				artistsObj[currArtist]++;
+				artistsObj[currArtistName]++;
 			}
 			else {
-				artistsObj[currArtist] = 1;
+				artistsObj[currArtistName] = 1;
 			}
 			const color = Math.floor(Math.random() * (Math.floor(12) - Math.ceil(1))) + Math.ceil(1);
 			return (
@@ -94,7 +108,7 @@ export default function Releases() {
 						<img className={`img-fluid release-image release-image-color-${color}`} src={item.album_art} alt={item.name} />
 						<div className="release-image-centered-hover-text">
 							<h2 className="release-name">{item.name}</h2>
-							<h3 className="artist-name-release">{currArtist}</h3>
+							<h3 className="artist-name-release">{currArtistName}</h3>
 							<p>{item.release_date.split("T")[0]}</p>
 							{item.secondary_artist_ids ? secondaryMap(item.secondary_artist_ids) : null}
 							{item.remix_artist_ids ? remixMap(item.remix_artist_ids) : null}
@@ -102,8 +116,16 @@ export default function Releases() {
 							<h6 className="release_id">{item.label_number}</h6>
 						</div>
 					</div>
-					<h2 className="release-name">{item.name}</h2>
-					<h3 className="artist-name-release">{currArtist}</h3>
+					<h2 className="release-name">
+						<Link to={`/release/${item.local_path}`} >
+							{item.name}
+						</Link>
+					</h2>
+					<h3 className="artist-name-release">
+						<Link to={`/artist/${currArtist.local_path}`} >
+							{currArtistName}
+						</Link>
+					</h3>
 					<h6 className="release-id">{item.label_number}</h6>
 				</div>
 			)

@@ -7,3 +7,16 @@
 .main-header {
   margin-bottom: 25px;
 }
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.home-image {
+  height: 100vh;
+  margin: auto;
+  min-height: 100vh;
+  width: auto;
+}

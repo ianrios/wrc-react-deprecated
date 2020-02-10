@@ -13,8 +13,8 @@ export default function Home() {
 				</div>
 			</div>
 			<div className="row main-body">
-				<div className="col-6">
-					<img className="img-fluid" alt="random" src={source} />
+				<div className="col-6 image-wrapper">
+					<img className="home-image" alt="random" src={source} />
 				</div>
 				<div className="col-6">
 					<p className="main-page-p">

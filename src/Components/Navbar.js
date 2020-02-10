@@ -29,7 +29,7 @@ export default function Navbar(props) {
 				icon={Links[item][1] ? item : false}
 				iconText={!Links[item][1] ? Links[item][0] : null}
 				size={"25px"}
-				to={item}
+				to={`/${item}`}
 				id={idx}
 				text={item}
 				key={idx}

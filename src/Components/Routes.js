@@ -9,8 +9,11 @@ import Services from './Pages/Services';
 import Store from './Pages/Merchandise';
 import Home from './Pages/Home';
 import Contact from './Pages/Contact';
+import ReleasePage from "./Pages/ReleasePage";
+import ArtistPage from "./Pages/ArtistPage";
 
 export default function Routes() {
+
 	return (
 		<Switch>
 			<Route exact path="/">
@@ -30,6 +33,15 @@ export default function Routes() {
 			</Route>
 			<Route path="/contact">
 				<Contact />
+			</Route>
+			<Route path="/contact">
+				<Contact />
+			</Route>
+			<Route path="/artist/*">
+				<ArtistPage />
+			</Route>
+			<Route path="/release/*">
+				<ReleasePage />
 			</Route>
 			<Route path="*">
 				<Home />

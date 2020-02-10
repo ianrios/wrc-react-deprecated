@@ -1,76 +1,91 @@
 [
 	{
 		"name": "whythough?",
+		"local_path": "whythough",
 		"profile_pic": "images/artists/profiles/whythough_4x6.jpg",
 		"id": 1
 	},
 	{
 		"name": "dyl_pykl",
+		"local_path": "dyl_pykl",
 		"profile_pic": "images/artists/profiles/dyl_pykl_4x6.jpg",
 		"id": 2
 	},
 	{
 		"name": "StratosFear",
+		"local_path": "StratosFear",
 		"profile_pic": "images/artists/profiles/stratosfear_4x6.jpg",
 		"id": 3
 	},
 	{
 		"name": "Fohrenbach",
+		"local_path": "Fohrenbach",
 		"profile_pic": "images/artists/profiles/fohrenbach_4x6.png",
 		"id": 4
 	},
 	{
 		"name": "svnteen",
+		"local_path": "svnteen",
 		"profile_pic": "images/artists/profiles/svnteen_4x6.jpg",
 		"id": 5
 	},
 	{
 		"name": "Ezra Parker",
+		"local_path": "Ezra-Parker",
 		"profile_pic": "images/artists/profiles/ezra_parker_4x6.png",
 		"id": 6
 	},
 	{
 		"name": "LoM",
+		"local_path": "LoM",
 		"profile_pic": "images/artists/profiles/lom_4x6.png",
 		"id": 7
 	},
 	{
 		"name": "oFoot",
+		"local_path": "oFoot",
 		"profile_pic": "images/artists/profiles/profile_4x6.jpg",
 		"id": 8
 	},
 	{
 		"name": "Weeping Sun",
+		"local_path": "Weeping-Sun",
 		"profile_pic": "images/artists/profiles/profile_4x6.jpg",
 		"id": 9
 	},
 	{
 		"name": "DJ Yunomi",
+		"local_path": "DJ-Yunomi",
 		"profile_pic": "images/artists/profiles/profile_4x6.jpg",
 		"id": 10
 	},
 	{
 		"name": "Matyb",
+		"local_path": "Matyb",
 		"profile_pic": "images/artists/profiles/profile_4x6.jpg",
 		"id": 11
 	},
 	{
 		"name": "KILL 9",
+		"local_path": "KILL-9",
 		"profile_pic": "images/artists/profiles/profile_4x6.jpg",
 		"id": 12
 	},
 	{
 		"name": "RetiredOrphan",
+		"local_path": "RetiredOrphan",
 		"profile_pic": "images/artists/profiles/profile_4x6.jpg",
 		"id": 13
 	},
 	{
 		"name": "Katie Hoffstatter",
+		"local_path": "Katie-Hoffstatter",
 		"profile_pic": "images/artists/profiles/profile_4x6.jpg",
 		"id": 14
 	},
 	{
 		"name": "Mova",
+		"local_path": "Mova",
 		"profile_pic": "images/artists/profiles/profile_4x6.jpg",
 		"id": 15
 	}
