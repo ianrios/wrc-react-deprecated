@@ -9,21 +9,22 @@ export default function ArtistPage() {
 	const currArtist = artistData.find(i => i.local_path === location);
 	const foundArtist = currArtist === undefined ? false : true;
 	return (
-		foundArtist ?
-			<div className="container">
-				<div className="row main-header">
-					<div className="col">
-						<h1 className="header-subpage">{currArtist.name}</h1>
-					</div>
+		<div className="container">
+			<div className="row main-header">
+				<div className="col">
+					<h1 className="header-subpage">{foundArtist ? currArtist.name : "could not locate artist page"}</h1>
 				</div>
 			</div>
-			:
-			<div className="container">
-				<div className="row main-header">
-					<div className="col">
-						<h1 className="header-subpage">could not locate artist page</h1>
+			{
+				foundArtist ?
+					<div className="row">
+						<div className="col">
+							artist info goes here
+						</div>
 					</div>
-				</div>
-			</div>
+					:
+					null
+			}
+		</div>
 	)
 }

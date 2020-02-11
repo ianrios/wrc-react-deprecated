@@ -1,6 +1,9 @@
 import React from 'react';
 import './Link.scss';
-import { Link } from "react-router-dom";
+import {
+	Link,
+	useLocation
+} from "react-router-dom";
 
 import Dot from './Icons/Dot';
 import Cube from './Icons/Cube';
@@ -14,42 +17,43 @@ function titleCase(str) {
 	}).join(' ');
 }
 
-function chooseIcon(props) {
+function chooseIcon(props, location) {
 	if (props.iconHover &&
 		props.icon) {
 		switch (props.icon) {
 			case "Artists":
 				return <Fingerprint
-					fillColor={"white"}
+					className={`nav-icon ${location.pathname === props.to.toLowerCase() ? "nav-icon-active" : null}`}
 					height={"35px"}
 					width={"35px"}
 				/>
 			case "Releases":
 				return <Dot
-					fillColor={"white"}
+					className={`nav-icon ${location.pathname === props.to.toLowerCase() ? "nav-icon-active" : null}`}
 					height={"35px"}
 					width={"35px"}
 				/>
 			case "Services":
 				return <Honeycomb
-					fillColor={"white"}
+					className={`nav-icon ${location.pathname === props.to.toLowerCase() ? "nav-icon-active" : null}`}
 					height={"35px"}
 					width={"35px"}
 				/>
 			case "Store":
 				return <Cube
-					fillColor={"white"}
+					className={`nav-icon ${location.pathname === props.to.toLowerCase() ? "nav-icon-active" : null}`}
 					height={"35px"}
 					width={"35px"}
 				/>
 			case "Map":
 				return <Blockchain
-					fillColor={"white"}
+					className={`nav-icon ${location.pathname === props.to.toLowerCase() ? "nav-icon-active" : null}`}
 					height={"35px"}
 					width={"35px"}
 				/>
 			default:
 				return null
+
 		}
 	}
 	else {
@@ -59,7 +63,7 @@ function chooseIcon(props) {
 
 export default function LinkWrapper(props) {
 	const text = titleCase(props.text);
-
+	const location = useLocation();
 	return (
 		<Link
 			className="link-icon-navbar"
@@ -71,7 +75,16 @@ export default function LinkWrapper(props) {
 			}}
 			to={props.to.toLowerCase()}
 		>
-			<span className={`no-hover-nav-link ${props.lastItem ? "text-nav-icon" : null}`}>{props.iconHover ? chooseIcon(props) : text}</span>
+			<span
+				className={
+					`nav-link 
+				${props.lastItem ? "text-nav-icon" : null} 
+				${location.pathname === props.to.toLowerCase() ? "nav-link-active" : null}
+				`
+				}
+			>
+				{props.iconHover ? chooseIcon(props, location) : text}
+			</span>
 			{/* <span className="text-shadow hover-nav-link text-navbar-link-color">{props.text}</span> */}
 		</Link>
 	);
