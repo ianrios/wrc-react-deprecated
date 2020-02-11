@@ -1,92 +1,278 @@
 [
 	{
+		"id": 1,
 		"name": "whythough?",
 		"local_path": "whythough",
-		"profile_pic": "images/artists/profiles/whythough_4x6.jpg",
-		"id": 1
+		"profile_pic": "/images/artists/profiles/whythough_4x6.jpg",
+		"email": "whythough000@gmail.com",
+		"short_description": "this is whythough",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			"Singer",
+			"Songwriter",
+			"Sound Designer",
+			"Producer",
+			"Recording Engineer",
+			"Audio Engineer",
+			"Mix Engineer",
+			"Mastering Engineer",
+			"Software Developer",
+			"Software Engineer",
+			"Computer Scientist",
+			"Web Developer",
+			"Graphic Designer",
+			"Label Boss"
+		],
+		"social_platforms": {
+			"tw": "https://twitter.com/whythough000",
+			"ig": "https://www.instagram.com/whythough000/",
+			"fb": "https://www.facebook.com/whythough000/"
+		},
+		"music_platforms": {
+			"sc": "https://soundcloud.com/whythough",
+			"bc": "https://whythough.bandcamp.com/",
+			"sp": "https://open.spotify.com/artist/5bExMpC1oAwRNKC1Uam7h3",
+			"ap": "https://music.apple.com/us/artist/whythough/1331746031"
+		}
 	},
 	{
+		"id": 2,
 		"name": "dyl_pykl",
 		"local_path": "dyl_pykl",
-		"profile_pic": "images/artists/profiles/dyl_pykl_4x6.jpg",
-		"id": 2
+		"profile_pic": "/images/artists/profiles/dyl_pykl_4x6.jpg",
+		"email": "",
+		"short_description": "",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			""
+		],
+		"socials": [
+			""
+		]
 	},
 	{
+		"id": 3,
 		"name": "StratosFear",
 		"local_path": "StratosFear",
-		"profile_pic": "images/artists/profiles/stratosfear_4x6.jpg",
-		"id": 3
+		"profile_pic": "/images/artists/profiles/stratosfear_4x6.jpg",
+		"email": "",
+		"short_description": "",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			""
+		],
+		"socials": [
+			""
+		]
 	},
 	{
+		"id": 4,
 		"name": "Fohrenbach",
 		"local_path": "Fohrenbach",
-		"profile_pic": "images/artists/profiles/fohrenbach_4x6.png",
-		"id": 4
+		"profile_pic": "/images/artists/profiles/fohrenbach_4x6.png",
+		"email": "",
+		"short_description": "",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			""
+		],
+		"socials": [
+			""
+		]
 	},
 	{
+		"id": 5,
 		"name": "svnteen",
 		"local_path": "svnteen",
-		"profile_pic": "images/artists/profiles/svnteen_4x6.jpg",
-		"id": 5
+		"profile_pic": "/images/artists/profiles/svnteen_4x6.jpg",
+		"email": "",
+		"short_description": "",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			""
+		],
+		"socials": [
+			""
+		]
 	},
 	{
+		"id": 6,
 		"name": "Ezra Parker",
 		"local_path": "Ezra-Parker",
-		"profile_pic": "images/artists/profiles/ezra_parker_4x6.png",
-		"id": 6
+		"profile_pic": "/images/artists/profiles/ezra_parker_4x6.png",
+		"email": "",
+		"short_description": "",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			""
+		],
+		"socials": [
+			""
+		]
 	},
 	{
+		"id": 7,
 		"name": "LoM",
 		"local_path": "LoM",
-		"profile_pic": "images/artists/profiles/lom_4x6.png",
-		"id": 7
+		"profile_pic": "/images/artists/profiles/lom_4x6.png",
+		"email": "",
+		"short_description": "",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			""
+		],
+		"socials": [
+			""
+		]
 	},
 	{
+		"id": 8,
 		"name": "oFoot",
 		"local_path": "oFoot",
-		"profile_pic": "images/artists/profiles/profile_4x6.jpg",
-		"id": 8
+		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
+		"email": "",
+		"short_description": "",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			""
+		],
+		"socials": [
+			""
+		]
 	},
 	{
+		"id": 9,
 		"name": "Weeping Sun",
 		"local_path": "Weeping-Sun",
-		"profile_pic": "images/artists/profiles/profile_4x6.jpg",
-		"id": 9
+		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
+		"email": "",
+		"short_description": "",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			""
+		],
+		"socials": [
+			""
+		]
 	},
 	{
+		"id": 10,
 		"name": "DJ Yunomi",
 		"local_path": "DJ-Yunomi",
-		"profile_pic": "images/artists/profiles/profile_4x6.jpg",
-		"id": 10
+		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
+		"email": "",
+		"short_description": "",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			""
+		],
+		"socials": [
+			""
+		]
 	},
 	{
+		"id": 11,
 		"name": "Matyb",
 		"local_path": "Matyb",
-		"profile_pic": "images/artists/profiles/profile_4x6.jpg",
-		"id": 11
+		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
+		"email": "",
+		"short_description": "",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			""
+		],
+		"socials": [
+			""
+		]
 	},
 	{
+		"id": 12,
 		"name": "KILL 9",
 		"local_path": "KILL-9",
-		"profile_pic": "images/artists/profiles/profile_4x6.jpg",
-		"id": 12
+		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
+		"email": "",
+		"short_description": "",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			""
+		],
+		"socials": [
+			""
+		]
 	},
 	{
+		"id": 13,
 		"name": "RetiredOrphan",
 		"local_path": "RetiredOrphan",
-		"profile_pic": "images/artists/profiles/profile_4x6.jpg",
-		"id": 13
+		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
+		"email": "",
+		"short_description": "",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			""
+		],
+		"socials": [
+			""
+		]
 	},
 	{
+		"id": 14,
 		"name": "Katie Hoffstatter",
 		"local_path": "Katie-Hoffstatter",
-		"profile_pic": "images/artists/profiles/profile_4x6.jpg",
-		"id": 14
+		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
+		"email": "",
+		"short_description": "",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			""
+		],
+		"socials": [
+			""
+		]
 	},
 	{
+		"id": 15,
 		"name": "Mova",
 		"local_path": "Mova",
-		"profile_pic": "images/artists/profiles/profile_4x6.jpg",
-		"id": 15
+		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
+		"email": "",
+		"short_description": "",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			""
+		],
+		"socials": [
+			""
+		]
 	}
 ]

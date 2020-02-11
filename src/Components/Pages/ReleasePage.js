@@ -6,7 +6,7 @@ import artistData from "../../constants/artistData.json";
 export default function ReleasePage() {
 	const locationObj = useLocation();
 	const location = locationObj.pathname.split("/")[2];
-	const currRelease = releaseData.find(i => i.local_path === location);
+	const currRelease = releaseData.find(i => i.local_path.toLowerCase() === location.toLowerCase());
 	const foundRelease = currRelease === undefined ? false : true;
 	return (
 		<div className="container">

@@ -29,7 +29,7 @@ export default function Home() {
 			</div>
 			<div className="row main-footer">
 				<div className="col">
-					<img src="WRCLabel.png" className="logo float-right" alt="logo" />
+					<img src="/WRCLabel.png" className="logo float-right" alt="logo" />
 				</div>
 			</div>
 		</div>
