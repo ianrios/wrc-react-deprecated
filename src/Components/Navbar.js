@@ -14,7 +14,7 @@ export default function Navbar(props) {
 		"Releases": ["Dot", true],
 		// "Services": ["Honeycomb", true],
 		// "Store": ["Cube", true],
-		// "Map": ["Blockchain", true],
+		// "Atlas": ["Blockchain", true],
 		"Contact": ["@", false],
 	}
 	const [textShadow, setTextShadow] = useState("");

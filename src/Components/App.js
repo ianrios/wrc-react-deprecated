@@ -6,6 +6,7 @@ import Q from './Q';
 import Navbar from './Navbar';
 // import Footer from './Footer';
 import Route from './Routes';
+import Logo from "./Logo";
 import './App.scss';
 
 export default function App() {
@@ -24,7 +25,10 @@ export default function App() {
 					:
 					<div className="body-main">
 						<Navbar />
-						<Route />
+						<div className="container">
+							<Route />
+							<Logo viewMain={viewMain} setViewMain={setViewMain} />
+						</div>
 						{/* <Footer /> */}
 					</div>
 				}

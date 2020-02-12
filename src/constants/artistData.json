@@ -4,12 +4,20 @@
 		"name": "whythough?",
 		"local_path": "whythough",
 		"profile_pic": "/images/artists/profiles/whythough_4x6.jpg",
+		"additional_photos": [
+			"/images/artists/whythough_ray.jpg",
+			"/images/artists/whythough_looking.JPG"
+		],
 		"email": "whythough000@gmail.com",
-		"short_description": "this is whythough",
+		"location": {
+			"city": "Lexington",
+			"country": "USA"
+		},
+		"short_description": "\"I make a lot of music, most of which is bad, but some of its ok, and the stuff that's ok is techno, which none of my friends like\"",
 		"body_paragraphs": [
-			"learn about whuthough by reading this text",
-			"another paragraph",
-			"add up to 5 of these, no more than 30 words each"
+			"whythough? is an electronic music producer who specializes in techno and club music. Originating from New Jersey, Ian Rios was exposed to electronic music from an early age. With roots in peruvian flutes and puerto rican rhythm, the Jersey Club scene is what initially brought Ian to more experimental genre bending music. ",
+			"Growing up, he listened to every style of music he could find including death metal, classical, 80s pop, ambient drones, jazz, salsa, germanic chants, progressive rock, rap, hip-hop, and of course, electronic dance music and all of its sub-generes. Fascinated with the interesting, new sounds of synthesizers, he began to dig deeper and find more artists that made music he enjoyed, building his library with 90s house and tech, all the way to mainstream edm and avant-garde machine noises. It wasn’t until going to college in Troy, NY, where Ian learned to DJ in a producer club for shows and parties. His love for crate digging is directly translated into his enjoyment of creating playlists to expose people to new music.",
+			"While initially starting out as a DJ, he quickly picked up mashups, then remixes, and finally, original tracks. Leading into 2018, he became interested in more experimental sounds, harder basses, and more technical rhythm patterns, taking inspiration from the music he grew up and loved. By taking ideas from other genres, Ian has attempted to blend all kinds of techniques to create new ways of imagining modern club and techno music in his own style."
 		],
 		"roles": [
 			"Singer",
@@ -20,9 +28,6 @@
 			"Audio Engineer",
 			"Mix Engineer",
 			"Mastering Engineer",
-			"Software Developer",
-			"Software Engineer",
-			"Computer Scientist",
 			"Web Developer",
 			"Graphic Designer",
 			"Label Boss"
@@ -36,7 +41,8 @@
 			"sc": "https://soundcloud.com/whythough",
 			"bc": "https://whythough.bandcamp.com/",
 			"sp": "https://open.spotify.com/artist/5bExMpC1oAwRNKC1Uam7h3",
-			"ap": "https://music.apple.com/us/artist/whythough/1331746031"
+			"ap": "https://music.apple.com/us/artist/whythough/1331746031",
+			"yt": "https://www.youtube.com/channel/UCw3TmavxJ-9ZYZBGCUzT2Eg"
 		}
 	},
 	{
@@ -44,7 +50,17 @@
 		"name": "dyl_pykl",
 		"local_path": "dyl_pykl",
 		"profile_pic": "/images/artists/profiles/dyl_pykl_4x6.jpg",
+		"additional_photos": [
+			"/images/artists/dyl_looking.jpg",
+			"/images/artists/dyl_dj.jpg",
+			"/images/artists/dyl_bathroom.jpg",
+			"/images/artists/dyl_asdf.jpg"
+		],
 		"email": "",
+		"location": {
+			"city": "",
+			"country": "USA"
+		},
 		"short_description": "",
 		"body_paragraphs": [
 			""
@@ -52,16 +68,32 @@
 		"roles": [
 			""
 		],
-		"socials": [
-			""
-		]
+		"social_platforms": {
+			"tw": "https://twitter.com/dyl_pyklmusic",
+			"ig": "https://www.instagram.com/dyl_pyklmusic/",
+			"fb": "https://www.facebook.com/dylpykl/"
+		},
+		"music_platforms": {
+			"sc": "https://soundcloud.com/dyl_pykl",
+			"bc": "https://gate.sc/?url=https%3A%2F%2Fdylpykl.bandcamp.com%2F&token=c00b9c-1-1581532055312",
+			"sp": "https://open.spotify.com/artist/04B8aI0pYyogRu2RQECr6T",
+			"ap": "https://music.apple.com/us/artist/dyl-pykl/1331746053"
+		}
 	},
 	{
 		"id": 3,
 		"name": "StratosFear",
 		"local_path": "StratosFear",
 		"profile_pic": "/images/artists/profiles/stratosfear_4x6.jpg",
-		"email": "",
+		"additional_photos": [
+			"/images/artists/",
+			"/images/artists/"
+		],
+		"email": "stratosfear007@gmail.com",
+		"location": {
+			"city": "Lincoln",
+			"country": "USA"
+		},
 		"short_description": "",
 		"body_paragraphs": [
 			""
@@ -69,16 +101,32 @@
 		"roles": [
 			""
 		],
-		"socials": [
-			""
-		]
+		"social_platforms": {
+			"tw": "https://twitter.com/Stratos_Fear",
+			"ig": "https://www.instagram.com/stratosfearmusic/",
+			"fb": "https://gate.sc/?url=https%3A%2F%2Fwww.facebook.com%2FStratosFearMusic&token=b3b2d4-1-1581532272724"
+		},
+		"music_platforms": {
+			"sc": "https://soundcloud.com/stratosfear-music",
+			"bc": "",
+			"sp": "",
+			"ap": ""
+		}
 	},
 	{
 		"id": 4,
 		"name": "Fohrenbach",
 		"local_path": "Fohrenbach",
 		"profile_pic": "/images/artists/profiles/fohrenbach_4x6.png",
+		"additional_photos": [
+			"",
+			"/images/artists/"
+		],
 		"email": "",
+		"location": {
+			"city": "",
+			"country": "USA"
+		},
 		"short_description": "",
 		"body_paragraphs": [
 			""
@@ -86,16 +134,32 @@
 		"roles": [
 			""
 		],
-		"socials": [
-			""
-		]
+		"social_platforms": {
+			"tw": "https://twitter.com/Fohrenbach",
+			"ig": "",
+			"fb": ""
+		},
+		"music_platforms": {
+			"sc": "https://soundcloud.com/fohrenbach",
+			"bc": "",
+			"sp": "https://open.spotify.com/artist/6oThJNc7S13BdyAf5GCJCh",
+			"ap": ""
+		}
 	},
 	{
 		"id": 5,
 		"name": "svnteen",
 		"local_path": "svnteen",
 		"profile_pic": "/images/artists/profiles/svnteen_4x6.jpg",
-		"email": "",
+		"additional_photos": [
+			"",
+			"/images/artists/"
+		],
+		"email": " svnteenmusic@gmail.com",
+		"location": {
+			"city": "",
+			"country": "USA"
+		},
 		"short_description": "",
 		"body_paragraphs": [
 			""
@@ -103,16 +167,33 @@
 		"roles": [
 			""
 		],
-		"socials": [
-			""
-		]
+		"social_platforms": {
+			"tw": "https://twitter.com/svnteenmusic",
+			"ig": "",
+			"fb": ""
+		},
+		"music_platforms": {
+			"sc": "https://soundcloud.com/svnteen",
+			"s2": "https://soundcloud.com/svnteen-goodie-bag",
+			"bc": "",
+			"sp": "",
+			"ap": ""
+		}
 	},
 	{
 		"id": 6,
 		"name": "Ezra Parker",
 		"local_path": "Ezra-Parker",
 		"profile_pic": "/images/artists/profiles/ezra_parker_4x6.png",
+		"additional_photos": [
+			"",
+			"/images/artists/"
+		],
 		"email": "",
+		"location": {
+			"city": "",
+			"country": "USA"
+		},
 		"short_description": "",
 		"body_paragraphs": [
 			""
@@ -120,16 +201,32 @@
 		"roles": [
 			""
 		],
-		"socials": [
-			""
-		]
+		"social_platforms": {
+			"tw": "",
+			"ig": "",
+			"fb": ""
+		},
+		"music_platforms": {
+			"sc": "https://soundcloud.com/ezraparker",
+			"bc": "",
+			"sp": "",
+			"ap": ""
+		}
 	},
 	{
 		"id": 7,
 		"name": "LoM",
 		"local_path": "LoM",
 		"profile_pic": "/images/artists/profiles/lom_4x6.png",
+		"additional_photos": [
+			"",
+			"/images/artists/"
+		],
 		"email": "",
+		"location": {
+			"city": "",
+			"country": "USA"
+		},
 		"short_description": "",
 		"body_paragraphs": [
 			""
@@ -137,16 +234,32 @@
 		"roles": [
 			""
 		],
-		"socials": [
-			""
-		]
+		"social_platforms": {
+			"tw": "",
+			"ig": "",
+			"fb": ""
+		},
+		"music_platforms": {
+			"sc": "https://soundcloud.com/lom_music",
+			"bc": "",
+			"sp": "https://open.spotify.com/artist/4TtwSpUTK7KAvDbOZuN4HP",
+			"ap": ""
+		}
 	},
 	{
 		"id": 8,
 		"name": "oFoot",
 		"local_path": "oFoot",
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
-		"email": "",
+		"additional_photos": [
+			"",
+			"/images/artists/"
+		],
+		"email": "ofoot@hotmail.com",
+		"location": {
+			"city": "",
+			"country": "USA"
+		},
 		"short_description": "",
 		"body_paragraphs": [
 			""
@@ -154,16 +267,32 @@
 		"roles": [
 			""
 		],
-		"socials": [
-			""
-		]
+		"social_platforms": {
+			"tw": "",
+			"ig": "",
+			"fb": ""
+		},
+		"music_platforms": {
+			"sc": "https://soundcloud.com/ofoot",
+			"bc": "",
+			"sp": "",
+			"ap": ""
+		}
 	},
 	{
 		"id": 9,
 		"name": "Weeping Sun",
 		"local_path": "Weeping-Sun",
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
+		"additional_photos": [
+			"",
+			"/images/artists/"
+		],
 		"email": "",
+		"location": {
+			"city": "",
+			"country": "USA"
+		},
 		"short_description": "",
 		"body_paragraphs": [
 			""
@@ -171,16 +300,32 @@
 		"roles": [
 			""
 		],
-		"socials": [
-			""
-		]
+		"social_platforms": {
+			"tw": "",
+			"ig": "",
+			"fb": ""
+		},
+		"music_platforms": {
+			"sc": "https://soundcloud.com/weeping-sun",
+			"bc": "",
+			"sp": "https://open.spotify.com/artist/56mF4NaRrP5QQo82Ynxupv",
+			"ap": ""
+		}
 	},
 	{
 		"id": 10,
 		"name": "DJ Yunomi",
 		"local_path": "DJ-Yunomi",
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
+		"additional_photos": [
+			"",
+			"/images/artists/"
+		],
 		"email": "",
+		"location": {
+			"city": "",
+			"country": "USA"
+		},
 		"short_description": "",
 		"body_paragraphs": [
 			""
@@ -188,16 +333,32 @@
 		"roles": [
 			""
 		],
-		"socials": [
-			""
-		]
+		"social_platforms": {
+			"tw": "",
+			"ig": "",
+			"fb": ""
+		},
+		"music_platforms": {
+			"sc": "https://soundcloud.com/djmeniacle",
+			"bc": "",
+			"sp": "https://open.spotify.com/artist/7hD6edlYR4wFEHRzSYvYng",
+			"ap": ""
+		}
 	},
 	{
 		"id": 11,
 		"name": "Matyb",
 		"local_path": "Matyb",
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
+		"additional_photos": [
+			"",
+			"/images/artists/"
+		],
 		"email": "",
+		"location": {
+			"city": "",
+			"country": "USA"
+		},
 		"short_description": "",
 		"body_paragraphs": [
 			""
@@ -205,16 +366,32 @@
 		"roles": [
 			""
 		],
-		"socials": [
-			""
-		]
+		"social_platforms": {
+			"tw": "",
+			"ig": "",
+			"fb": ""
+		},
+		"music_platforms": {
+			"sc": "https://soundcloud.com/matybeats",
+			"bc": "",
+			"sp": "",
+			"ap": ""
+		}
 	},
 	{
 		"id": 12,
 		"name": "KILL 9",
 		"local_path": "KILL-9",
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
+		"additional_photos": [
+			"",
+			"/images/artists/"
+		],
 		"email": "",
+		"location": {
+			"city": "",
+			"country": "Canada"
+		},
 		"short_description": "",
 		"body_paragraphs": [
 			""
@@ -222,33 +399,64 @@
 		"roles": [
 			""
 		],
-		"socials": [
-			""
-		]
+		"social_platforms": {
+			"tw": "",
+			"ig": "",
+			"fb": ""
+		},
+		"music_platforms": {
+			"sc": "https://soundcloud.com/kill9music",
+			"bc": "",
+			"sp": "",
+			"ap": ""
+		}
 	},
 	{
 		"id": 13,
 		"name": "RetiredOrphan",
 		"local_path": "RetiredOrphan",
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
+		"additional_photos": [
+			"",
+			"/images/artists/"
+		],
 		"email": "",
+		"location": {
+			"city": "Simi Valley",
+			"country": "USA"
+		},
 		"short_description": "",
 		"body_paragraphs": [
-			""
+			"Based in Simi Valley, California, RetiredOrphan is an electronic music project centered around heavy bass music genres like midtempo. The music producer continues to create the dark music he thrives for and presenting a new take on aggressive music."
 		],
 		"roles": [
-			""
+			"Producer"
 		],
-		"socials": [
-			""
-		]
+		"social_platforms": {
+			"tw": "https://twitter.com/RetiredOrphan",
+			"ig": "https://www.instagram.com/retiredorphan/"
+		},
+		"music_platforms": {
+			"sc": "https://soundcloud.com/retiredorphan",
+			"sp": "https://open.spotify.com/artist/6V3nQK9DukU16erRknwTUK",
+			"ap": "https://itunes.apple.com/us/artist/retiredorphan/1438972862",
+			"yt": "https://www.youtube.com/c/retiredorphan"
+		}
 	},
 	{
 		"id": 14,
 		"name": "Katie Hoffstatter",
 		"local_path": "Katie-Hoffstatter",
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
+		"additional_photos": [
+			"",
+			"/images/artists/"
+		],
 		"email": "",
+		"location": {
+			"city": "",
+			"country": ""
+		},
 		"short_description": "",
 		"body_paragraphs": [
 			""
@@ -256,16 +464,32 @@
 		"roles": [
 			""
 		],
-		"socials": [
-			""
-		]
+		"social_platforms": {
+			"tw": "",
+			"ig": "",
+			"fb": ""
+		},
+		"music_platforms": {
+			"sc": "https://soundcloud.com/katieeeee98",
+			"bc": "",
+			"sp": "",
+			"ap": ""
+		}
 	},
 	{
 		"id": 15,
 		"name": "Mova",
 		"local_path": "Mova",
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
+		"additional_photos": [
+			"",
+			"/images/artists/"
+		],
 		"email": "",
+		"location": {
+			"city": "Tbilisi",
+			"country": "Georgia"
+		},
 		"short_description": "",
 		"body_paragraphs": [
 			""
@@ -273,8 +497,16 @@
 		"roles": [
 			""
 		],
-		"socials": [
-			""
-		]
+		"social_platforms": {
+			"ig": "https://www.instagram.com/movasctr/",
+			"fb": "https://www.facebook.com/Mova97/",
+			"ra": "https://www.residentadvisor.net/profile/mova97"
+		},
+		"music_platforms": {
+			"sc": "https://soundcloud.com/mova97",
+			"bc": "https://bandcamp.com/search?q=mova",
+			"sp": "",
+			"ap": ""
+		}
 	}
 ]

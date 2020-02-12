@@ -10,11 +10,14 @@ export default function ArtistPage() {
 	const currArtist = artistData.find(i => i.local_path === location);
 	const foundArtist = currArtist === undefined ? false : true;
 
-	const mappedPTag = (props) => {
+	const mappedPTag = (props, className) => {
 		return (
 			props.map((item, idx) => {
 				return (
-					<p key={idx}>
+					<p
+						key={idx}
+						className={className}
+					>
 						{item}
 					</p>
 				)
@@ -26,16 +29,19 @@ export default function ArtistPage() {
 		return (
 			keys.map((item, idx) => {
 				return (
-					<p
-						key={idx}
-					>
+					<React.Fragment>
 						<a
+							key={idx}
 							target="_blank"
 							rel="noopener noreferrer"
 							href={props[item]}>
 							{item}
 						</a>
-					</p>
+						{
+							idx < keys.length - 1 ? " - " : null
+						}
+					</React.Fragment>
+
 				)
 			})
 		)
@@ -44,7 +50,7 @@ export default function ArtistPage() {
 
 
 	return (
-		<div className="container">
+		<React.Fragment>
 			<div className="row main-header">
 				<div className="col">
 					<h1 className="header-subpage">{foundArtist ? currArtist.name : "could not locate artist page"}</h1>
@@ -62,22 +68,42 @@ export default function ArtistPage() {
 									{currArtist.short_description}
 								</p>
 								{/* {mappedPTag(currArtist.roles)} */}
-								{/* {mappedPTag(currArtist.body_paragraphs)} */}
-								Social Platforms
-								{mappedATag(currArtist.social_platforms)}
-								Music Platforms
-								{mappedATag(currArtist.music_platforms)}
+								{mappedPTag(currArtist.body_paragraphs, "artist-bio-paragraphs")}
+								<div className="row">
+									<div className="col-md-6">
+										Social Platforms
+										<div>
+											{mappedATag(currArtist.social_platforms)}
+										</div>
+									</div>
+									<div className="col-md-6">
+										Music Platforms
+									<div>
+											{mappedATag(currArtist.music_platforms)}
+										</div>
+									</div>
+								</div>
+								<div className="row">
+									<div className="col">
+										<h5 className="h5-location-artist-page">{currArtist.location.city}, {currArtist.location.country}</h5>
+									</div>
+								</div>
+								<div className="row">
+									<div className="col">
+										<a className="email-link" href={`mailto:${currArtist.email}?Subject=Hello%20${currArtist.name}`}>{currArtist.email}</a>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div className="row main-footer">
-							<div className="col">
-								<img src="/WRCLabel.png" className="logo float-right" alt="logo" />
-							</div>
+						<div className="row artist-page-releases">
+
 						</div>
+
 					</React.Fragment>
 					:
 					null
 			}
-		</div>
+		</React.Fragment>
+
 	)
 }

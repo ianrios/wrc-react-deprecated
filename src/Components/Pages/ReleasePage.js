@@ -9,7 +9,7 @@ export default function ReleasePage() {
 	const currRelease = releaseData.find(i => i.local_path.toLowerCase() === location.toLowerCase());
 	const foundRelease = currRelease === undefined ? false : true;
 	return (
-		<div className="container">
+		<React.Fragment>
 			<div className="row main-header">
 				<div className="col">
 					<h1 className="header-subpage">{foundRelease ? currRelease.name : "could not locate release page"}</h1>
@@ -25,6 +25,6 @@ export default function ReleasePage() {
 					:
 					null
 			}
-		</div>
+		</React.Fragment>
 	)
 }

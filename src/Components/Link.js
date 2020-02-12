@@ -45,7 +45,7 @@ function chooseIcon(props, location) {
 					height={"35px"}
 					width={"35px"}
 				/>
-			case "Map":
+			case "Atlas":
 				return <Blockchain
 					className={`nav-icon ${location.pathname === props.to.toLowerCase() ? "nav-icon-active" : null}`}
 					height={"35px"}

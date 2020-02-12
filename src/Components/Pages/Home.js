@@ -1,12 +1,13 @@
 import React from 'react';
 import "./Home.scss"
+import Logo from "../Logo"
 
 
 export default function Home() {
 	const ran = Math.floor(Math.random() * (Math.floor(21) - Math.ceil(1))) + Math.ceil(1);
 	const source = "/images/landscapes/" + ran + ".jpg";
 	return (
-		<div className="container">
+		<React.Fragment>
 			<div className="row main-header">
 				<div className="col">
 					<h1 className="header-subpage">WHY? Record Company</h1>
@@ -27,11 +28,6 @@ export default function Home() {
 					</p>
 				</div>
 			</div>
-			<div className="row main-footer">
-				<div className="col">
-					<img src="/WRCLabel.png" className="logo float-right" alt="logo" />
-				</div>
-			</div>
-		</div>
+		</React.Fragment>
 	)
 }

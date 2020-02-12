@@ -1,0 +1,15 @@
+.artist-bio-paragraphs {
+  font-size: 0.65em;
+}
+@media only screen and (max-width: 991px) {
+  .artist-bio-paragraphs {
+    display: none;
+  }
+}
+
+.email-link {
+  font-size: 0.7em;
+}
+.h5-location-artist-page {
+  margin-top: 0.5em;
+}

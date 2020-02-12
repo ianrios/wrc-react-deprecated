@@ -33,6 +33,7 @@ export default function Releases() {
 		"CYCLE",
 		"MIX",
 		"RECORDINGS",
+		"Playlists",
 		"Independent",
 		"All"
 	].map((item, idx) => {
@@ -66,7 +67,7 @@ export default function Releases() {
 	const ReleaseMap = releaseData
 		.sort((a, b) => (a.release_date > b.release_date) ? -1 : ((a.release_date < b.release_date) ? 1 : 0))
 		.filter(i => {
-			if (filterArtists === 6) {
+			if (filterArtists === 7) {
 				return i
 			}
 			else if (filterArtists === 0) {
@@ -85,6 +86,9 @@ export default function Releases() {
 				return "recordings_label_number" in i
 			}
 			else if (filterArtists === 5) {
+				return "playlist_label_number" in i
+			}
+			else if (filterArtists === 6) {
 				return i.label_number.slice(0, 3) !== "WHY"
 			}
 			return null;
@@ -149,7 +153,7 @@ export default function Releases() {
 		});
 	return (
 		<React.Fragment>
-			<div className="container lock-scroll">
+			<div className=" lock-scroll">
 				<div className="row release-image-row">
 					<div className="col sidebar text-left" >
 						<div className="d-none d-lg-block desktop-filter">
