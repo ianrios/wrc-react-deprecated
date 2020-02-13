@@ -1,6 +1,5 @@
 import React from "react";
 import "./Contact.scss";
-import Logo from "../Logo"
 
 export default function Contact() {
 	return (

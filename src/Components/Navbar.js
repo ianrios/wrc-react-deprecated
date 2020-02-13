@@ -24,6 +24,7 @@ export default function Navbar(props) {
 	const mappedLinks = Object.keys(Links).map((item, idx) => {
 		return (
 			<Link
+				key={idx}
 				linksObj={Links}
 				iconHover={true}
 				icon={Links[item][1] ? item : false}
@@ -32,7 +33,6 @@ export default function Navbar(props) {
 				to={`/${item}`}
 				id={idx}
 				text={item}
-				key={idx}
 				textShadow={textShadow}
 				isText={!Links[item][1]}
 				lastItem={idx === (Object.keys(Links).length - 1)}

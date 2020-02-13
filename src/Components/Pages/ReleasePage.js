@@ -8,6 +8,13 @@ export default function ReleasePage() {
 	const location = locationObj.pathname.split("/")[2];
 	const currRelease = releaseData.find(i => i.local_path.toLowerCase() === location.toLowerCase());
 	const foundRelease = currRelease === undefined ? false : true;
+	const artistObj = {
+		"primaryArtist": artistData.find(i => i.id === currRelease.primary_artist_id),
+		"secondaryArtists": [],
+		"remixArtists": []
+	}
+	//artistData.filter(i => i.id === currRelease.secondary_artist_ids),
+
 	return (
 		<React.Fragment>
 			<div className="row main-header">
@@ -20,6 +27,9 @@ export default function ReleasePage() {
 					<div className="row">
 						<div className="col">
 							release info goes here
+							<p>
+								{artistObj.primaryArtist.name}
+							</p>
 						</div>
 					</div>
 					:

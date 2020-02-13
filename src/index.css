@@ -8,6 +8,7 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Questrial&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cormorant+SC&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz%43');
 @font-face {
 	font-family: 'Lovelyn';
@@ -15,4 +16,12 @@ code {
 	font-weight: normal;
 	font-style: normal;
 	unicode-range: U+0041-005A, U+0061-007A;
+}
+
+.questrial {
+	font-family: 'Questrial', sans-serif;
+}
+
+.didact-gothic {
+	font-family: 'Didact Gothic', sans-serif;
 }

@@ -1,7 +1,5 @@
 import React from 'react';
 import "./Home.scss"
-import Logo from "../Logo"
-
 
 export default function Home() {
 	const ran = Math.floor(Math.random() * (Math.floor(21) - Math.ceil(1))) + Math.ceil(1);

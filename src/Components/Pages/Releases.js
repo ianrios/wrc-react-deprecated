@@ -39,8 +39,8 @@ export default function Releases() {
 	].map((item, idx) => {
 		return (
 			<p
-				className={`filter-sidebar ${typeSwitch(item)} ${idx === filterArtists ? "active-link" : null}`}
 				key={idx}
+				className={`filter-sidebar ${typeSwitch(item)} ${idx === filterArtists ? "active-link" : null}`}
 				onClick={() => setFilterArtists(idx)}
 			>
 				{item}
@@ -50,13 +50,13 @@ export default function Releases() {
 	const secondaryMap = (props) => {
 		const secondaryArtists = props.filter(c => c === artistData.id);
 		// console.log(secondaryArtists)
-		const mappedSecondary = secondaryArtists.map(i => <p>{i}</p>)
+		const mappedSecondary = secondaryArtists.map((i, j) => <p key={j}>{i}</p>)
 		return (<div className="release-secondary-artists" >{mappedSecondary}</div>);
 	};
 	const remixMap = (props) => {
 		const remixArtists = props.filter(c => c === artistData.id);
 		// console.log(remixArtists)
-		const mappedRemix = remixArtists.map(i => <p>{i}</p>)
+		const mappedRemix = remixArtists.map((i, j) => <p key={j}>{i}</p>)
 		return (<div className="release-remixers">{mappedRemix}</div>);
 	};
 	// const linkMap = (props) => {
@@ -135,12 +135,10 @@ export default function Releases() {
 		.sort((a, b) => artistsObj[b] - artistsObj[a])
 		.map((item, idx) => {
 			const currArtist = artistData.find(a => a.name === item);
-			console.log(currArtist)
-
 			return (
 				<p
-					className="filtered-artists"
 					key={idx}
+					className="filtered-artists"
 				>
 					<Link
 						className="link-filtered-artists"

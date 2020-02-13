@@ -24,14 +24,18 @@ export default function ArtistPage() {
 			})
 		)
 	}
+	const mappedImgTag = (props) => {
+		console.log(props)
+	}
 	const mappedATag = (props) => {
 		const keys = Object.keys(props);
 		return (
 			keys.map((item, idx) => {
 				return (
-					<React.Fragment>
+					<React.Fragment
+						key={idx}
+					>
 						<a
-							key={idx}
 							target="_blank"
 							rel="noopener noreferrer"
 							href={props[item]}>
@@ -96,7 +100,7 @@ export default function ArtistPage() {
 							</div>
 						</div>
 						<div className="row artist-page-releases">
-
+							{mappedImgTag(releaseData.filter(i => i.primary_artist_id === currArtist.id))}
 						</div>
 
 					</React.Fragment>
