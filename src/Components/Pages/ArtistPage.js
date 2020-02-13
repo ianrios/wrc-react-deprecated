@@ -1,5 +1,5 @@
 import React from 'react'
-import { useLocation } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
 import releaseData from "../../constants/releaseData.json";
 import artistData from "../../constants/artistData.json";
 import "./ArtistPage.scss";
@@ -16,7 +16,7 @@ export default function ArtistPage() {
 				return (
 					<p
 						key={idx}
-						className={className}
+						className={`questrial text-left ${className}`}
 					>
 						{item}
 					</p>
@@ -24,8 +24,21 @@ export default function ArtistPage() {
 			})
 		)
 	}
-	const mappedImgTag = (props) => {
+	const mappedImgCol = (props) => {
 		console.log(props)
+		return props.map((a, i) => {
+
+			return (
+				<div className="col-4 col-md-3 text-center artist-page-album-art-container" key={i} >
+					<Link to={`/release/${a.local_path}`} className="artist-page-album-art-link">
+						<img alt={a.name} src={a.album_art} className="img-fluid artist-page-album-art" />
+						{/* <div className="artist-page-album-art-text-container"> */}
+							<span className="artist-page-album-art-text">{a.label_number}</span>
+						{/* </div> */}
+					</Link>
+				</div>
+			)
+		})
 	}
 	const mappedATag = (props) => {
 		const keys = Object.keys(props);
@@ -72,7 +85,10 @@ export default function ArtistPage() {
 									{currArtist.short_description}
 								</p>
 								{/* {mappedPTag(currArtist.roles)} */}
-								{mappedPTag(currArtist.body_paragraphs, "artist-bio-paragraphs")}
+								<div className="text-border">
+
+									{mappedPTag(currArtist.body_paragraphs, "artist-bio-paragraphs")}
+								</div>
 								<div className="row">
 									<div className="col-md-6">
 										Social Platforms
@@ -99,10 +115,31 @@ export default function ArtistPage() {
 								</div>
 							</div>
 						</div>
-						<div className="row artist-page-releases">
-							{mappedImgTag(releaseData.filter(i => i.primary_artist_id === currArtist.id))}
+						<div className="row">
+							<div className="col">
+								<h1 className="header-second-row">
+									Release Appearances
+								</h1>
+							</div>
 						</div>
+						<div className="row artist-page-releases">
+							{mappedImgCol(releaseData.filter(i => {
+								if (i.primary_artist_id === currArtist.id) {
+									return i
+								}
+								for (let j of i.secondary_artist_ids) {
+									if (j === currArtist.id) {
+										return i
+									}
+								}
+								for (let j of i.remix_artist_ids) {
+									if (j === currArtist.id) {
+										return i
+									}
+								}
+							}))}
 
+						</div>
 					</React.Fragment>
 					:
 					null

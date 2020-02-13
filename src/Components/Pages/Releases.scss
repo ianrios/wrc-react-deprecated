@@ -51,39 +51,6 @@
     margin-bottom: 500px;
   }
 }
-.release-image-centered-hover-text {
-  //   display: none;
-
-  // transform: translate(-50%, -50%);
-
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  opacity: 0;
-  padding-top: 30%;
-}
-.release-image-centered-hover-text p {
-  margin: 0px;
-}
-.release-image-centered-hover-text:hover {
-  opacity: 1;
-  //   display: block;
-}
-.image-hover-release-info-container img {
-  display: block;
-  position: relative;
-}
-.image-hover-release-info-container {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  cursor: default;
-}
-
 .all-label {
 }
 .wrc-label {
@@ -114,6 +81,33 @@ a:active {
   //   color: #bfacaa;
 }
 
+.release-image-centered-hover-text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  opacity: 0;
+  padding-top: 30%;
+}
+.release-image-centered-hover-text p {
+  margin: 0px;
+}
+.release-image-centered-hover-text:hover {
+  opacity: 1;
+}
+.image-hover-release-info-container img {
+  display: block;
+  position: relative;
+}
+.image-hover-release-info-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
 .image-hover-release-info-container:hover {
   .release-image {
     filter: blur(4px);

@@ -30,6 +30,7 @@
 			"Mastering Engineer",
 			"Web Developer",
 			"Graphic Designer",
+			"DJ",
 			"Label Boss"
 		],
 		"social_platforms": {
@@ -56,17 +57,27 @@
 			"/images/artists/dyl_bathroom.jpg",
 			"/images/artists/dyl_asdf.jpg"
 		],
-		"email": "",
+		"email": "dylpyklmusic@gmail.com",
 		"location": {
-			"city": "",
+			"city": "Pheonix",
 			"country": "USA"
 		},
-		"short_description": "",
+		"short_description": "\"Everybody makes art.\"",
 		"body_paragraphs": [
-			""
+			"Famed, fabled, and frequently berated, dyl_pykl began his lifelong downhill musical tumble at the age of 5, when he picked up the piano at the suggestion of his parents, and threw it across the room with incredible strength. Their insistence that he pursue bodybuilding, however, conflicted with the song in his soul, and he vowed never to destroy another musical instrument, with the exception of any viola. It's just a violin.",
+			"He came of age in Alaska where he was first exposed to electronic music, expanding his mind to include fake and terrible music as well as REAL music played on REAL instruments. That's when he became a \"multi-instrumentalist\" and acted like a huge dick just because he bought a garbage Jackson bass and learned the line to \"Just An Old Fashioned Love Song\" by Three Dog Night, a song that no one even listens to anymore. (shoutout Three Dog Night though)",
+			"dyl_pykl attended college in New York and started producing music while part of a club at his university known as PULSE, sometimes called \"People Using Live Software And Electronics\" but more often referred to as \"Pinheads Unmaking Lighting and Sound Equipment\" and twice a year publicly as \"People Undergoing Loud Sound Euthanasia.\" He developed a taste for music that people usually only listen to at three in the morning on drugs, even though it was 1:30 in the afternoon on a Tuesday in the library. He perfected his skills at Youtube University because only idiots go to music school. He now lives in Phoenix, Arizona."
 		],
 		"roles": [
-			""
+			"Producer",
+			"Mix Engineer",
+			"Mastering Engineer",
+			"Recording Engineer",
+			"Songwriter",
+			"Sound Designer",
+			"Audio Engineer",
+			"DJ",
+			"Live Musician"
 		],
 		"social_platforms": {
 			"tw": "https://twitter.com/dyl_pyklmusic",
@@ -75,7 +86,7 @@
 		},
 		"music_platforms": {
 			"sc": "https://soundcloud.com/dyl_pykl",
-			"bc": "https://gate.sc/?url=https%3A%2F%2Fdylpykl.bandcamp.com%2F&token=c00b9c-1-1581532055312",
+			"bc": "https://dylpykl.bandcamp.com/",
 			"sp": "https://open.spotify.com/artist/04B8aI0pYyogRu2RQECr6T",
 			"ap": "https://music.apple.com/us/artist/dyl-pykl/1331746053"
 		}
@@ -119,31 +130,40 @@
 		"local_path": "Fohrenbach",
 		"profile_pic": "/images/artists/profiles/fohrenbach_4x6.png",
 		"additional_photos": [
-			"",
-			"/images/artists/"
+			"/images/artists/",
+			""
 		],
-		"email": "",
+		"email": "robertfohrenbach@gmail.com",
 		"location": {
-			"city": "",
+			"city": "Miami",
 			"country": "USA"
 		},
-		"short_description": "",
+		"short_description": "\" हरे कृष्ण \"",
 		"body_paragraphs": [
-			""
+			"Unexplored frontiers of sound in electronic and instrumental hip-hop ||"
 		],
 		"roles": [
-			""
+			"Producer",
+			"Mix Engineer",
+			"Mastering Engineer",
+			"Songwriter",
+			"Sound Designer",
+			"Audio Engineer",
+			"DJ",
+			"Live Musician",
+			"Yogi"
 		],
 		"social_platforms": {
 			"tw": "https://twitter.com/Fohrenbach",
-			"ig": "",
-			"fb": ""
+			"ig": "https://www.instagram.com/bobbyfohrenbach/",
+			"fb": "https://www.facebook.com/Fohrenbach/"
 		},
 		"music_platforms": {
 			"sc": "https://soundcloud.com/fohrenbach",
-			"bc": "",
 			"sp": "https://open.spotify.com/artist/6oThJNc7S13BdyAf5GCJCh",
-			"ap": ""
+			"dz": "https://www.deezer.com/us/artist/15282653",
+			"ap": "https://music.apple.com/us/artist/fohrenbach/1407573462",
+			"yt": "https://www.youtube.com/channel/UC1DbZbwVKpfhdmqOxxymu3Q"
 		}
 	},
 	{
@@ -152,8 +172,8 @@
 		"local_path": "svnteen",
 		"profile_pic": "/images/artists/profiles/svnteen_4x6.jpg",
 		"additional_photos": [
-			"",
-			"/images/artists/"
+			"/images/artists/",
+			""
 		],
 		"email": " svnteenmusic@gmail.com",
 		"location": {
@@ -186,8 +206,8 @@
 		"local_path": "Ezra-Parker",
 		"profile_pic": "/images/artists/profiles/ezra_parker_4x6.png",
 		"additional_photos": [
-			"",
-			"/images/artists/"
+			"/images/artists/",
+			""
 		],
 		"email": "",
 		"location": {
@@ -219,8 +239,8 @@
 		"local_path": "LoM",
 		"profile_pic": "/images/artists/profiles/lom_4x6.png",
 		"additional_photos": [
-			"",
-			"/images/artists/"
+			"/images/artists/",
+			""
 		],
 		"email": "",
 		"location": {
@@ -252,8 +272,8 @@
 		"local_path": "oFoot",
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"additional_photos": [
-			"",
-			"/images/artists/"
+			"/images/artists/",
+			""
 		],
 		"email": "ofoot@hotmail.com",
 		"location": {
@@ -285,8 +305,8 @@
 		"local_path": "Weeping-Sun",
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"additional_photos": [
-			"",
-			"/images/artists/"
+			"/images/artists/",
+			""
 		],
 		"email": "",
 		"location": {
@@ -318,8 +338,8 @@
 		"local_path": "DJ-Yunomi",
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"additional_photos": [
-			"",
-			"/images/artists/"
+			"/images/artists/",
+			""
 		],
 		"email": "",
 		"location": {
@@ -351,8 +371,8 @@
 		"local_path": "Matyb",
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"additional_photos": [
-			"",
-			"/images/artists/"
+			"/images/artists/",
+			""
 		],
 		"email": "",
 		"location": {
@@ -384,8 +404,8 @@
 		"local_path": "KILL-9",
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"additional_photos": [
-			"",
-			"/images/artists/"
+			"/images/artists/",
+			""
 		],
 		"email": "",
 		"location": {
@@ -417,8 +437,8 @@
 		"local_path": "RetiredOrphan",
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"additional_photos": [
-			"",
-			"/images/artists/"
+			"/images/artists/",
+			""
 		],
 		"email": "",
 		"location": {
@@ -449,8 +469,8 @@
 		"local_path": "Katie-Hoffstatter",
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"additional_photos": [
-			"",
-			"/images/artists/"
+			"/images/artists/",
+			""
 		],
 		"email": "",
 		"location": {
@@ -482,8 +502,8 @@
 		"local_path": "Mova",
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"additional_photos": [
-			"",
-			"/images/artists/"
+			"/images/artists/",
+			""
 		],
 		"email": "",
 		"location": {
