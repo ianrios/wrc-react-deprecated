@@ -94,8 +94,21 @@ export default function Releases() {
 			return null;
 		})
 		.map((item, idx) => {
+			const firstArtist = item.primary_artist_ids[0];
+			const currArtists = item.primary_artist_ids.map((i, j) => {
+				return (
+					<React.Fragment>
+						<Link to={`/artist/${artistData[i - 1].local_path}`}>
+							{artistData[i - 1].name}
+						</Link>
+						<span className="white-text">
+							{`${j < item.primary_artist_ids.length - 1 ? ", " : ""}`}
+						</span>
+					</React.Fragment>)
+			});
 			const currArtist = artistData.filter(c => item.primary_artist_id === c.id)[0];
-			const currArtistName = currArtist.name;
+			const currArtist1 = artistData.filter(c => firstArtist === c.id)[0];
+			const currArtistName = firstArtist.name;
 			if (currArtistName in artistsObj) {
 				artistsObj[currArtistName]++;
 			}
@@ -129,8 +142,8 @@ export default function Releases() {
 							</Link>
 						</h2>
 						<h3 className="">{/* //artist-name-release */}
-							<Link to={`/artist/${currArtist.local_path}`} >
-								{currArtistName}
+							<Link to={`/artist/${item.local_path}`} >
+								{currArtists}
 							</Link>
 						</h3>
 						<h6 className="release-id">{item.label_number}</h6>
@@ -142,7 +155,7 @@ export default function Releases() {
 	const filteredArtists = Object.keys(artistsObj)
 		.sort((a, b) => artistsObj[b] - artistsObj[a])
 		.map((item, idx) => {
-			const currArtist = artistData.find(a => a.name === item);
+			// const currArtist = artistData.find(a => a.name === item);
 			return (
 				<p
 					key={idx}
@@ -150,7 +163,7 @@ export default function Releases() {
 				>
 					<Link
 						className="link-filtered-artists"
-						to={`/artist/${currArtist.local_path}`}
+
 					>
 						{item} - {artistsObj[item]}
 					</Link>

@@ -11,11 +11,11 @@ export default function ReleasePage() {
 	console.log(currRelease)
 	const foundRelease = currRelease === undefined ? false : true;
 
-	const artistObj = {
-		"primaryArtist": foundRelease ? artistData.find(i => i.id === currRelease.primary_artist_id) : "not found",
-		"secondaryArtists": [],
-		"remixArtists": []
-	}
+	// const artistObj = {
+	// 	"primaryArtists": foundRelease ? artistData.find(i => i.id === currRelease.primary_artist_id) : "not found",
+	// 	"secondaryArtists": [],
+	// 	"remixArtists": []
+	// }
 	//artistData.filter(i => i.id === currRelease.secondary_artist_ids),
 
 	const mappedPTag = (props, className) => {
@@ -74,7 +74,13 @@ export default function ReleasePage() {
 							</div>
 							<div className="col-6">
 								<h1>
-									{artistObj.primaryArtist.name}
+									{
+										currRelease.primary_artist_ids.map(
+											(i, j) => {
+												return `${artistData[i - 1].name}${j < currRelease.primary_artist_ids.length - 1 ? ", " : ""}`
+											}
+										)
+									}
 								</h1>
 								<p>
 									{currRelease.short_description}

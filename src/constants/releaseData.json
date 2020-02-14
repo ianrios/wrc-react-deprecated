@@ -14,11 +14,12 @@
 			"Mixed By Robert Dylan Smock & Ian Rios",
 			"Mastered By Ian Rios (whythough?)"
 		],
-		"primary_artist_id": 14,
-		"secondary_artist_ids": [
+		"primary_artist_ids": [
+			14,
 			2,
 			11
 		],
+		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
 			"sp": "http://open.spotify.com/album/2GrfzUIU52bnMgnhKUSXHt"
@@ -38,7 +39,9 @@
 			"\"A12A2\" by Mova, with remix by whythough?",
 			"A WRC Blue Label Release"
 		],
-		"primary_artist_id": 15,
+		"primary_artist_ids": [
+			15
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [
 			1
@@ -62,7 +65,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 2,
+		"primary_artist_ids": [
+			2
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -80,7 +85,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 4,
+		"primary_artist_ids": [
+			4
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -98,7 +105,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 5,
+		"primary_artist_ids": [
+			5
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -117,7 +126,9 @@
 			""
 		],
 		"cycle_label_number": 3.5,
-		"primary_artist_id": 8,
+		"primary_artist_ids": [
+			8
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -136,7 +147,9 @@
 			""
 		],
 		"cycle_label_number": 3,
-		"primary_artist_id": 8,
+		"primary_artist_ids": [
+			8
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -155,7 +168,9 @@
 			""
 		],
 		"blue_label_number": 1,
-		"primary_artist_id": 4,
+		"primary_artist_ids": [
+			4
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -173,7 +188,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 1,
+		"primary_artist_ids": [
+			1
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -191,7 +208,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 13,
+		"primary_artist_ids": [
+			13
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [
 			1
@@ -211,7 +230,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 5,
+		"primary_artist_ids": [
+			5
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -229,9 +250,11 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 2,
+		"primary_artist_ids": [
+			2,
+			1
+		],
 		"secondary_artist_ids": [
-			1,
 			14
 		],
 		"remix_artist_ids": [],
@@ -251,7 +274,9 @@
 			""
 		],
 		"cycle_label_number": 2,
-		"primary_artist_id": 5,
+		"primary_artist_ids": [
+			5
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -269,7 +294,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 5,
+		"primary_artist_ids": [
+			5
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -288,7 +315,9 @@
 			""
 		],
 		"cycle_label_number": 1,
-		"primary_artist_id": 1,
+		"primary_artist_ids": [
+			1
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -306,7 +335,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 1,
+		"primary_artist_ids": [
+			1
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [
 			2
@@ -326,9 +357,16 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 1,
+		"primary_artist_ids": [
+			1
+		],
 		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
+		"remix_artist_ids": [
+			3,
+			4,
+			17,
+			21
+		],
 		"links": {
 			"sc": "https://soundcloud.com/whythough/sets/exco-remixes"
 		}
@@ -344,8 +382,13 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 7,
-		"secondary_artist_ids": [],
+		"primary_artist_ids": [
+			7
+		],
+		"secondary_artist_ids": [
+			2,
+			10
+		],
 		"remix_artist_ids": [
 			1,
 			2
@@ -365,7 +408,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 1,
+		"primary_artist_ids": [
+			1
+		],
 		"secondary_artist_ids": [
 			2,
 			3,
@@ -396,10 +441,11 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 2,
-		"secondary_artist_ids": [
+		"primary_artist_ids": [
+			2,
 			1
 		],
+		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
 			"sp": "https://open.spotify.com/album/6c75kIjs94SmpYXVFF16sa?si=NcIcPtw3QCew40VmnFQXKQ"
@@ -416,7 +462,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 6,
+		"primary_artist_ids": [
+			6
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -434,10 +482,11 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 2,
-		"secondary_artist_ids": [
+		"primary_artist_ids": [
+			2,
 			1
 		],
+		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
 			"sc": "https://soundcloud.com/whythough/jamie-xx-remix"
@@ -454,10 +503,11 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 10,
-		"secondary_artist_ids": [
+		"primary_artist_ids": [
+			10,
 			1
 		],
+		"secondary_artist_ids": [],
 		"remix_artist_ids": [
 			1,
 			10,
@@ -478,9 +528,13 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 2,
+		"primary_artist_ids": [
+			2
+		],
 		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
+		"remix_artist_ids": [
+			1
+		],
 		"links": {
 			"sc": "https://soundcloud.com/dyl_pykl/sets/ganymede-the-late-heavy-bombardment"
 		}
@@ -496,7 +550,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 5,
+		"primary_artist_ids": [
+			5
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -514,7 +570,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 4,
+		"primary_artist_ids": [
+			4
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [
 			1,
@@ -535,10 +593,11 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 10,
-		"secondary_artist_ids": [
+		"primary_artist_ids": [
+			10,
 			1
 		],
+		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
 			"sp": "https://open.spotify.com/album/5sRQj33m7MwGOJ6YmgNLo0?si=o3SXR-X9SkiDw1mxlF3PTg"
@@ -555,7 +614,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 1,
+		"primary_artist_ids": [
+			1
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -573,8 +634,13 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 7,
-		"secondary_artist_ids": [],
+		"primary_artist_ids": [
+			7
+		],
+		"secondary_artist_ids": [
+			2,
+			10
+		],
 		"remix_artist_ids": [],
 		"links": {
 			"sp": "https://open.spotify.com/album/4TgkJydsArX79d5jWhafUq?si=kuKuyW8cSaq6oLHU0FBhBA"
@@ -591,7 +657,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 2,
+		"primary_artist_ids": [
+			2
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -609,8 +677,13 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 1,
-		"secondary_artist_ids": [],
+		"primary_artist_ids": [
+			1
+		],
+		"secondary_artist_ids": [
+			2,
+			3
+		],
 		"remix_artist_ids": [],
 		"links": {
 			"sp": "https://open.spotify.com/album/7tzFHjNrgCfXcNRnu8R5Jh?si=o7zbIGo8Q5mrWuLarTWMIQ"
@@ -627,8 +700,12 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 2,
-		"secondary_artist_ids": [],
+		"primary_artist_ids": [
+			14
+		],
+		"secondary_artist_ids": [
+			2
+		],
 		"remix_artist_ids": [],
 		"links": {
 			"sp": "https://open.spotify.com/album/38wPM7PITg60MxBJE85FI2?si=CksW_0RERwSaiaRb--LKBw"
@@ -645,7 +722,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 2,
+		"primary_artist_ids": [
+			2
+		],
 		"secondary_artist_ids": [
 			11
 		],
@@ -665,7 +744,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 1,
+		"primary_artist_ids": [
+			1
+		],
 		"secondary_artist_ids": [
 			2,
 			3,
@@ -695,7 +776,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 1,
+		"primary_artist_ids": [
+			1
+		],
 		"secondary_artist_ids": [
 			2,
 			3,
@@ -717,7 +800,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 11,
+		"primary_artist_ids": [
+			11
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -735,7 +820,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 4,
+		"primary_artist_ids": [
+			4
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -753,7 +840,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 4,
+		"primary_artist_ids": [
+			4
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -771,7 +860,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 4,
+		"primary_artist_ids": [
+			4
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -789,7 +880,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 4,
+		"primary_artist_ids": [
+			4
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -807,7 +900,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 1,
+		"primary_artist_ids": [
+			1
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -825,10 +920,11 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 2,
-		"secondary_artist_ids": [
+		"primary_artist_ids": [
+			2,
 			1
 		],
+		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
 			"sc": "https://soundcloud.com/whythough/sets/just-call-ep"
@@ -845,7 +941,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 5,
+		"primary_artist_ids": [
+			5
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -863,7 +961,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 1,
+		"primary_artist_ids": [
+			1
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -881,7 +981,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 1,
+		"primary_artist_ids": [
+			1
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -899,7 +1001,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 2,
+		"primary_artist_ids": [
+			2
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [
 			1
@@ -919,7 +1023,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 2,
+		"primary_artist_ids": [
+			2
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -937,7 +1043,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 1,
+		"primary_artist_ids": [
+			1
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -955,7 +1063,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 1,
+		"primary_artist_ids": [
+			1
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
@@ -973,7 +1083,9 @@
 		"release_bio": [
 			""
 		],
-		"primary_artist_id": 1,
+		"primary_artist_ids": [
+			1
+		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {

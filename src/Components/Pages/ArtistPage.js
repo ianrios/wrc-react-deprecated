@@ -121,8 +121,10 @@ export default function ArtistPage() {
 						</div>
 						<div className="row artist-page-releases">
 							{mappedImgCol(releaseData.filter(i => {
-								if (i.primary_artist_id === currArtist.id) {
-									return i
+								for (let j of i.primary_artist_ids) {
+									if (j === currArtist.id) {
+										return i
+									}
 								}
 								for (let j of i.secondary_artist_ids) {
 									if (j === currArtist.id) {

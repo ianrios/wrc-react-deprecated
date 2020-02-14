@@ -633,12 +633,12 @@
 			""
 		],
 		"social_platforms": {
-"fb":"https://www.facebook.com/tofukkers",
-"ig":"https://www.instagram.com/tofuckers/",
-"tw":"https://twitter.com/tofukkers"
+			"fb": "https://www.facebook.com/tofukkers",
+			"ig": "https://www.instagram.com/tofuckers/",
+			"tw": "https://twitter.com/tofukkers"
 		},
 		"music_platforms": {
-			"sc":"https://soundcloud.com/tofukkers"
+			"sc": "https://soundcloud.com/tofukkers"
 		}
 	},
 	{
@@ -664,7 +664,33 @@
 		],
 		"social_platforms": {},
 		"music_platforms": {
-			"sc":"https://soundcloud.com/areacontrol"
+			"sc": "https://soundcloud.com/areacontrol"
+		}
+	},
+	{
+		"id": 21,
+		"name": "stft",
+		"local_path": "stft",
+		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
+		"additional_photos": [
+			"/images/artists/",
+			""
+		],
+		"email": "",
+		"location": {
+			"city": "",
+			"country": ""
+		},
+		"short_description": "",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			""
+		],
+		"social_platforms": {},
+		"music_platforms": {
+			"sc": "https://soundcloud.com/stft-productions"
 		}
 	}
 ]
