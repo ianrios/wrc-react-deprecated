@@ -1,5 +1,5 @@
 import React from 'react'
-import { useLocation } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
 import releaseData from "../../constants/releaseData.json";
 import artistData from "../../constants/artistData.json";
 import "./ReleasePage.scss"
@@ -77,7 +77,16 @@ export default function ReleasePage() {
 									{
 										currRelease.primary_artist_ids.map(
 											(i, j) => {
-												return `${artistData[i - 1].name}${j < currRelease.primary_artist_ids.length - 1 ? ", " : ""}`
+												return (
+													<React.Fragment>
+														<Link to={`/artist/${artistData[i - 1].local_path}`}>
+															{artistData[i - 1].name}
+														</Link>
+														<span className="white-text">
+															{`${j < currRelease.primary_artist_ids.length - 1 ? ", " : ""}`}
+														</span>
+													</React.Fragment>
+												)
 											}
 										)
 									}
