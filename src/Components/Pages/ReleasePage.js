@@ -8,7 +8,7 @@ export default function ReleasePage() {
 	const locationObj = useLocation();
 	const location = locationObj.pathname.split("/")[2];
 	const currRelease = releaseData.find(i => i.local_path.toLowerCase() === location.toLowerCase());
-	console.log(currRelease)
+	// console.log(currRelease)
 	const foundRelease = currRelease === undefined ? false : true;
 
 	// const artistObj = {
@@ -78,7 +78,7 @@ export default function ReleasePage() {
 										currRelease.primary_artist_ids.map(
 											(i, j) => {
 												return (
-													<React.Fragment>
+													<React.Fragment key={j}>
 														<Link to={`/artist/${artistData[i - 1].local_path}`} className="smaller-font-temp">
 															{artistData[i - 1].name}
 														</Link>

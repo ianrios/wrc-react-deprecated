@@ -120,7 +120,7 @@ export default function ArtistPage() {
 							</div>
 						</div>
 						<div className="row artist-page-releases">
-							{mappedImgCol(releaseData.filter(i => {
+						{mappedImgCol(releaseData.filter(i => {
 								for (let j of i.primary_artist_ids) {
 									if (j === currArtist.id) {
 										return i
@@ -136,6 +136,7 @@ export default function ArtistPage() {
 										return i
 									}
 								}
+								return null
 							}))}
 
 						</div>
