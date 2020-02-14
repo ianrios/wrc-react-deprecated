@@ -20,7 +20,6 @@
 			"While initially starting out as a DJ, he quickly picked up mashups, then remixes, and finally, original tracks. Leading into 2018, he became interested in more experimental sounds, harder basses, and more technical rhythm patterns, taking inspiration from the music he grew up and loved. By taking ideas from other genres, Ian has attempted to blend all kinds of techniques to create new ways of imagining modern club and techno music in his own style."
 		],
 		"roles": [
-			"Singer",
 			"Songwriter",
 			"Sound Designer",
 			"Producer",
@@ -31,6 +30,7 @@
 			"Web Developer",
 			"Graphic Designer",
 			"DJ",
+			"Promoter",
 			"Label Boss"
 		],
 		"social_platforms": {
@@ -177,27 +177,37 @@
 		],
 		"email": " svnteenmusic@gmail.com",
 		"location": {
-			"city": "",
+			"city": "Seattle",
 			"country": "USA"
 		},
-		"short_description": "",
+		"short_description": "\"we were homeschooled\"",
 		"body_paragraphs": [
-			""
+			"svnteen is a Producer/DJ duo consisting of StratosFear and whythough?. Originating from Troy, NY, svnteen began with a desire to play mashups and remixes of popular songs at frat parties and on the radio, but quickly turned into a love of creating original music.",
+			"Ranging from such generes as trap, dubstep, wave, lofi, and more, svnteen finds a way to blend all sorts of music to create electronic music fit for listening at home and crying yourself to sleep, to bashing your entire face in on the rail.",
+			"Since graduating college, svnteen has made music all across the country, currently finding residency in Seattle. Their music has been played worldwide and at festivals such as Tomorrowland and Ultra Music Festival."
 		],
 		"roles": [
-			""
+			"Songwriter",
+			"Sound Designer",
+			"Producer",
+			"Recording Engineer",
+			"Audio Engineer",
+			"Mix Engineer",
+			"Mastering Engineer",
+			"DJ"
 		],
 		"social_platforms": {
 			"tw": "https://twitter.com/svnteenmusic",
-			"ig": "",
-			"fb": ""
+			"ig": "https://www.instagram.com/svnteenmusic",
+			"fb": "https://www.facebook.com/svnteenmusic"
 		},
 		"music_platforms": {
 			"sc": "https://soundcloud.com/svnteen",
 			"s2": "https://soundcloud.com/svnteen-goodie-bag",
-			"bc": "",
-			"sp": "",
-			"ap": ""
+			"bc": "https://svnteen.bandcamp.com/releases",
+			"sp": "https://open.spotify.com/artist/6AuqPKirtUQMekQeKswZ8q",
+			"ap": "https://music.apple.com/us/artist/svnteen/id1431320753",
+			"au": "https://audius.co/svnteen"
 		}
 	},
 	{
@@ -211,10 +221,10 @@
 		],
 		"email": "",
 		"location": {
-			"city": "",
+			"city": "Troy",
 			"country": "USA"
 		},
-		"short_description": "",
+		"short_description": "dont look at the dj, only listen",
 		"body_paragraphs": [
 			""
 		],
@@ -527,6 +537,134 @@
 			"bc": "https://bandcamp.com/search?q=mova",
 			"sp": "",
 			"ap": ""
+		}
+	},
+	{
+		"id": 16,
+		"name": "eraserMice",
+		"local_path": "eraserMice",
+		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
+		"additional_photos": [
+			"/images/artists/",
+			""
+		],
+		"email": "",
+		"location": {
+			"city": "",
+			"country": ""
+		},
+		"short_description": "",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			""
+		],
+		"social_platforms": {},
+		"music_platforms": {}
+	},
+	{
+		"id": 17,
+		"name": "Eugene Umlor",
+		"local_path": "Eugene-Umlor",
+		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
+		"additional_photos": [
+			"/images/artists/",
+			""
+		],
+		"email": "",
+		"location": {
+			"city": "",
+			"country": ""
+		},
+		"short_description": "",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			""
+		],
+		"social_platforms": {},
+		"music_platforms": {}
+	},
+	{
+		"id": 18,
+		"name": "Quantopix",
+		"local_path": "Quantopix",
+		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
+		"additional_photos": [
+			"/images/artists/",
+			""
+		],
+		"email": "",
+		"location": {
+			"city": "",
+			"country": ""
+		},
+		"short_description": "",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			""
+		],
+		"social_platforms": {},
+		"music_platforms": {}
+	},
+	{
+		"id": 19,
+		"name": "tofukkers",
+		"local_path": "tofukkers",
+		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
+		"additional_photos": [
+			"/images/artists/",
+			""
+		],
+		"email": "",
+		"location": {
+			"city": "",
+			"country": ""
+		},
+		"short_description": "",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			""
+		],
+		"social_platforms": {
+"fb":"https://www.facebook.com/tofukkers",
+"ig":"https://www.instagram.com/tofuckers/",
+"tw":"https://twitter.com/tofukkers"
+		},
+		"music_platforms": {
+			"sc":"https://soundcloud.com/tofukkers"
+		}
+	},
+	{
+		"id": 20,
+		"name": "Area Control",
+		"local_path": "Area-Control",
+		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
+		"additional_photos": [
+			"/images/artists/",
+			""
+		],
+		"email": "",
+		"location": {
+			"city": "",
+			"country": ""
+		},
+		"short_description": "",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			""
+		],
+		"social_platforms": {},
+		"music_platforms": {
+			"sc":"https://soundcloud.com/areacontrol"
 		}
 	}
 ]

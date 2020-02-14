@@ -25,7 +25,7 @@ export default function Artists() {
 	})
 	return (
 		<React.Fragment>
-			<h1 className="header-subpage">Artists</h1>
+			<h1 className="header-sub-page">Artists</h1>
 			{ArtistsMap}
 		</React.Fragment>
 	)

@@ -7,7 +7,7 @@ import "./ArtistPage.scss";
 export default function ArtistPage() {
 	const locationObj = useLocation();
 	const location = locationObj.pathname.split("/")[2];
-	const currArtist = artistData.find(i => i.local_path === location);
+	const currArtist = artistData.find(i => i.local_path.toLowerCase() === location.toLowerCase());
 	const foundArtist = currArtist === undefined ? false : true;
 
 	const mappedPTag = (props, className) => {
@@ -25,15 +25,13 @@ export default function ArtistPage() {
 		)
 	}
 	const mappedImgCol = (props) => {
-		console.log(props)
 		return props.map((a, i) => {
-
 			return (
 				<div className="col-4 col-md-3 text-center artist-page-album-art-container" key={i} >
 					<Link to={`/release/${a.local_path}`} className="artist-page-album-art-link">
 						<img alt={a.name} src={a.album_art} className="img-fluid artist-page-album-art" />
 						{/* <div className="artist-page-album-art-text-container"> */}
-							<span className="artist-page-album-art-text">{a.label_number}</span>
+						<span className="artist-page-album-art-text colored-link white-text">{a.label_number}</span>
 						{/* </div> */}
 					</Link>
 				</div>
@@ -70,7 +68,7 @@ export default function ArtistPage() {
 		<React.Fragment>
 			<div className="row main-header">
 				<div className="col">
-					<h1 className="header-subpage">{foundArtist ? currArtist.name : "could not locate artist page"}</h1>
+					<h1 className="header-sub-page">{foundArtist ? currArtist.name : "could not locate artist page"}</h1>
 				</div>
 			</div>
 			{
@@ -86,7 +84,6 @@ export default function ArtistPage() {
 								</p>
 								{/* {mappedPTag(currArtist.roles)} */}
 								<div className="text-border">
-
 									{mappedPTag(currArtist.body_paragraphs, "artist-bio-paragraphs")}
 								</div>
 								<div className="row">
@@ -98,7 +95,7 @@ export default function ArtistPage() {
 									</div>
 									<div className="col-md-6">
 										Music Platforms
-									<div>
+										<div>
 											{mappedATag(currArtist.music_platforms)}
 										</div>
 									</div>

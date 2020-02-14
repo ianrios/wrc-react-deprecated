@@ -6,17 +6,23 @@
 		"label_number": "WHY034",
 		"album_art": "/images/releases/hcmb.jpg",
 		"release_date": "2020-03-06T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "House",
+		"release_bio": [
+			"The 34th release from WHY Record Company (WRC)- WHY034",
+			"\"He Called Me Beautiful\" by Katie Hoffstatter, dyl_pykl (Robert Dylan Smock), & Matyb (Matt Benjamin)",
+			"Recorded and Produced by Robert Dylan Smock & Matt Benjamin",
+			"Mixed By Robert Dylan Smock & Ian Rios",
+			"Mastered By Ian Rios (whythough?)"
+		],
 		"primary_artist_id": 14,
 		"secondary_artist_ids": [
 			2,
 			11
 		],
 		"remix_artist_ids": [],
-		"links": [
-			"http://open.spotify.com/album/2GrfzUIU52bnMgnhKUSXHt"
-		]
+		"links": {
+			"sp": "http://open.spotify.com/album/2GrfzUIU52bnMgnhKUSXHt"
+		}
 	},
 	{
 		"name": "A12A2",
@@ -26,14 +32,23 @@
 		"album_art": "/images/releases/A12A2.jpg",
 		"release_date": "2020-02-15T18:25:43.511Z",
 		"blue_label_number": 1,
-		"short_description": "",
-		"long_description": "",
+		"genre": "Schranz",
+		"release_bio": [
+			"The 33rd release from WHY? Record Company (WRC) - WHY033",
+			"\"A12A2\" by Mova, with remix by whythough?",
+			"A WRC Blue Label Release"
+		],
 		"primary_artist_id": 15,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [
 			1
 		],
-		"links": []
+		"links": {
+			"sp": "",
+			"ap": "",
+			"sc": "",
+			"bc": "https://whythough.bandcamp.com/album/a12a2"
+		}
 	},
 	{
 		"name": "WRC MIX 001",
@@ -43,14 +58,16 @@
 		"album_art": "/images/releases/MIX001.png",
 		"release_date": "2020-02-07T18:25:43.511Z",
 		"mix_label_number": 1,
-		"short_description": "",
-		"long_description": "",
+		"genre": "Techno",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 2,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			"https://www.mixcloud.com/PulseArtistCollective/wrc-mix-001-dyl_pykl-wrpi-guest-mix-2-7-2020/"
-		]
+		"links": {
+			"mc": "https://www.mixcloud.com/PulseArtistCollective/wrc-mix-001-dyl_pykl-wrpi-guest-mix-2-7-2020/"
+		}
 	},
 	{
 		"name": "The Time Has Come",
@@ -59,14 +76,16 @@
 		"label_number": "Independent",
 		"album_art": "/images/releases/the_time_has_come.jpg",
 		"release_date": "2020-02-01T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Hip-Hop Beats",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 4,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			"https://soundcloud.com/svnteen-goodie-bag/wttp"
-		]
+		"links": {
+			"sc": "https://soundcloud.com/svnteen-goodie-bag/wttp"
+		}
 	},
 	{
 		"name": "wttp (svnteen deep fried bootleg)",
@@ -75,14 +94,16 @@
 		"label_number": "Independent",
 		"album_art": "/images/releases/wttp.png",
 		"release_date": "2020-01-26T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Dubstep",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 5,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			"https://soundcloud.com/svnteen-goodie-bag/wttp"
-		]
+		"links": {
+			"sc": "https://soundcloud.com/svnteen-goodie-bag/wttp"
+		}
 	},
 	{
 		"name": "CYCLE003: The Stems",
@@ -91,15 +112,17 @@
 		"label_number": "WHY032",
 		"album_art": "/images/releases/CYCLE003_Stems.png",
 		"release_date": "2019-12-29T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "IDM",
+		"release_bio": [
+			""
+		],
 		"cycle_label_number": 3.5,
 		"primary_artist_id": 8,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			"https://ofoot.bandcamp.com/album/cycles003-stems"
-		]
+		"links": {
+			"bc": "https://ofoot.bandcamp.com/album/cycles003-stems"
+		}
 	},
 	{
 		"name": "CYCLE003: Because I said so",
@@ -108,15 +131,17 @@
 		"label_number": "WHY031",
 		"album_art": "/images/releases/CYCLE003.jpg",
 		"release_date": "2019-12-29T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "IDM",
+		"release_bio": [
+			""
+		],
 		"cycle_label_number": 3,
 		"primary_artist_id": 8,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			"https://ofoot.bandcamp.com/album/cycle003-because-i-said-so"
-		]
+		"links": {
+			"bc": "https://ofoot.bandcamp.com/album/cycle003-because-i-said-so"
+		}
 	},
 	{
 		"name": "The Last Judgement",
@@ -125,15 +150,17 @@
 		"label_number": "WHY030",
 		"album_art": "/images/releases/Fohrenbach_WHY030.png",
 		"release_date": "2019-11-15T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Techno",
+		"release_bio": [
+			""
+		],
 		"blue_label_number": 1,
 		"primary_artist_id": 4,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			""
-		]
+		"links": {
+			"sp": "https://open.spotify.com/album/3pMfarRU94v167yZiYusma?si=Worln44BTySF64MvN8CKEQ"
+		}
 	},
 	{
 		"name": "NITRO EP",
@@ -142,14 +169,16 @@
 		"label_number": "WHY029",
 		"album_art": "/images/releases/nitro.jpg",
 		"release_date": "2019-10-29T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "IDM",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 1,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			""
-		]
+		"links": {
+			"sp": "https://open.spotify.com/album/6O9Rs0ZbTfMLpCHi9emnjs?si=qKZ3OxBgQxyocZkpUKsxyQ"
+		}
 	},
 	{
 		"name": "Free Fall (The Remixes)",
@@ -158,16 +187,18 @@
 		"label_number": "Independent",
 		"album_art": "/images/releases/retiredorphanremix.jpeg",
 		"release_date": "2019-10-28T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Garage",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 13,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [
 			1
 		],
-		"links": [
-			"https://open.spotify.com/album/4JCowE6aEIQ51N6pAqeJ6d?si=RcK0iFykQ4yulnrTWEhYpw"
-		]
+		"links": {
+			"sp": "https://open.spotify.com/album/4JCowE6aEIQ51N6pAqeJ6d?si=RcK0iFykQ4yulnrTWEhYpw"
+		}
 	},
 	{
 		"name": "About Them",
@@ -176,14 +207,16 @@
 		"label_number": "WHY028",
 		"album_art": "/images/releases/about_them.jpg",
 		"release_date": "2019-09-23T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Wave",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 5,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			"https://soundcloud.com/svnteen/about-them"
-		]
+		"links": {
+			"sc": "https://soundcloud.com/svnteen/about-them"
+		}
 	},
 	{
 		"name": "Catapult",
@@ -192,17 +225,19 @@
 		"label_number": "WHY027",
 		"album_art": "/images/releases/catapult.jpg",
 		"release_date": "2019-07-12T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Drum and Bass",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 2,
 		"secondary_artist_ids": [
 			1,
 			14
 		],
 		"remix_artist_ids": [],
-		"links": [
-			""
-		]
+		"links": {
+			"sp": "https://open.spotify.com/album/4ly3vcAsWxeBDhYeIJKN83?si=wZcKFx_nQOmepGJ8CcVqfA"
+		}
 	},
 	{
 		"name": "CYCLE002: sleep",
@@ -211,15 +246,17 @@
 		"label_number": "WHY026",
 		"album_art": "/images/releases/cycle002.jpg",
 		"release_date": "2019-06-28T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "lo-fi hip-hop beats to study/chill to 24/7",
+		"release_bio": [
+			""
+		],
 		"cycle_label_number": 2,
 		"primary_artist_id": 5,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			"https://soundcloud.com/svnteen/sets/cycle002-sleep"
-		]
+		"links": {
+			"sc": "https://soundcloud.com/svnteen/sets/cycle002-sleep"
+		}
 	},
 	{
 		"name": "H A D E S",
@@ -228,14 +265,16 @@
 		"label_number": "WHY025",
 		"album_art": "/images/releases/hades.jpg",
 		"release_date": "2019-06-14T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Wave",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 5,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			"https://soundcloud.com/svnteen/svnteen-hades"
-		]
+		"links": {
+			"sc": "https://soundcloud.com/svnteen/svnteen-hades"
+		}
 	},
 	{
 		"name": "CYCLE001: GRIEF",
@@ -244,15 +283,17 @@
 		"label_number": "WHY024",
 		"album_art": "/images/releases/cycle001.jpg",
 		"release_date": "2019-05-17T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "IDM",
+		"release_bio": [
+			""
+		],
 		"cycle_label_number": 1,
 		"primary_artist_id": 1,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			""
-		]
+		"links": {
+			"sp": "https://open.spotify.com/album/1O8ksHNZUACz0PKvpLJAD8?si=ME0pMLpcQl-KDb5gEWljsQ"
+		}
 	},
 	{
 		"name": "Daegu Acid",
@@ -261,16 +302,18 @@
 		"label_number": "WHY023",
 		"album_art": "/images/releases/daegu_acid.jpg",
 		"release_date": "2019-04-26T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Techno",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 1,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [
 			2
 		],
-		"links": [
-			""
-		]
+		"links": {
+			"sp": "https://open.spotify.com/album/1u0vwVwuVTU6onicZ9nGGa?si=__sLVfUpQKKngvZB_cqKdA"
+		}
 	},
 	{
 		"name": "EXCO (Remixes)",
@@ -279,14 +322,16 @@
 		"label_number": "WHY022",
 		"album_art": "/images/releases/exco_remixes.jpg",
 		"release_date": "2019-03-08T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Techno",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 1,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			"https://soundcloud.com/whythough/sets/exco-remixes"
-		]
+		"links": {
+			"sc": "https://soundcloud.com/whythough/sets/exco-remixes"
+		}
 	},
 	{
 		"name": "Vega (Remixes)",
@@ -295,17 +340,19 @@
 		"label_number": "Independent",
 		"album_art": "/images/releases/vega_remix.jpg",
 		"release_date": "2019-02-22T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Mid Tempo",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 7,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [
 			1,
 			2
 		],
-		"links": [
-			""
-		]
+		"links": {
+			"sp": "https://open.spotify.com/album/5AncwNuZvP15SgTrT7cmM0?si=wwFhqsYlSA2gui85nYfYpw"
+		}
 	},
 	{
 		"name": "Blurs - Deluxe Edition",
@@ -314,17 +361,29 @@
 		"label_number": "WHY021",
 		"album_art": "/images/releases/blurs_deluxe.jpg",
 		"release_date": "2018-12-27T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
-		"primary_artist_id": 1,
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [
-			2
+		"genre": "Techno",
+		"release_bio": [
+			""
 		],
-		"links": [
-			"https://whythough.bandcamp.com/album/blurs-deluxe-edition",
-			"https://open.spotify.com/playlist/2fQ2jqpQTNaZmf9Smt1YNf?si=nAOTYVIzQOStHs6dLimXCQ"
-		]
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [
+			2,
+			3,
+			9
+		],
+		"remix_artist_ids": [
+			2,
+			5,
+			8,
+			10,
+			16,
+			18,
+			20
+		],
+		"links": {
+			"bc": "https://whythough.bandcamp.com/album/blurs-deluxe-edition",
+			"sp": "https://open.spotify.com/playlist/2fQ2jqpQTNaZmf9Smt1YNf?si=nAOTYVIzQOStHs6dLimXCQ"
+		}
 	},
 	{
 		"name": "Trash Beats For Trash People",
@@ -333,16 +392,18 @@
 		"label_number": "WHY020",
 		"album_art": "/images/releases/tb4tp.jpg",
 		"release_date": "2018-11-23T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Hip-Hop",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 2,
 		"secondary_artist_ids": [
 			1
 		],
 		"remix_artist_ids": [],
-		"links": [
-			""
-		]
+		"links": {
+			"sp": "https://open.spotify.com/album/6c75kIjs94SmpYXVFF16sa?si=NcIcPtw3QCew40VmnFQXKQ"
+		}
 	},
 	{
 		"name": "trial + error",
@@ -351,14 +412,16 @@
 		"label_number": "WHY019",
 		"album_art": "/images/releases/trial_error.jpg",
 		"release_date": "2018-11-09T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Techno",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 6,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			""
-		]
+		"links": {
+			"sp": "https://open.spotify.com/album/52wDDiIxZHXQGHhOaG1Lva?si=CGsut6akRge0sQupx6BjPg"
+		}
 	},
 	{
 		"name": "Jamie XX Sleep Sound (dyl_pykl x whythough? 2018 \"Up All Night\" Remix)",
@@ -367,16 +430,18 @@
 		"label_number": "WHY018",
 		"album_art": "/images/releases/jamie_xx_2018.jpg",
 		"release_date": "2018-11-04T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Melodic Techno",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 2,
 		"secondary_artist_ids": [
 			1
 		],
 		"remix_artist_ids": [],
-		"links": [
-			"https://soundcloud.com/whythough/jamie-xx-remix"
-		]
+		"links": {
+			"sc": "https://soundcloud.com/whythough/jamie-xx-remix"
+		}
 	},
 	{
 		"name": "Gashadokuro (Remixes)",
@@ -385,8 +450,10 @@
 		"label_number": "Independent",
 		"album_art": "/images/releases/gdkwtr.jpg",
 		"release_date": "2018-10-31T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Hard Style",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 10,
 		"secondary_artist_ids": [
 			1
@@ -396,9 +463,9 @@
 			10,
 			7
 		],
-		"links": [
-			"https://soundcloud.com/whythough/sets/gashadokuro-remixes"
-		]
+		"links": {
+			"sc": "https://soundcloud.com/whythough/sets/gashadokuro-remixes"
+		}
 	},
 	{
 		"name": "Ganymede & The Late Heavy Bombardment",
@@ -407,14 +474,16 @@
 		"label_number": "WHY017",
 		"album_art": "/images/releases/ganymede.jpg",
 		"release_date": "2018-10-26T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Techno",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 2,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			""
-		]
+		"links": {
+			"sc": "https://soundcloud.com/dyl_pykl/sets/ganymede-the-late-heavy-bombardment"
+		}
 	},
 	{
 		"name": "Uhhhhhhh",
@@ -423,33 +492,37 @@
 		"label_number": "WHY016",
 		"album_art": "/images/releases/uhhhhhhh.jpg",
 		"release_date": "2018-10-19T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Trap",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 5,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			""
-		]
+		"links": {
+			"sp": "https://open.spotify.com/album/0at0nopY1lxUGFfVaMG7B6?si=EdCC_KejSBWC5AGPhXLk_A"
+		}
 	},
 	{
-		"name": "Harmonious Interactions of Patterns (Remixes)",
+		"name": "Harmonious Interaction of Patterns (Remixes)",
 		"local_path": "HIOP-Remixes",
 		"id": 24,
 		"label_number": "WHY015",
 		"album_art": "/images/releases/hiop_remixes.jpg",
 		"release_date": "2018-10-19T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Techno",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 4,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [
 			1,
 			2
 		],
-		"links": [
-			""
-		]
+		"links": {
+			"sp": "https://open.spotify.com/album/2VHSIFiEu20L0KNiVzeLJI?si=8zYljDw4ReOyKtoSdHBemQ"
+		}
 	},
 	{
 		"name": "Gashadokuro",
@@ -458,16 +531,18 @@
 		"label_number": "Independent",
 		"album_art": "/images/releases/gdkwt.jpg",
 		"release_date": "2018-10-13T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Dubstep",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 10,
 		"secondary_artist_ids": [
 			1
 		],
 		"remix_artist_ids": [],
-		"links": [
-			""
-		]
+		"links": {
+			"sp": "https://open.spotify.com/album/5sRQj33m7MwGOJ6YmgNLo0?si=o3SXR-X9SkiDw1mxlF3PTg"
+		}
 	},
 	{
 		"name": "EXCO EP",
@@ -476,14 +551,16 @@
 		"label_number": "WHY014",
 		"album_art": "/images/releases/exco.jpg",
 		"release_date": "2018-10-05T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Techno",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 1,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			""
-		]
+		"links": {
+			"sp": "https://open.spotify.com/album/4DiVo0uufBtVmspJminOnS?si=Kw8BnG6ZQXKqhW2eU7J5MA"
+		}
 	},
 	{
 		"name": "Vega",
@@ -492,14 +569,16 @@
 		"label_number": "Independent",
 		"album_art": "/images/releases/vega.jpg",
 		"release_date": "2018-09-12T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Mid Tempo",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 7,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			""
-		]
+		"links": {
+			"sp": "https://open.spotify.com/album/4TgkJydsArX79d5jWhafUq?si=kuKuyW8cSaq6oLHU0FBhBA"
+		}
 	},
 	{
 		"name": "HEAVEN",
@@ -508,14 +587,16 @@
 		"label_number": "WHY013",
 		"album_art": "/images/releases/heaven.jpg",
 		"release_date": "2018-08-03T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Hip-Hop",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 2,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			""
-		]
+		"links": {
+			"sp": "https://open.spotify.com/track/116qhIo2KWsmabMzkLKXS9?si=f35tpVtyQFejU9w8fFPEFg"
+		}
 	},
 	{
 		"name": "Harður ˈTeknō",
@@ -524,14 +605,16 @@
 		"label_number": "WHY012",
 		"album_art": "/images/releases/htwt.jpg",
 		"release_date": "2018-07-31T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Techno",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 1,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			""
-		]
+		"links": {
+			"sp": "https://open.spotify.com/album/7tzFHjNrgCfXcNRnu8R5Jh?si=o7zbIGo8Q5mrWuLarTWMIQ"
+		}
 	},
 	{
 		"name": "Cigarette Smoke",
@@ -540,14 +623,16 @@
 		"label_number": "WHY011",
 		"album_art": "/images/releases/csdp.jpg",
 		"release_date": "2018-06-21T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Chill",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 2,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			""
-		]
+		"links": {
+			"sp": "https://open.spotify.com/album/38wPM7PITg60MxBJE85FI2?si=CksW_0RERwSaiaRb--LKBw"
+		}
 	},
 	{
 		"name": "The Lobster EP",
@@ -556,14 +641,18 @@
 		"label_number": "WHY010",
 		"album_art": "/images/releases/dptl.jpg",
 		"release_date": "2018-05-30T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
-		"primary_artist_id": 2,
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": [
+		"genre": "Downtempo",
+		"release_bio": [
 			""
-		]
+		],
+		"primary_artist_id": 2,
+		"secondary_artist_ids": [
+			11
+		],
+		"remix_artist_ids": [],
+		"links": {
+			"sc": "https://soundcloud.com/dyl_pykl/sets/the-lobster-ep"
+		}
 	},
 	{
 		"name": "Blurs (Remixes)",
@@ -572,14 +661,28 @@
 		"label_number": "WHY009",
 		"album_art": "/images/releases/blurs_remix.jpg",
 		"release_date": "2018-02-22T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
-		"primary_artist_id": 1,
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": [
+		"genre": "Techno",
+		"release_bio": [
 			""
-		]
+		],
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [
+			2,
+			3,
+			9
+		],
+		"remix_artist_ids": [
+			2,
+			5,
+			8,
+			10,
+			16,
+			18,
+			20
+		],
+		"links": {
+			"sp": "https://open.spotify.com/album/48PmHVDJ67ZLRbTjFko4fv?si=wniKvh_vS_mc2ON3l1zBew"
+		}
 	},
 	{
 		"name": "Blurs",
@@ -588,14 +691,20 @@
 		"label_number": "WHY008",
 		"album_art": "/images/releases/blurs.jpg",
 		"release_date": "2018-01-03T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
-		"primary_artist_id": 1,
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": [
+		"genre": "Techno",
+		"release_bio": [
 			""
-		]
+		],
+		"primary_artist_id": 1,
+		"secondary_artist_ids": [
+			2,
+			3,
+			9
+		],
+		"remix_artist_ids": [],
+		"links": {
+			"sp": "https://open.spotify.com/album/77mKBDaAkANu4yVGfE4cMa?si=3si6Z7BqQKicWOtCyai-hw"
+		}
 	},
 	{
 		"name": "Glancing Memories",
@@ -604,14 +713,16 @@
 		"label_number": "Independent",
 		"album_art": "/images/releases/gmmb.jpg",
 		"release_date": "2019-11-18T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Hip-Hop Beats",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 11,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			""
-		]
+		"links": {
+			"sp": "https://open.spotify.com/album/5Jau59HBTBSfcjrQoIz90r?si=yD90GqxgQCKZza3kqVGmBg"
+		}
 	},
 	{
 		"name": "Harmonious Interactions of Patterns",
@@ -620,14 +731,16 @@
 		"label_number": "Independent",
 		"album_art": "/images/releases/hiopf.jpeg",
 		"release_date": "2018-07-05T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Hip-Hop Beats",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 4,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			""
-		]
+		"links": {
+			"sp": "https://open.spotify.com/album/4wvjxE2JcyqUhCb0kiigLY?si=-R5snQrYTnq0Gpa0HbSN3w"
+		}
 	},
 	{
 		"name": "Sapphire Sky",
@@ -636,14 +749,16 @@
 		"label_number": "Independent",
 		"album_art": "/images/releases/ssf.jpg",
 		"release_date": "2019-08-29T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Lo-Fi Hip-Hop Beats",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 4,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			""
-		]
+		"links": {
+			"sp": "https://open.spotify.com/album/20NdJB5onAVhwB9USvUlSu?si=wSnSPg0CSXevf3VC1M6DSQ"
+		}
 	},
 	{
 		"name": "Saturday Morning",
@@ -652,14 +767,16 @@
 		"label_number": "Independent",
 		"album_art": "/images/releases/smf.png",
 		"release_date": "2019-08-21T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Lo-Fi Hip-Hop Beats",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 4,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			""
-		]
+		"links": {
+			"sp": "https://open.spotify.com/album/4xtliDZcrhgAQaB9hBNWXt?si=M_ezLtUrSdKXAfX5AI8RLg"
+		}
 	},
 	{
 		"name": "Floating Like a Feather",
@@ -668,14 +785,16 @@
 		"label_number": "Independent",
 		"album_art": "/images/releases/flaff.jpg",
 		"release_date": "2019-02-22T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Beats",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 4,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			""
-		]
+		"links": {
+			"sp": "https://open.spotify.com/album/6qFNQFqg98DaTyAB7PLjz3?si=rzN6oSGMRFCa81tktFgnJQ"
+		}
 	},
 	{
 		"name": "paranoimia",
@@ -684,14 +803,16 @@
 		"label_number": "WHY003",
 		"album_art": "/images/releases/paranoimia.jpg",
 		"release_date": "2018-03-15T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "House",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 1,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			"https://soundcloud.com/whythough/paranoimia"
-		]
+		"links": {
+			"sc": "https://soundcloud.com/whythough/paranoimia"
+		}
 	},
 	{
 		"name": "JUST CALL EP",
@@ -700,16 +821,18 @@
 		"label_number": "WHY007",
 		"album_art": "/images/releases/just_call.jpg",
 		"release_date": "2018-02-23T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Tech House",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 2,
 		"secondary_artist_ids": [
 			1
 		],
 		"remix_artist_ids": [],
-		"links": [
-			"https://soundcloud.com/whythough/sets/just-call-ep"
-		]
+		"links": {
+			"sc": "https://soundcloud.com/whythough/sets/just-call-ep"
+		}
 	},
 	{
 		"name": "The Beginning",
@@ -718,14 +841,16 @@
 		"label_number": "Independent",
 		"album_art": "/images/releases/the_beginning.jpg",
 		"release_date": "2017-04-21T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Trap",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 5,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			""
-		]
+		"links": {
+			"sp": "https://open.spotify.com/album/6AORqUaCbnGUPUlyHDbabE?si=KALsu1q-SAStMzyQGzzFdQ"
+		}
 	},
 	{
 		"name": "grains of Blurs",
@@ -734,14 +859,16 @@
 		"label_number": "WHY005",
 		"album_art": "/images/releases/grains.jpg",
 		"release_date": "2017-11-03T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "IDM",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 1,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			"https://whythough.bandcamp.com/album/grains-of-blurs"
-		]
+		"links": {
+			"bc": "https://whythough.bandcamp.com/album/grains-of-blurs"
+		}
 	},
 	{
 		"name": "RAAPT",
@@ -750,61 +877,107 @@
 		"label_number": "WHY004",
 		"album_art": "/images/releases/raapt.jpg",
 		"release_date": "2017-11-23T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "IDM",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 1,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			"https://whythough.bandcamp.com/album/raapt"
-		]
+		"links": {
+			"bc:": "https://whythough.bandcamp.com/album/raapt"
+		}
+	},
+	{
+		"name": "MURDA EP",
+		"local_path": "MURDA",
+		"id": 3,
+		"label_number": "Independent",
+		"album_art": "/images/releases/murda.jpg",
+		"release_date": "2017-03-06T18:25:43.511Z",
+		"genre": "House",
+		"release_bio": [
+			""
+		],
+		"primary_artist_id": 2,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [
+			1
+		],
+		"links": {
+			"sc": "https://soundcloud.com/dyl_pykl/sets/murda-ep"
+		}
+	},
+	{
+		"name": "The Above/Below EP",
+		"local_path": "Above-Below",
+		"id": 2,
+		"label_number": "Independent",
+		"album_art": "/images/releases/abbl.jpg",
+		"release_date": "2017-02-15T18:25:43.511Z",
+		"genre": "Drum and Bass",
+		"release_bio": [
+			""
+		],
+		"primary_artist_id": 2,
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sc": "https://soundcloud.com/dyl_pykl/sets/the-above-below-ep"
+		}
 	},
 	{
 		"name": "probably an album but who am i to judge honestly",
 		"local_path": "paabwaitjh",
-		"id": 3,
+		"id": 1,
 		"label_number": "WHY006",
 		"album_art": "/images/releases/paabwaitjh.jpg",
 		"release_date": "2017-03-15T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "IDM",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 1,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			"https://whythough.bandcamp.com/album/probably-an-album-but-who-am-i-to-judge-honestly"
-		]
+		"links": {
+			"bc": "https://whythough.bandcamp.com/album/probably-an-album-but-who-am-i-to-judge-honestly"
+		}
 	},
 	{
 		"name": "C 2 0 H 2 5 N 3 O",
 		"local_path": "acid-house",
-		"id": 2,
+		"id": 0,
 		"label_number": "WHY002",
 		"album_art": "/images/releases/acid.jpg",
 		"release_date": "2017-11-23T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Acid House",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 1,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			"https://whythough.bandcamp.com/track/-"
-		]
+		"links": {
+			"bc": "https://whythough.bandcamp.com/track/-"
+		}
 	},
 	{
 		"name": "serving suggestions",
 		"local_path": "serving-suggestions",
-		"id": 1,
+		"id": -1,
 		"label_number": "WHY001",
 		"album_art": "/images/releases/servsug.jpg",
 		"release_date": "2016-12-28T18:25:43.511Z",
-		"short_description": "",
-		"long_description": "",
+		"genre": "Techno",
+		"release_bio": [
+			""
+		],
 		"primary_artist_id": 1,
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": [
-			"https://whythough.bandcamp.com/album/serving-suggestions"
-		]
+		"links": {
+			"bc": "https://whythough.bandcamp.com/album/serving-suggestions"
+		}
 	}
 ]

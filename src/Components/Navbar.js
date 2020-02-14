@@ -77,7 +77,7 @@ export default function Navbar(props) {
 			<div className="links">
 				{mappedLinks}
 			</div>
-			{location.pathname === "/releases" ? releaseFilter : null}
+			{/* {location.pathname === "/releases" ? releaseFilter : null} */}
 		</div>
 	)
 }
