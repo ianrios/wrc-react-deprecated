@@ -79,7 +79,7 @@ export default function ReleasePage() {
 											(i, j) => {
 												return (
 													<React.Fragment>
-														<Link to={`/artist/${artistData[i - 1].local_path}`}>
+														<Link to={`/artist/${artistData[i - 1].local_path}`} className="smaller-font-temp">
 															{artistData[i - 1].name}
 														</Link>
 														<span className="white-text">
