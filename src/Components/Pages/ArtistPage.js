@@ -80,7 +80,7 @@ export default function ArtistPage() {
 							</div>
 							<div className="col-6">
 								<p className="">
-									{currArtist.short_description}
+									{currArtist.artist_quote}
 								</p>
 								{/* {mappedPTag(currArtist.roles)} */}
 								<div className="text-border">
@@ -120,7 +120,7 @@ export default function ArtistPage() {
 							</div>
 						</div>
 						<div className="row artist-page-releases">
-						{mappedImgCol(releaseData.filter(i => {
+							{mappedImgCol(releaseData.filter(i => {
 								for (let j of i.primary_artist_ids) {
 									if (j === currArtist.id) {
 										return i

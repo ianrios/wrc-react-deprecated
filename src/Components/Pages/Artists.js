@@ -5,7 +5,7 @@ import './Artists.scss';
 
 export default function Artists() {
 	const ArtistsMap = data.map((item, idx) => {
-		return idx < 7 ?
+		return idx < 8 ?
 			<div key={idx} className="row artist-image-row">
 				<div className="col" />
 				<div className="col-lg-6 col-md-8 col-sm-10 mx-auto text-on-image">
