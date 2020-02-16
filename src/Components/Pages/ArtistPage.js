@@ -79,7 +79,7 @@ export default function ArtistPage() {
 								<img className="artist-page-image img-fluid" alt={currArtist.name} src={currArtist.profile_pic} />
 							</div>
 							<div className="col-6">
-								<p className="">
+								<p>
 									{currArtist.quote}
 								</p>
 								{/* {mappedPTag(currArtist.roles)} */}

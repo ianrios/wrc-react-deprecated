@@ -8,18 +8,9 @@ export default function ReleasePage() {
 	const locationObj = useLocation();
 	const location = locationObj.pathname.split("/")[2];
 	const currRelease = releaseData.find(i => i.local_path.toLowerCase() === location.toLowerCase());
-	// console.log(currRelease)
 	const foundRelease = currRelease === undefined ? false : true;
 
-	// const artistObj = {
-	// 	"primaryArtists": foundRelease ? artistData.find(i => i.id === currRelease.primary_artist_id) : "not found",
-	// 	"secondaryArtists": [],
-	// 	"remixArtists": []
-	// }
-	//artistData.filter(i => i.id === currRelease.secondary_artist_ids),
-
 	const mappedPTag = (props, className) => {
-
 		return (
 			props.map((item, idx) => {
 				return (

@@ -41,22 +41,12 @@
   margin-bottom: 15px;
 }
 @media only screen and (max-width: 991px) {
-  //   .header-sub-page {
-  //     margin-top: 0px !important;
-  //   }
   .sidebar {
     margin-top: 0px !important;
   }
   .mb-last-child:last-of-type {
     margin-bottom: 500px;
   }
-}
-.all-label {
-}
-.wrc-label {
-}
-.cycle-label {
-  //   color: #b7d3f2;
 }
 .active-link,
 a {
@@ -77,10 +67,6 @@ a:hover {
 a:active {
   color: #ffbf00 !important;
 }
-.other-label {
-  //   color: #bfacaa;
-}
-
 .release-image-centered-hover-text {
   width: 100%;
   height: 100%;
@@ -112,38 +98,4 @@ a:active {
   .release-image {
     filter: blur(4px);
   }
-
-  //   .release-image-color-1 {
-  //     border: 5px solid #ea3788;
-  //   }
-  //   .release-image-color-2 {
-  //     border: 5px solid #f5cb5c;
-  //   }
-  //   .release-image-color-3 {
-  //     border: 5px solid #9cf6f6;
-  //   }
-  //   .release-image-color-4 {
-  //     border: 5px solid #f56960;
-  //   }
-  //   .release-image-color-5 {
-  //     border: 5px solid #6f732f;
-  //   }
-  //   .release-image-color-6 {
-  //     border: 5px solid #090446;
-  //   }
-  //   .release-image-color-7 {
-  //     border: 5px solid #c2095a;
-  //   }
-  //   .release-image-color-8 {
-  //     border: 5px solid #69a297;
-  //   }
-  //   .release-image-color-9 {
-  //     border: 5px solid #a663cc;
-  //   }
-  //   .release-image-color-10 {
-  //     border: 5px solid #29e7cd;
-  //   }
-  //   .release-image-color-11 {
-  //     border: 5px solid #6a3e37;
-  //   }
 }

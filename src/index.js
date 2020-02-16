@@ -6,11 +6,6 @@ import * as serviceWorker from './serviceWorker';
 import './fonts/Lovelyn.ttf'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-// import $ from 'jquery';
-// import Popper from 'popper.js';
-
-
-
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

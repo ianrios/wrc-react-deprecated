@@ -5,7 +5,6 @@ import {
 } from "react-router-dom";
 import Q from './Q';
 import Navbar from './Navbar';
-// import Footer from './Footer';
 import Route from './Routes';
 import Logo from "./Logo";
 import './App.scss';
@@ -37,7 +36,6 @@ function Wrapper() {
 						<Route />
 						<Logo viewMain={viewMain} setViewMain={setViewMain} />
 					</div>
-					{/* <Footer /> */}
 				</div>
 			}
 		</div>
@@ -45,7 +43,6 @@ function Wrapper() {
 }
 
 export default function App() {
-
 	return (
 		<BrowserRouter>
 			<Wrapper />
