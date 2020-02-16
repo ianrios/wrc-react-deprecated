@@ -80,7 +80,7 @@ export default function ArtistPage() {
 							</div>
 							<div className="col-6">
 								<p className="">
-									{currArtist.artist_quote}
+									{currArtist.quote}
 								</p>
 								{/* {mappedPTag(currArtist.roles)} */}
 								<div className="text-border">

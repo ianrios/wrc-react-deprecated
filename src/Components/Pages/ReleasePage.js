@@ -77,10 +77,11 @@ export default function ReleasePage() {
 									{
 										currRelease.primary_artist_ids.map(
 											(i, j) => {
+												const currArtist = artistData.find(a => a.id === i);
 												return (
 													<React.Fragment key={j}>
-														<Link to={`/artist/${artistData[i - 1].local_path}`} className="smaller-font-temp">
-															{artistData[i - 1].name}
+														<Link to={`/artist/${currArtist.local_path}`} className="smaller-font-temp">
+															{currArtist.name}
 														</Link>
 														<span className="white-text">
 															{`${j < currRelease.primary_artist_ids.length - 1 ? ", " : ""}`}
@@ -91,6 +92,25 @@ export default function ReleasePage() {
 										)
 									}
 								</h1>
+								<h2>
+									{
+										currRelease.secondary_artist_ids.map(
+											(i, j) => {
+												const currArtist = artistData.find(a => a.id === i);
+												return (
+													<React.Fragment key={j}>
+														<Link to={`/artist/${currArtist.local_path}`} className="smaller-font-temp">
+															{currArtist.name}
+														</Link>
+														<span className="white-text">
+															{`${j < currRelease.secondary_artist_ids.length - 1 ? ", " : ""}`}
+														</span>
+													</React.Fragment>
+												)
+											}
+										)
+									}
+								</h2>
 								<p>
 									{currRelease.short_description}
 								</p>

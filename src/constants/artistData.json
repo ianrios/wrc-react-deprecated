@@ -3,6 +3,7 @@
 		"id": 1,
 		"name": "whythough?",
 		"local_path": "whythough",
+		"show_on_artist_page": true,
 		"profile_pic": "/images/artists/profiles/whythough_4x6.jpg",
 		"additional_photos": [
 			"/images/artists/whythough_ray.jpg",
@@ -13,7 +14,7 @@
 			"city": "Lexington",
 			"country": "USA"
 		},
-		"artist_quote": "\"I make a lot of music, most of which is bad, but some of its ok, and the stuff that's ok is techno, which none of my friends like\"",
+		"quote": "\"I make a lot of music, most of which is bad, but some of its ok, and the stuff that's ok is techno, which none of my friends like\"",
 		"body_paragraphs": [
 			"whythough? is an electronic music producer who specializes in techno and club music. Originating from New Jersey, Ian Rios was exposed to electronic music from an early age. With roots in peruvian flutes and puerto rican rhythm, the Jersey Club scene is what initially brought Ian to more experimental genre bending music. ",
 			"Growing up, he listened to every style of music he could find including death metal, classical, 80s pop, ambient drones, jazz, salsa, germanic chants, progressive rock, rap, hip-hop, and of course, electronic dance music and all of its sub-generes. Fascinated with the interesting, new sounds of synthesizers, he began to dig deeper and find more artists that made music he enjoyed, building his library with 90s house and tech, all the way to mainstream edm and avant-garde machine noises. It wasn’t until going to college in Troy, NY, where Ian learned to DJ in a producer club for shows and parties. His love for crate digging is directly translated into his enjoyment of creating playlists to expose people to new music.",
@@ -50,6 +51,7 @@
 		"id": 2,
 		"name": "dyl_pykl",
 		"local_path": "dyl_pykl",
+		"show_on_artist_page": true,
 		"profile_pic": "/images/artists/profiles/dyl_pykl_4x6.jpg",
 		"additional_photos": [
 			"/images/artists/dyl_looking.jpg",
@@ -62,7 +64,7 @@
 			"city": "Pheonix",
 			"country": "USA"
 		},
-		"artist_quote": "\"Everybody makes art.\"",
+		"quote": "\"Everybody makes art.\"",
 		"body_paragraphs": [
 			"Famed, fabled, and frequently berated, dyl_pykl began his lifelong downhill musical tumble at the age of 5, when he picked up the piano at the suggestion of his parents, and threw it across the room with incredible strength. Their insistence that he pursue bodybuilding, however, conflicted with the song in his soul, and he vowed never to destroy another musical instrument, with the exception of any viola. It's just a violin.",
 			"He came of age in Alaska where he was first exposed to electronic music, expanding his mind to include fake and terrible music as well as REAL music played on REAL instruments. That's when he became a \"multi-instrumentalist\" and acted like a huge dick just because he bought a garbage Jackson bass and learned the line to \"Just An Old Fashioned Love Song\" by Three Dog Night, a song that no one even listens to anymore. (shoutout Three Dog Night though)",
@@ -95,6 +97,7 @@
 		"id": 3,
 		"name": "StratosFear",
 		"local_path": "StratosFear",
+		"show_on_artist_page": true,
 		"profile_pic": "/images/artists/profiles/stratosfear_4x6.jpg",
 		"additional_photos": [
 			"/images/artists/",
@@ -105,7 +108,7 @@
 			"city": "Lincoln",
 			"country": "USA"
 		},
-		"artist_quote": "",
+		"quote": "",
 		"body_paragraphs": [
 			""
 		],
@@ -128,6 +131,7 @@
 		"id": 4,
 		"name": "Fohrenbach",
 		"local_path": "Fohrenbach",
+		"show_on_artist_page": true,
 		"profile_pic": "/images/artists/profiles/fohrenbach_4x6.png",
 		"additional_photos": [
 			"/images/artists/",
@@ -138,7 +142,7 @@
 			"city": "Miami",
 			"country": "USA"
 		},
-		"artist_quote": "\" हरे कृष्ण \"",
+		"quote": "\" हरे कृष्ण \"",
 		"body_paragraphs": [
 			"Unexplored frontiers of sound in electronic and instrumental hip-hop ||"
 		],
@@ -167,9 +171,47 @@
 		}
 	},
 	{
+		"id": 14,
+		"name": "Katie Hoffstatter",
+		"local_path": "Katie-Hoffstatter",
+		"show_on_artist_page": true,
+		"profile_pic": "/images/artists/profiles/katie_4x6.png",
+		"additional_photos": [
+			"/images/artists/katie_in_concert.jpg",
+			"/images/artists/katie_hand_on_head.jpg",
+			"/images/artists/katie_in_nature.jpg"
+		],
+		"email": "khsongwriter@gmail.com",
+		"location": {
+			"city": "Troy",
+			"country": "USA"
+		},
+		"quote": "\"What if we loved more?\"",
+		"body_paragraphs": [
+			"Raised in a small town in New York, Katie is inspired most by nature, good people, and the little things in life. A singer and a songwriter since age 11, Katie's musical style has gone through a transformation many times throughout her life. She has landed in the lofi, R and B, and acoustic scene most recently. But sticking to her upbringing, she continues to play and write in genres such as jazz, rock, and blues.",
+			"After returning recently from a jaunt around various countries outside of the US, Katie's career as an artist has become much more exploratory. Her small town life was turned upside-down and this shows itself in her new music.",
+			"Katie feels best in intimate venues where she can truly share the emotion of her songs with her fans. But she is also a big festival performer and has performed in such venues as the famous Bearsville Theater in Woodstock, NY."
+		],
+		"roles": [
+			"Songwriter",
+			"Singer",
+			"Live Musician"
+		],
+		"social_platforms": {
+			"ig": "https://www.instagram.com/khsongwriter/",
+			"fb": "https://www.facebook.com/katiehoffstattermusic/"
+		},
+		"music_platforms": {
+			"sc": "https://soundcloud.com/katieeeee98",
+			"sp": "https://open.spotify.com/artist/1HkcbJw1bsMfePhdhqwODC?si=t4TNNU7hTLmUCcxHyg6hOA",
+			"ap": "https://music.apple.com/us/artist/katie-hoffstatter/1251762119"
+		}
+	},
+	{
 		"id": 5,
 		"name": "svnteen",
 		"local_path": "svnteen",
+		"show_on_artist_page": true,
 		"profile_pic": "/images/artists/profiles/svnteen_4x6.jpg",
 		"additional_photos": [
 			"/images/artists/",
@@ -180,7 +222,7 @@
 			"city": "Seattle",
 			"country": "USA"
 		},
-		"artist_quote": "\"we were homeschooled\"",
+		"quote": "\"we were homeschooled\"",
 		"body_paragraphs": [
 			"svnteen is a Producer/DJ duo consisting of StratosFear and whythough?. Originating from Troy, NY, svnteen began with a desire to play mashups and remixes of popular songs at frat parties and on the radio, but quickly turned into a love of creating original music.",
 			"Ranging from such generes as trap, dubstep, wave, lofi, and more, svnteen finds a way to blend all sorts of music to create electronic music fit for listening at home and crying yourself to sleep, to bashing your entire face in on the rail.",
@@ -214,6 +256,7 @@
 		"id": 6,
 		"name": "Ezra Parker",
 		"local_path": "Ezra-Parker",
+		"show_on_artist_page": true,
 		"profile_pic": "/images/artists/profiles/ezra_parker_4x6.png",
 		"additional_photos": [
 			"/images/artists/",
@@ -224,7 +267,7 @@
 			"city": "Troy",
 			"country": "USA"
 		},
-		"artist_quote": "dont look at the dj, only listen",
+		"quote": "dont look at the dj, only listen",
 		"body_paragraphs": [
 			""
 		],
@@ -247,6 +290,7 @@
 		"id": 7,
 		"name": "LoM",
 		"local_path": "LoM",
+		"show_on_artist_page": true,
 		"profile_pic": "/images/artists/profiles/lom_4x6.png",
 		"additional_photos": [
 			"/images/artists/",
@@ -257,7 +301,7 @@
 			"city": "",
 			"country": "USA"
 		},
-		"artist_quote": "",
+		"quote": "",
 		"body_paragraphs": [
 			""
 		],
@@ -277,45 +321,10 @@
 		}
 	},
 	{
-		"id": 14,
-		"name": "Katie Hoffstatter",
-		"local_path": "Katie-Hoffstatter",
-		"profile_pic": "/images/artists/profiles/katie_4x6.png",
-		"additional_photos": [
-			"/images/artists/katie_in_concert.jpg",
-			"/images/artists/katie_hand_on_head.jpg",
-			"/images/artists/katie_in_nature.jpg"
-		],
-		"email": "khsongwriter@gmail.com",
-		"location": {
-			"city": "Troy",
-			"country": "USA"
-		},
-		"artist_quote": "\"What if we loved more?\"",
-		"body_paragraphs": [
-			"Raised in a small town in New York, Katie is inspired most by nature, good people, and the little things in life. A singer and a songwriter since age 11, Katie's musical style has gone through a transformation many times throughout her life. She has landed in the lofi, R and B, and acoustic scene most recently. But sticking to her upbringing, she continues to play and write in genres such as jazz, rock, and blues.",
-			"After returning recently from a jaunt around various countries outside of the US, Katie's career as an artist has become much more exploratory. Her small town life was turned upside-down and this shows itself in her new music.",
-			"Katie feels best in intimate venues where she can truly share the emotion of her songs with her fans. But she is also a big festival performer and has performed in such venues as the famous Bearsville Theater in Woodstock, NY."
-		],
-		"roles": [
-			"Songwriter",
-			"Singer",
-			"Live Musician"
-		],
-		"social_platforms": {
-			"ig": "https://www.instagram.com/khsongwriter/",
-			"fb": "https://www.facebook.com/katiehoffstattermusic/"
-		},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/katieeeee98",
-			"sp": "https://open.spotify.com/artist/1HkcbJw1bsMfePhdhqwODC?si=t4TNNU7hTLmUCcxHyg6hOA",
-			"ap": "https://music.apple.com/us/artist/katie-hoffstatter/1251762119"
-		}
-	},
-	{
 		"id": 8,
 		"name": "oFoot",
 		"local_path": "oFoot",
+		"show_on_artist_page": false,
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"additional_photos": [
 			"/images/artists/",
@@ -326,7 +335,7 @@
 			"city": "",
 			"country": "USA"
 		},
-		"artist_quote": "",
+		"quote": "",
 		"body_paragraphs": [
 			""
 		],
@@ -349,6 +358,7 @@
 		"id": 9,
 		"name": "Weeping Sun",
 		"local_path": "Weeping-Sun",
+		"show_on_artist_page": false,
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"additional_photos": [
 			"/images/artists/",
@@ -359,7 +369,7 @@
 			"city": "",
 			"country": "USA"
 		},
-		"artist_quote": "",
+		"quote": "",
 		"body_paragraphs": [
 			""
 		],
@@ -382,6 +392,7 @@
 		"id": 10,
 		"name": "DJ Yunomi",
 		"local_path": "DJ-Yunomi",
+		"show_on_artist_page": false,
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"additional_photos": [
 			"/images/artists/",
@@ -392,7 +403,7 @@
 			"city": "",
 			"country": "USA"
 		},
-		"artist_quote": "",
+		"quote": "",
 		"body_paragraphs": [
 			""
 		],
@@ -415,6 +426,7 @@
 		"id": 11,
 		"name": "Matyb",
 		"local_path": "Matyb",
+		"show_on_artist_page": false,
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"additional_photos": [
 			"/images/artists/",
@@ -425,7 +437,7 @@
 			"city": "",
 			"country": "USA"
 		},
-		"artist_quote": "",
+		"quote": "",
 		"body_paragraphs": [
 			""
 		],
@@ -448,6 +460,7 @@
 		"id": 12,
 		"name": "KILL 9",
 		"local_path": "KILL-9",
+		"show_on_artist_page": false,
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"additional_photos": [
 			"/images/artists/",
@@ -458,7 +471,7 @@
 			"city": "",
 			"country": "Canada"
 		},
-		"artist_quote": "",
+		"quote": "",
 		"body_paragraphs": [
 			""
 		],
@@ -481,6 +494,7 @@
 		"id": 13,
 		"name": "RetiredOrphan",
 		"local_path": "RetiredOrphan",
+		"show_on_artist_page": false,
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"additional_photos": [
 			"/images/artists/",
@@ -491,7 +505,7 @@
 			"city": "Simi Valley",
 			"country": "USA"
 		},
-		"artist_quote": "",
+		"quote": "",
 		"body_paragraphs": [
 			"Based in Simi Valley, California, RetiredOrphan is an electronic music project centered around heavy bass music genres like midtempo. The music producer continues to create the dark music he thrives for and presenting a new take on aggressive music."
 		],
@@ -513,6 +527,7 @@
 		"id": 15,
 		"name": "Mova",
 		"local_path": "Mova",
+		"show_on_artist_page": false,
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"additional_photos": [
 			"/images/artists/",
@@ -523,7 +538,7 @@
 			"city": "Tbilisi",
 			"country": "Georgia"
 		},
-		"artist_quote": "",
+		"quote": "",
 		"body_paragraphs": [
 			""
 		],
@@ -546,6 +561,7 @@
 		"id": 16,
 		"name": "eraserMice",
 		"local_path": "eraserMice",
+		"show_on_artist_page": false,
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"additional_photos": [
 			"/images/artists/",
@@ -556,7 +572,7 @@
 			"city": "",
 			"country": ""
 		},
-		"artist_quote": "",
+		"quote": "",
 		"body_paragraphs": [
 			""
 		],
@@ -570,6 +586,7 @@
 		"id": 17,
 		"name": "Eugene Umlor",
 		"local_path": "Eugene-Umlor",
+		"show_on_artist_page": false,
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"additional_photos": [
 			"/images/artists/",
@@ -580,7 +597,7 @@
 			"city": "",
 			"country": ""
 		},
-		"artist_quote": "",
+		"quote": "",
 		"body_paragraphs": [
 			""
 		],
@@ -594,6 +611,7 @@
 		"id": 18,
 		"name": "Quantopix",
 		"local_path": "Quantopix",
+		"show_on_artist_page": false,
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"additional_photos": [
 			"/images/artists/",
@@ -604,7 +622,7 @@
 			"city": "",
 			"country": ""
 		},
-		"artist_quote": "",
+		"quote": "",
 		"body_paragraphs": [
 			""
 		],
@@ -618,6 +636,7 @@
 		"id": 19,
 		"name": "tofukkers",
 		"local_path": "tofukkers",
+		"show_on_artist_page": false,
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"additional_photos": [
 			"/images/artists/",
@@ -628,7 +647,7 @@
 			"city": "",
 			"country": ""
 		},
-		"artist_quote": "",
+		"quote": "",
 		"body_paragraphs": [
 			""
 		],
@@ -648,6 +667,7 @@
 		"id": 20,
 		"name": "Area Control",
 		"local_path": "Area-Control",
+		"show_on_artist_page": false,
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"additional_photos": [
 			"/images/artists/",
@@ -658,7 +678,7 @@
 			"city": "",
 			"country": ""
 		},
-		"artist_quote": "",
+		"quote": "",
 		"body_paragraphs": [
 			""
 		],
@@ -674,6 +694,7 @@
 		"id": 21,
 		"name": "stft",
 		"local_path": "stft",
+		"show_on_artist_page": false,
 		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"additional_photos": [
 			"/images/artists/",
@@ -684,7 +705,7 @@
 			"city": "",
 			"country": ""
 		},
-		"artist_quote": "",
+		"quote": "",
 		"body_paragraphs": [
 			""
 		],
