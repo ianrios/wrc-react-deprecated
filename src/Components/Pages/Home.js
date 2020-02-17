@@ -3,7 +3,7 @@ import "./Home.scss"
 import { Link } from "react-router-dom";
 
 export default function Home() {
-	const ran = Math.floor(Math.random() * (Math.floor(21) - Math.ceil(1))) + Math.ceil(1);
+	const ran = Math.floor(Math.random() * 20) + 1;
 	const source = "/images/landscapes/" + ran + ".jpg";
 	return (
 		<React.Fragment>
