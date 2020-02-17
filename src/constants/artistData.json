@@ -7,7 +7,8 @@
 		"profile_pic": "/images/artists/profiles/whythough_4x6.jpg",
 		"additional_photos": [
 			"/images/artists/whythough_ray.jpg",
-			"/images/artists/whythough_looking.JPG"
+			"/images/artists/whythough_looking.JPG",
+			"/images/artists/whythough_sitting.jpg"
 		],
 		"email": "whythough000@gmail.com",
 		"location": {
@@ -99,22 +100,15 @@
 		"local_path": "StratosFear",
 		"show_on_artist_page": true,
 		"profile_pic": "/images/artists/profiles/stratosfear_4x6.jpg",
-		"additional_photos": [
-			"/images/artists/",
-			"/images/artists/"
-		],
+		"additional_photos": [],
 		"email": "stratosfear007@gmail.com",
 		"location": {
 			"city": "Lincoln",
 			"country": "USA"
 		},
 		"quote": "\"\"",
-		"body_paragraphs": [
-			""
-		],
-		"roles": [
-			""
-		],
+		"body_paragraphs": [],
+		"roles": [],
 		"social_platforms": {
 			"tw": "https://twitter.com/Stratos_Fear",
 			"ig": "https://www.instagram.com/stratosfearmusic/",
@@ -133,10 +127,7 @@
 		"local_path": "Fohrenbach",
 		"show_on_artist_page": true,
 		"profile_pic": "/images/artists/profiles/fohrenbach_4x6.png",
-		"additional_photos": [
-			"/images/artists/",
-			""
-		],
+		"additional_photos": [],
 		"email": "robertfohrenbach@gmail.com",
 		"location": {
 			"city": "Miami",
@@ -214,8 +205,8 @@
 		"show_on_artist_page": true,
 		"profile_pic": "/images/artists/profiles/svnteen_4x6.jpg",
 		"additional_photos": [
-			"/images/artists/",
-			""
+			"/images/artists/svnteen_in_staircase.jpg",
+			"/images/artists/svnteen_into_sunset.jpg"
 		],
 		"email": " svnteenmusic@gmail.com",
 		"location": {
@@ -259,31 +250,30 @@
 		"show_on_artist_page": true,
 		"profile_pic": "/images/artists/profiles/ezra_parker_4x6.png",
 		"additional_photos": [
-			"/images/artists/",
-			""
+			"/images/artists/ezra_parker_room.jpg",
+			"/images/artists/ezra_parker_show.jpg"
 		],
-		"email": "",
+		"email": "ezraparkermusic@gmail.com",
 		"location": {
 			"city": "Troy",
 			"country": "USA"
 		},
-		"quote": "dont look at the dj, only listen",
+		"quote": "do not look at the dj, only listen",
 		"body_paragraphs": [
 			""
 		],
 		"roles": [
-			""
+			"DJ",
+			"Producer"
 		],
 		"social_platforms": {
-			"tw": "",
-			"ig": "",
-			"fb": ""
+			"tw": "https://twitter.com/ezraparkermusic",
+			"fb": "https://www.facebook.com/ezraparkermusic"
 		},
 		"music_platforms": {
 			"sc": "https://soundcloud.com/ezraparker",
-			"bc": "",
-			"sp": "",
-			"ap": ""
+			"sp": "https://open.spotify.com/artist/0KbkuP7WAlWkklmlFM3CgK",
+			"ap": "https://music.apple.com/us/artist/ezra-parker/1438758430"
 		}
 	},
 	{
@@ -293,8 +283,7 @@
 		"show_on_artist_page": true,
 		"profile_pic": "/images/artists/profiles/lom_4x6.png",
 		"additional_photos": [
-			"/images/artists/",
-			""
+			"/images/artists/"
 		],
 		"email": "",
 		"location": {
