@@ -1,5 +1,6 @@
 import React from 'react'
 import { useLocation, Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import releaseData from "../../constants/releaseData.json";
 import artistData from "../../constants/artistData.json";
 import "./ArtistPage.scss";
@@ -74,6 +75,14 @@ export default function ArtistPage() {
 			{
 				foundArtist ?
 					<React.Fragment>
+						<Helmet>
+							<title>{currArtist.name + " - WRC"}</title>
+							<meta property="og:title" content={`${currArtist.name} Artist Page - WRC`} />
+							<meta property="og:image" content={currArtist.profile_pic} />
+							<meta name="keywords" property="og:keywords"
+								content={"why, record, company, music, edm, techno, idm, experimental, label, artist, " + currArtist.name} />
+							<meta name="description" content={currArtist.quote} />
+						</Helmet>
 						<div className="row main-body">
 							<div className="col-6">
 								<img className="artist-page-image img-fluid" alt={currArtist.name} src={currArtist.profile_pic} />
@@ -82,10 +91,12 @@ export default function ArtistPage() {
 								<p>
 									{currArtist.quote}
 								</p>
-								{/* {mappedPTag(currArtist.roles)} */}
-								<div className="text-border">
-									{mappedPTag(currArtist.body_paragraphs, "artist-bio-paragraphs")}
-								</div>
+								{currArtist.body_paragraphs.length > 0 ?
+									<div className="text-border">
+										{mappedPTag(currArtist.body_paragraphs, "artist-bio-paragraphs")}
+									</div>
+									: null
+								}
 								<div className="row">
 									<div className="col-md-6">
 										Social Platforms
@@ -93,12 +104,15 @@ export default function ArtistPage() {
 											{mappedATag(currArtist.social_platforms)}
 										</div>
 									</div>
-									<div className="col-md-6">
-										Music Platforms
+									{Object.keys(currArtist.music_platforms).length > 0 ?
+										<div className="col-md-6">
+											Music Platforms
 										<div>
-											{mappedATag(currArtist.music_platforms)}
+												{mappedATag(currArtist.music_platforms)}
+											</div>
 										</div>
-									</div>
+										: null
+									}
 								</div>
 								<div className="row">
 									<div className="col">
@@ -107,7 +121,7 @@ export default function ArtistPage() {
 								</div>
 								<div className="row">
 									<div className="col">
-										<a className="email-link" href={`mailto:${currArtist.email}?Subject=Hello%20${currArtist.name}`}>{currArtist.email}</a>
+										{currArtist.email ? <a className="email-link" href={`mailto:${currArtist.email}?Subject=Hello%20${currArtist.name}`}>{currArtist.email}</a> : null}
 									</div>
 								</div>
 							</div>

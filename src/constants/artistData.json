@@ -314,33 +314,26 @@
 		"name": "oFoot",
 		"local_path": "oFoot",
 		"show_on_artist_page": false,
-		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
-		"additional_photos": [
-			"/images/artists/",
-			""
-		],
+		"profile_pic": "/images/artists/ofoot_rabbit.jpg",
+		"additional_photos": [],
 		"email": "ofoot@hotmail.com",
 		"location": {
-			"city": "",
+			"city": "NJ",
 			"country": "USA"
 		},
-		"quote": "\"\"",
+		"quote": "\"Don't quote me on this\"",
 		"body_paragraphs": [
-			""
+			"So by some fluke of wondering how dubstep works, I found myself making VST plugins. Oh and modular is a thing. KiCAD and PureData are next. I'm very much a DIY person and like making devices that make music."
 		],
 		"roles": [
-			""
+			"Producer",
+			"Live Musician"
 		],
-		"social_platforms": {
-			"tw": "",
-			"ig": "",
-			"fb": ""
-		},
+		"social_platforms": {},
 		"music_platforms": {
 			"sc": "https://soundcloud.com/ofoot",
-			"bc": "",
-			"sp": "",
-			"ap": ""
+			"bc": "https://ofoot.bandcamp.com/",
+			"sp": "https://open.spotify.com/artist/4jUrxpOeTRkPAjTVMQamc9?si=CCimrUylRXuWJLzBikZ3Kg"
 		}
 	},
 	{

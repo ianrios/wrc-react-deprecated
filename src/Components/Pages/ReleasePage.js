@@ -1,5 +1,6 @@
 import React from 'react'
 import { useLocation, Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import releaseData from "../../constants/releaseData.json";
 import artistData from "../../constants/artistData.json";
 import "./ReleasePage.scss"
@@ -59,9 +60,17 @@ export default function ReleasePage() {
 			{
 				foundRelease ?
 					<React.Fragment>
+						<Helmet>
+							<title>{currRelease.name + " - WRC"}</title>
+							<meta property="og:title" content={`${currRelease.name} Release Page - WRC`} />
+							<meta property="og:image" content={currRelease.album_art} />
+							<meta name="keywords" property="og:keywords"
+								content={"why, record, company, music, edm, techno, idm, experimental, label, release, " + currRelease.name} />
+							<meta name="description" content={`${currRelease.name} Release Page - WRC`} />
+						</Helmet>
 						<div className="row main-body">
 							<div className="col-6">
-								<img className="img-fluid" src={`${currRelease.album_art}`} alt={`${currRelease.name} Album Art`} />
+								<img className="img-fluid" src={currRelease.album_art} alt={`${currRelease.name} Album Art`} />
 							</div>
 							<div className="col-6">
 								<h1>
