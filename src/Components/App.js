@@ -17,7 +17,7 @@ function Wrapper() {
 	const location = useLocation();
 	const pathArr = location.pathname.split("/");
 	useEffect(() => {
-		if (pathArr.length > 2 && (pathArr[1] === "artist" || pathArr[1] === "release")) {
+		if (pathArr[1] === "series" || pathArr.length > 2 && (pathArr[1] === "artist" || pathArr[1] === "release" )) {
 			setViewMain(false)
 		}
 	}, [pathArr]);

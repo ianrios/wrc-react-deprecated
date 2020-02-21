@@ -10,6 +10,7 @@ import Store from './Pages/Merchandise';
 import Atlas from './Pages/Atlas';
 import Home from './Pages/Home';
 import Contact from './Pages/Contact';
+import Series from './Pages/Series';
 import ReleasePage from "./Pages/ReleasePage";
 import ArtistPage from "./Pages/ArtistPage";
 
@@ -37,6 +38,9 @@ export default function Routes() {
 			</Route>
 			<Route path="/atlas">
 				<Atlas />
+			</Route>
+			<Route path="/series">
+				<Series />
 			</Route>
 			<Route path="/artist/*">
 				<ArtistPage />

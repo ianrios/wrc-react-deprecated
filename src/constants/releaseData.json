@@ -31,7 +31,7 @@
 		"id": 48,
 		"label_number": "WHY033",
 		"album_art": "/images/releases/A12A2.jpg",
-		"release_date": "2020-02-15T18:25:43.511Z",
+		"release_date": "2020-02-21T18:25:43.511Z",
 		"blue_label_number": 1,
 		"genre": "Schranz",
 		"release_bio": [
@@ -47,9 +47,9 @@
 			1
 		],
 		"links": {
-			"sp": "",
-			"ap": "",
-			"sc": "",
+			"sp": "https://open.spotify.com/album/7smliGkBXBzPDPOGasyTVC",
+			"ap": "https://music.apple.com/us/album/a12a2-single/1499149248",
+			"sc": "http://soundcloud.com/whythough/a12a2",
 			"bc": "https://whythough.bandcamp.com/album/a12a2"
 		}
 	},
@@ -419,7 +419,8 @@
 		"secondary_artist_ids": [
 			2,
 			3,
-			9
+			9,
+			17
 		],
 		"remix_artist_ids": [
 			2,
@@ -760,7 +761,8 @@
 		"secondary_artist_ids": [
 			2,
 			3,
-			9
+			9,
+			17
 		],
 		"remix_artist_ids": [
 			2,
@@ -792,7 +794,8 @@
 		"secondary_artist_ids": [
 			2,
 			3,
-			9
+			9,
+			17
 		],
 		"remix_artist_ids": [],
 		"links": {

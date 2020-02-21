@@ -73,7 +73,8 @@ export default function ReleasePage() {
 								<img className="img-fluid" src={currRelease.album_art} alt={`${currRelease.name} Album Art`} />
 							</div>
 							<div className="col-6">
-								<h1>
+								<h4 className="release-page-h4">Primary Artist{currRelease.primary_artist_ids.length > 1 ? "s" : ""}</h4>
+								<div className="release-page-text-container primary-artist-release">
 									{
 										currRelease.primary_artist_ids.map(
 											(i, j) => {
@@ -91,26 +92,64 @@ export default function ReleasePage() {
 											}
 										)
 									}
-								</h1>
-								<h2>
-									{
-										currRelease.secondary_artist_ids.map(
-											(i, j) => {
-												const currArtist = artistData.find(a => a.id === i);
-												return (
-													<React.Fragment key={j}>
-														<Link to={`/artist/${currArtist.local_path}`} className="smaller-font-temp">
-															{currArtist.name}
-														</Link>
-														<span className="white-text">
-															{`${j < currRelease.secondary_artist_ids.length - 1 ? ", " : ""}`}
-														</span>
-													</React.Fragment>
+								</div>
+								{currRelease.secondary_artist_ids.length > 0 ?
+									<React.Fragment>
+										<h4 className="release-page-h4">
+											{`Additional Artist${currRelease.secondary_artist_ids.length > 1 ? "s" : ""}`}
+										</h4>
+										<div className="release-page-text-container">
+											{
+												currRelease.secondary_artist_ids.map(
+													(i, j) => {
+														const currArtist = artistData.find(a => a.id === i);
+														return (
+															<React.Fragment key={j}>
+																<Link to={`/artist/${currArtist.local_path}`} className="smaller-font-temp">
+																	{currArtist.name}
+																</Link>
+																<span className="white-text">
+																	{`${j < currRelease.secondary_artist_ids.length - 1 ? ", " : ""}`}
+																</span>
+															</React.Fragment>
+														)
+													}
 												)
 											}
-										)
-									}
-								</h2>
+										</div>
+									</React.Fragment>
+									: null
+								}
+
+
+								{currRelease.remix_artist_ids.length > 0 ?
+									<React.Fragment>
+										<h4 className="release-page-h4">
+											{`Remixer${currRelease.remix_artist_ids.length > 1 ? "s" : ""}`}
+										</h4>
+										<div className="release-page-text-container">
+											{
+												currRelease.remix_artist_ids.map(
+													(i, j) => {
+														const currArtist = artistData.find(a => a.id === i);
+														return (
+															<React.Fragment key={j}>
+																<Link to={`/artist/${currArtist.local_path}`} className="smaller-font-temp">
+																	{currArtist.name}
+																</Link>
+																<span className="white-text">
+																	{`${j < currRelease.remix_artist_ids.length - 1 ? ", " : ""}`}
+																</span>
+															</React.Fragment>
+														)
+													}
+												)
+											}
+										</div>
+									</React.Fragment>
+									: null
+								}
+
 								<p>
 									{currRelease.short_description}
 								</p>

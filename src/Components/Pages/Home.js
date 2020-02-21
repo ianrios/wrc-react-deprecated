@@ -1,9 +1,23 @@
 import React from 'react';
 import "./Home.scss"
 import { Link } from "react-router-dom";
+import styled from 'styled-components'
+
+const BgStyledDiv = styled.div`
+@media only screen and (max-width: 991px) {
+
+		background-image: ${props => `url("${props.source}")`};
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+  
+}
+`;
 
 export default function Home() {
-	const ran = Math.floor(Math.random() * 21) + 1;
+	const ran = Math.floor(Math.random() * 20) + 1;
 	const source = "/images/landscapes/" + ran + ".jpg";
 	return (
 		<React.Fragment>
@@ -13,10 +27,10 @@ export default function Home() {
 				</div>
 			</div>
 			<div className="row main-body">
-				<div className="col-lg-6 image-wrapper">
+				<div className="col-lg-6 image-wrapper d-none d-lg-block">
 					<img className="home-image" alt="random" src={source} />
 				</div>
-				<div className="col-lg-6 questrial text-left home-margin">
+				<BgStyledDiv className="col-lg-6 questrial text-left home-margin" source={source}>
 					<p className="main-page-p">
 						WHY? Record Company (further stylized as WRC) is a home for audio, visual, and technological creatives.
 						Housing over 200 songs and over 50 <Link to="releases">releases</Link> bound to no genre, WRC is proud to foster musicians and help grow a fanbase over many years.
@@ -32,7 +46,7 @@ export default function Home() {
 					<p className="main-page-p">
 						For more information about the label, or to get invoved, <Link to="contact">contact us</Link> by sending us an email or message on social media.
 					</p>
-				</div>
+				</BgStyledDiv>
 			</div>
 		</React.Fragment>
 	)
