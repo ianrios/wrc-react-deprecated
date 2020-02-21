@@ -80,10 +80,11 @@ export default function Releases() {
 		.map((item, idx) => {
 			const firstArtist = item.primary_artist_ids[0];
 			const currArtists = item.primary_artist_ids.map((i, j) => {
+				const currArtist = artistData.find(a => a.id === i);
 				return (
 					<React.Fragment>
-						<Link to={`/artist/${artistData[i - 1].local_path}`}>
-							{artistData[i - 1].name}
+						<Link to={`/artist/${currArtist.local_path}`}>
+							{currArtist.name}
 						</Link>
 						<span className="white-text">
 							{`${j < item.primary_artist_ids.length - 1 ? ", " : ""}`}

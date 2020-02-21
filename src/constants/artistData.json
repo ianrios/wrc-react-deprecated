@@ -199,6 +199,37 @@
 		}
 	},
 	{
+		"id": 11,
+		"name": "Matyb",
+		"local_path": "Matyb",
+		"show_on_artist_page": true,
+		"profile_pic": "/images/artists/profiles/matyb_4x6.jpg",
+		"additional_photos": [],
+		"email": "",
+		"location": {
+			"city": "",
+			"country": "USA"
+		},
+		"quote": "\"\"",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			""
+		],
+		"social_platforms": {
+			"tw": "",
+			"ig": "",
+			"fb": ""
+		},
+		"music_platforms": {
+			"sc": "https://soundcloud.com/matybeats",
+			"bc": "",
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
 		"id": 5,
 		"name": "svnteen",
 		"local_path": "svnteen",
@@ -401,40 +432,6 @@
 			"sc": "https://soundcloud.com/djmeniacle",
 			"bc": "",
 			"sp": "https://open.spotify.com/artist/7hD6edlYR4wFEHRzSYvYng",
-			"ap": ""
-		}
-	},
-	{
-		"id": 11,
-		"name": "Matyb",
-		"local_path": "Matyb",
-		"show_on_artist_page": false,
-		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
-		"additional_photos": [
-			"/images/artists/",
-			""
-		],
-		"email": "",
-		"location": {
-			"city": "",
-			"country": "USA"
-		},
-		"quote": "\"\"",
-		"body_paragraphs": [
-			""
-		],
-		"roles": [
-			""
-		],
-		"social_platforms": {
-			"tw": "",
-			"ig": "",
-			"fb": ""
-		},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/matybeats",
-			"bc": "",
-			"sp": "",
 			"ap": ""
 		}
 	},
