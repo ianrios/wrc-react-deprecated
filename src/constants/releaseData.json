@@ -2,7 +2,7 @@
 	{
 		"name": "He Called Me Beautiful",
 		"local_path": "HCMB",
-		"id": 49,
+		"id": 50,
 		"label_number": "WHY034",
 		"album_art": "/images/releases/hcmb.jpg",
 		"release_date": "2020-03-06T18:25:43.511Z",
@@ -23,6 +23,27 @@
 		"remix_artist_ids": [],
 		"links": {
 			"sp": "http://open.spotify.com/album/2GrfzUIU52bnMgnhKUSXHt"
+		}
+	},
+	{
+		"name": "WRC MIX 002",
+		"local_path": "MIX002",
+		"id": 49,
+		"label_number": "WHYMIX002",
+		"album_art": "/images/releases/MIX002.png",
+		"release_date": "2020-02-28T18:25:43.511Z",
+		"mix_label_number": 2,
+		"genre": "Techno",
+		"release_bio": [
+			"WRC welcomes Matyb to the label with a debut mix featuring lots of techno and tech house. Click on Matyb's artist profile to see all previous and future releases!"
+		],
+		"primary_artist_ids": [
+			11
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"mc": "https://www.mixcloud.com/matt-benjamin/matyb-live-mix-feb-16/"
 		}
 	},
 	{
