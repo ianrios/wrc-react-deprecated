@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './Components/App';
 import * as serviceWorker from './serviceWorker';
-import './fonts/Lovelyn.ttf'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Firebase, { FirebaseContext } from './Components/Firebase';
 

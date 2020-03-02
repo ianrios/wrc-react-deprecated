@@ -41,6 +41,25 @@
 		firebase.initializeApp(firebaseConfig);
 		firebase.analytics();
 	</script>
+	<script>
+		if ('serviceWorker' in navigator) {
+			console.log("Found Service Worker")
+
+			navigator.serviceWorker.getRegistrations().then(function (registrations) {
+
+				for (let registration of registrations) {
+					console.log("Unregistered Service Worker")
+
+					registration.unregister()
+
+				}
+			}).catch(function (err) {
+
+				console.log('Service Worker registration failed: ', err);
+
+			});
+		}
+	</script>
 </body>
 
 </html>
