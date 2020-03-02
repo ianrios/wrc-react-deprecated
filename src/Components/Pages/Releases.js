@@ -6,47 +6,48 @@ import './Releases.scss';
 
 export default function Releases() {
 	const [filterArtists, setFilterArtists] = useState(0);
+
 	// streamline this selection picker, can use an object instead
-	const typeSwitch = (prop) => {
-		switch (prop) {
-			case "All":
-				return "all-label";
-			case "WRC":
-				return "wrc-label";
-			case "Blue Label":
-				return "blue-label";
-			case "CYCLE":
-				return "cycle-label";
-			case "MIX":
-				return "mix-label";
-			case "RECORDINGS":
-				return "sample-label";
-			case "Other":
-				return "other-label";
-			default:
-				return null;
-		}
-	}
-	const releaseFilter = [
-		"WRC",
-		"Blue Label",
-		"CYCLE",
-		"MIX",
-		"RECORDINGS",
-		"Playlists",
-		"Independent",
-		"All"
-	].map((item, idx) => {
-		return (
-			<p
-				key={idx}
-				className={`filter-sidebar ${typeSwitch(item)} ${idx === filterArtists ? "active-link" : null}`}
-				onClick={() => setFilterArtists(idx)}
-			>
-				{item}
-			</p>
-		)
-	});
+	// const typeSwitch = (prop) => {
+	// 	switch (prop) {
+	// 		case "All":
+	// 			return "all-label";
+	// 		case "WRC":
+	// 			return "wrc-label";
+	// 		case "Blue Label":
+	// 			return "blue-label";
+	// 		case "CYCLE":
+	// 			return "cycle-label";
+	// 		case "MIX":
+	// 			return "mix-label";
+	// 		case "RECORDINGS":
+	// 			return "sample-label";
+	// 		case "Other":
+	// 			return "other-label";
+	// 		default:
+	// 			return null;
+	// 	}
+	// }
+	// const releaseFilter = [
+	// 	"WRC",
+	// 	"Blue Label",
+	// 	"CYCLE",
+	// 	"MIX",
+	// 	"RECORDINGS",
+	// 	"Playlists",
+	// 	"Independent",
+	// 	"All"
+	// ].map((item, idx) => {
+	// 	return (
+	// 		<p
+	// 			key={idx}
+	// 			className={`filter-sidebar ${typeSwitch(item)} ${idx === filterArtists ? "active-link" : null}`}
+	// 			onClick={() => setFilterArtists(idx)}
+	// 		>
+	// 			{item}
+	// 		</p>
+	// 	)
+	// });
 	let artistsObj = {};
 	const ReleaseMap = releaseData
 		.sort((a, b) => (a.release_date > b.release_date) ? -1 : ((a.release_date < b.release_date) ? 1 : 0))
@@ -123,23 +124,23 @@ export default function Releases() {
 				</div>
 			)
 		});
-	const filteredArtists = Object.keys(artistsObj)
-		.sort((a, b) => artistsObj[b] - artistsObj[a])
-		.map((item, idx) => {
-			return (
-				<p
-					key={idx}
-					className="filtered-artists"
-				>
-					<Link
-						className="link-filtered-artists"
+	// const filteredArtists = Object.keys(artistsObj)
+	// 	.sort((a, b) => artistsObj[b] - artistsObj[a])
+	// 	.map((item, idx) => {
+	// 		return (
+	// 			<p
+	// 				key={idx}
+	// 				className="filtered-artists"
+	// 			>
+	// 				<Link
+	// 					className="link-filtered-artists"
 
-					>
-						{item} - {artistsObj[item]}
-					</Link>
-				</p>
-			)
-		});
+	// 				>
+	// 					{item} - {artistsObj[item]}
+	// 				</Link>
+	// 			</p>
+	// 		)
+	// 	});
 	return (
 		<React.Fragment>
 			<h1 className="header-sub-page">Releases</h1>

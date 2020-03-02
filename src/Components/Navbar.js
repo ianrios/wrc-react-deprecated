@@ -1,11 +1,7 @@
 import React, { useState, useEffect } from "react";
-import {
-	useLocation
-} from "react-router-dom";
 import Link from './Link';
 import genFade from '../utilities/shadow';
 import './Navbar.scss';
-import Funnel from "./Icons/Funnel";
 
 export default function Navbar(props) {
 	const Links = {
@@ -39,45 +35,11 @@ export default function Navbar(props) {
 			/>
 		)
 	})
-	const [showFilter, setShowFilter] = useState(false);
-	const releaseFilter = (
-		<div className="filter-wrap">
-			<div
-				className="filter float-right"
-				onClick={() => setShowFilter(!showFilter)}
-			>
-
-				<Funnel
-					fillColor={"white"}
-					height={"35px"}
-					width={"35px"}
-				/>
-			</div>
-			{
-				showFilter ?
-					<div className="d-flex d-lg-none mobile-filter row">
-						<div className="col-6 sidebar-mobile text-left">
-							<h2>Artists</h2>
-							{/* {filteredArtists} */}
-						</div>
-						<div className="col-6 sidebar-mobile text-right">
-							<h2>Filter</h2>
-							{/* {filteredReleases} */}
-						</div>
-					</div>
-					:
-					null
-			}
-		</div>
-	)
-	const location = useLocation();
-	// console.log(location);
 	return (
 		<div className="navbar position-fixed">
 			<div className="links">
 				{mappedLinks}
 			</div>
-			{/* {location.pathname === "/releases" ? releaseFilter : null} */}
 		</div>
 	)
 }
