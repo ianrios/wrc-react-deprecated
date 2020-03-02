@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/wrc-react/static/css/main.c90c8301.chunk.css",
+    "main.js": "/wrc-react/static/js/main.83fa11ad.chunk.js",
+    "main.js.map": "/wrc-react/static/js/main.83fa11ad.chunk.js.map",
+    "runtime-main.js": "/wrc-react/static/js/runtime-main.0f60124f.js",
+    "runtime-main.js.map": "/wrc-react/static/js/runtime-main.0f60124f.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/wrc-react/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.6ef6b08d.chunk.js": "/wrc-react/static/js/2.6ef6b08d.chunk.js",
+    "static/js/2.6ef6b08d.chunk.js.map": "/wrc-react/static/js/2.6ef6b08d.chunk.js.map",
+    "index.html": "/wrc-react/index.html",
+    "precache-manifest.7efbb222e5690f212cb2481ff1bf8424.js": "/wrc-react/precache-manifest.7efbb222e5690f212cb2481ff1bf8424.js",
+    "service-worker.js": "/wrc-react/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/wrc-react/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.c90c8301.chunk.css.map": "/wrc-react/static/css/main.c90c8301.chunk.css.map",
+    "static/js/2.6ef6b08d.chunk.js.LICENSE": "/wrc-react/static/js/2.6ef6b08d.chunk.js.LICENSE",
+    "static/media/Lovelyn.ttf": "/wrc-react/static/media/Lovelyn.f73ac997.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f60124f.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.6ef6b08d.chunk.js",
+    "static/css/main.c90c8301.chunk.css",
+    "static/js/main.83fa11ad.chunk.js"
+  ]
+}
