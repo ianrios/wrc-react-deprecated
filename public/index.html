@@ -30,37 +30,15 @@
 <body>
 	<noscript>You need to enable JavaScript to run this app.</noscript>
 	<div id="root"></div>
-	<script>
-		if ('serviceWorker' in navigator) {
-			console.log("Found Service Worker")
-
-			navigator.serviceWorker.getRegistrations().then(function (registrations) {
-
-				for (let registration of registrations) {
-					console.log("Unregistered Service Worker")
-
-					registration.unregister()
-
-				}
-			}).catch(function (err) {
-
-				console.log('Service Worker registration failed: ', err);
-
-			});
-		}
-	</script>
 	<!-- The core Firebase JS SDK is always required and must be listed first -->
 	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
 
 	<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
+	 https://firebase.google.com/docs/web/setup#available-libraries -->
 	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-analytics.js"></script>
-
 	<script>
 		firebase.initializeApp(firebaseConfig);
-		firebase.analytics();
-	</script>
-
+		firebase.analytics();</script>
 </body>
 
 </html>
