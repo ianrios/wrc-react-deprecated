@@ -31,14 +31,28 @@
 	<noscript>You need to enable JavaScript to run this app.</noscript>
 	<div id="root"></div>
 	<!-- The core Firebase JS SDK is always required and must be listed first -->
-	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
 
 	<!-- TODO: Add SDKs for Firebase products that you want to use
-	 https://firebase.google.com/docs/web/setup#available-libraries -->
-	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-analytics.js"></script>
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+	<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-analytics.js"></script>
+
 	<script>
+		// Your web app's Firebase configuration
+		var firebaseConfig = {
+			apiKey: "AIzaSyCFZEIwpnrFvWwHhagPR140u3mHHF19ZHU",
+			authDomain: "why-record-company.firebaseapp.com",
+			databaseURL: "https://why-record-company.firebaseio.com",
+			projectId: "why-record-company",
+			storageBucket: "why-record-company.appspot.com",
+			messagingSenderId: "632583449159",
+			appId: "1:632583449159:web:5e466b7059e46dd399df62",
+			measurementId: "G-PK352GLD38"
+		};
+		// Initialize Firebase
 		firebase.initializeApp(firebaseConfig);
-		firebase.analytics();</script>
+		firebase.analytics();
+	</script>
 </body>
 
 </html>
